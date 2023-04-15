@@ -1,0 +1,103 @@
+\documentclass[letterpaper,12pt,titlepage,oneside,final]{book}
+
+
+\usepackage{graphicx}
+\usepackage{titlepic}
+\graphicspath{{FiguresBM/}}
+\usepackage{ifthen}
+\newboolean{PrintVersion}
+\setboolean{PrintVersion}{false}
+\usepackage{physics}
+\usepackage{epstopdf} 
+\usepackage{datetime} %Fecha
+\newdateformat{monthyeardate}{\monthname[\THEMONTH] \THEYEAR}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr} %Encabezados
+\lhead[\thepage]{CAPÍTULO \thechapter. \rightmark}
+\chead[]{}
+\rhead[CAPÍTULO \thechapter. \leftmark]{\thepage}
+\renewcommand{\headrulewidth}{0.6pt}
+\fancypagestyle{plain}{
+\fancyhead[L]{}
+\fancyhead[C]{}
+\fancyhead[R]{\thepage}
+\fancyfoot[L]{}
+\fancyfoot[C]{}
+\fancyfoot[R]{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}}
+\pagestyle{fancy}
+%----
+\RequirePackage[spanish]{babel}
+\RequirePackage[utf8]{inputenc} %Caractères spéciaux
+%----
+\newtheorem{mydef}{Definición}[section] % Enumerar definiciones
+\newtheorem{myexample}{Ejemplo}[section]
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% \setboolean{PrintVersion}{true} 
+% CHANGE THIS VALUE TO "true" as necessary, to improve printed results 
+% for hard copies by overriding some options of the hyperref package.
+% Load your needed packages and other commands of yours.
+\input{thesis-preamble}
+% This is where thesis margins and spaces are set.
+\input{private/thesis-margins-and-spaces}
+%======================================================================
+%   L O G I C A L    D O C U M E N T -- the content of your thesis
+%======================================================================
+\begin{document}
+
+\newcommand{\thesisauthor}{Ítalo I. Machuca Flores}
+\newcommand{\thesistitlecoverpage}{Biomatemáticas}
+\newcommand{\degree}{Ph.D.} 
+\newcommand{\nameofprogram}{Ph.D. in physics}
+\newcommand{\academicunit}{Facultad de Medicina}
+\newcommand{\faculty}{Facultad Medicina}
+\newcommand{\graduationyear}{2023}
+%
+\input{private/frontpage}
+% R E S T  O F  F R O N T  P A G E S
+% ----------------------------------
+\input{private/toc-lot-lof}
+% No need to edit this file. But you may want to comment the whole line if you
+% don't have or want a Nomenclature section.
+%\input{private/list-of-symbols}  
+
+% Change page numbering back to Arabic numerals
+\pagenumbering{arabic}
+%----------------------------------------------------------------------
+% MAIN BODY
+%---------------------------------------------------------------------- 
+% Chapters 
+% Include your "sub" source files here (must have extension .tex)
+	\input{Chapters/Intro}
+	\input{Chapters/1-Lógica.tex}
+	\input{Chapters/2.0-Conjuntos.tex}
+	\input{Chapters/2.1-Reales}
+	\input{Chapters/2.2-Ecc.tex}
+	\input{Chapters/3-Funciones.tex}
+	\input{Chapters/4-Vectores.tex}
+	\input{Chapters/5-Cálculo.tex}
+	\input{Chapters/6-Apéndices.tex}
+	\input{private/list-of-symbols}
+
+\renewcommand*{\bibname}{Referencias}
+% Add the References to the Table of Contents
+\addcontentsline{toc}{chapter}{\textbf{Referencias}}
+%------------------
+% APPENDICES
+%------------------	
+\addcontentsline{toc}{chapter}{Apéndices} 
+\appendix
+
+\bibliographystyle{plain}
+\ifthenelse{\boolean{PrintVersion}}{
+\cleardoublepage % This is needed if the book class is used, to place the anchor in the correct page,
+ % because the bibliography will start on its own page.
+}{
+\clearpage % Use \clearpage instead if the document class uses the "oneside" argument
+}
+\phantomsection  % With hyperref package, enables hyperlinking <from the table of contents to bibliography             
+\bibliography{bibliography/BBM.bib}
+%----------------------------------------------------------------------
+\end{document}
+	

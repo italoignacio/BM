@@ -1,0 +1,565 @@
+\lhead[\thepage]{CAPÍTULO \thechapter. \rightmark}
+\rhead[CAPÍTULO \thechapter. \leftmark]{\thepage}
+%======================================================================
+\chapter{Cálculo infinitesimal}
+\label{C1V}
+\markboth{Cálculo}{Cálculo}
+%======================================================================
+
+Hay aplicaciones que piden ver cuanto cambia una cantidad o cuál es el área de cierta región. Si el intervalo de tiempo es amplio o si la región es cuadrada, el problema se puede resolver con la matemática ya vista. Ahora, si queremos tener una herramienta para calcular el área o saber el cambio instantáneo de una función cualquiera, debemos recurrir al cálculo. \\
+
+En este capítulo recurriremos constantemente al dicho de Napoleón ``\textit{Divide y vencerás}'', esto es porque para los tópicos de límites, derivadas e integrales ocuparemos la noción de infinitesimal (significa muy pequeño). Al trabajar con partes pequeñas permite simplificar los cálculos de las pendientes en una función (derivadas) o el área bajo la curva (integrales).  
+
+\section{Límites}
+\label{C1V0}
+
+En la sección (\ref{funrac0}) se habló de que era lo que ocurría con la función $f(x)$ cuando me acercaba por el lado positivo o por el lado negativo. Pero ¿Qué tan cerca me puedo acercar a un punto en una función?. Esta respuesta la entrega los límites, que permite ver como se comporta la función en ese punto acercándose tanto como uno quiera.\\
+
+Cuando una función está bien definida puedo saber su valor exacto de su imagen con cualquier valor del dominio, pero ocurre en ciertos casos que se busca el valor de la función justo en puntos que no está definida, por ejemplo las expresiones de fracciones. Veamos el siguiente caso:
+\begin{eqnarray}
+f(x)=\dfrac{x^{3}-1}{x-1}
+\end{eqnarray} 
+Puedo saber el valor de la función en cualquier punto menos cuando $x=1$, pero si me acerco lo suficiente puedo saber cuanto vale la función muy cerca del punto en el que se indetermina. Uno se puede acercar por dos lados, es decir, por los números positivos o los números negativos. Consiste en ir tomando valores del dominio cercanos al que se indetermina ($x\approx 1$) y ver la imagen que resulta.
+
+\begin{table}[h!]
+\begin{center}
+ \begin{tabular}{|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ $x$&$0,75$&$0,9$&$0,99$&$0,999$&$1$&$1,001$&$1,01$&$1,1$&$1,25$\\
+ \hline
+ $f(x)$&$2,313$&$2,710$&$2,970$&$2,997$&?&$3,003$&$3,030$&$3,310$&$3,813$\\
+ \hline
+ \end{tabular}
+ \caption{Tabla de valores para ver el valor de un límite.}
+ \label{tablalim}
+ \end{center}
+\end{table}
+Se ve en la tabla (\ref{tablalim}) que por ambos lados los números se acercan a un mismo valor. Entonces, se concluye que como tanto por la izquierda como por la derecha tiende al número $3$ el límite de la función cuando $x$ se acerca a $1$ es $3$. Su notación es
+\begin{eqnarray*}
+ \lim_{x\to 1 } f(x) &=&3\\
+  \lim_{x\to 1 } \dfrac{x^{3}-1}{x-1} &=&3
+\end{eqnarray*}
+Nuevamente se debe repetir, yo me puede acercar cuanto yo quiera, es decir, puedo elegir un $x=0,99999...$ y estar muy cerca del valor en el punto que quiero, pero no es el valor de la función en ese punto ($x=1$).
+
+\begin{mydef}
+\textbf{Límite. }Sea $f(x)$ una función en cada número de algún intervalo abierto que contiene a 'a', excepto posiblemente en el número 'a' mismo. El límite de la función $f(x)$ conforme $x$ se aproxima a 'a' es L, lo que se escribe como: 
+\begin{eqnarray}
+\lim_{x\rightarrow a}f(x)=L
+\label{lim0}
+\end{eqnarray}
+Si la siguiente proposición es verdadera:\\
+Dado cualquier $\epsilon>0$, no importa cuan pequeño sea, existe una $\delta>0$ tal que 
+\begin{eqnarray*}
+Si \hspace{4px} 0<|x-a|<\delta \hspace{4px} entonces \hspace{4px} |f(x)-L|<\epsilon  
+\end{eqnarray*}
+\end{mydef}
+
+En la ecuación (\ref{lim0}) de la definición se dice \textit{el límite de $f(x)$ cuando $x$ tiende a 'a' es L}. Ahora ya entendida la idea de lo que es el límite, veremos las diferentes reglas para calcularlos
+
+\noindent a) Límite de una función lineal. Si $m$ y $b$ son dos constantes cualesquiera, entonces \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}(mx+b)=ma+b
+\end{eqnarray}
+
+\noindent b) Límite de una constante. Sea $c$ una constante, entonces para cualquier $a$ \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}c=c
+\end{eqnarray}
+
+\noindent c) Límite de un polinomio de grado 1. \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}x=a
+\end{eqnarray}
+
+\noindent d) Límite de una suma de límites. Si el límite de las funciones $f(x)$ y $g(x)$ son $L$ y $M$ respectivamente \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}[f(x)\pm g(x)]=L\pm M
+\end{eqnarray}
+Esta propiedad es extensible para $n$ sumas o restas, pero aquí solo se considera el caso de dos límites.
+
+\noindent e) Límite de una $n-$é$sima$ potencia de la función $f(x)$. Si la función $f(x)$ tiene como resultado del límite el número L, se cumple que \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}f(x)^{n}=L^{n}
+\end{eqnarray}
+
+\noindent f) Límite de una expresión fraccional. Si las funciones $f(x)$ y $g(x)$ tienen como límite $L$ y $M$ respectivamente. Además, que $M\neq 0$ \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}\dfrac{f(x)}{g(x)}=\dfrac{L}{M}
+\end{eqnarray}
+
+\noindent g) Límite de una raíz $n-$é$sima$. Si $n$ es un número entero positivo y el valor del límite de la función $f(x)$ es $L$ se cumple \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}\sqrt[n]{f(x)}=\sqrt[n]{L}
+\end{eqnarray}
+
+\noindent h) Límite de una función fraccional particular. Si $a$ es cualquier número real distinto de cero se cumple \\
+\begin{eqnarray}
+\lim_{x\rightarrow a}\dfrac{1}{x}=\dfrac{1}{a}
+\end{eqnarray}
+
+\begin{myexample}
+Calcular el límite de  la siguiente función $f(x)=x^{2}+7x-5$.
+\begin{eqnarray*}
+\lim_{x\rightarrow 3}f(x)&=&\lim_{x\rightarrow 3}(x^{2}+7x-5)\\
+&=&lim_{x\rightarrow 3}x^{2}+lim_{x\rightarrow 3}7x-lim_{x\rightarrow 3}5\\
+&=&(3)^{2}+7\cdot (3)-5\\
+&=&9+21-5\\
+&=&25
+\end{eqnarray*}
+\end{myexample}
+
+\subsection{Límites laterales}
+
+Las expresiones que vimos anteriormente salvo un punto (singularidad) están definidas en todos los números reales, pero hay casos de funciones que su dominio está restringido y se quiere saber el límite. Ejemplo de esto son las raíces cuadradas.
+\begin{eqnarray}
+\lim_{x\rightarrow 2}=\sqrt{x-2}
+\end{eqnarray}
+El dominio de esta función no son todos los números reales, sino que para $x>2$. Entonces, al acercarse no lo podemos hacer por ambos lados, sino unicamente por los números positivos. Al calcular el límite se ve que es cero, pero hay que hacer la salvedad que es por la derecha, entonces se dice \textit{el límite de $f(x)$ por la derecha es cero}.
+
+\begin{mydef}
+\textbf{Límite por la derecha. }Sea una función $f(x)$ definida en cada número del intervalo abierto $]a,c[$. Entonces, el límite de $f(x)$, conforme $x$ tiende a $'a'$ por la derecha es L. Se denota por 
+\begin{eqnarray*}
+\lim_{x\rightarrow a^{+}}f(x)=L
+\end{eqnarray*}
+\end{mydef}
+
+\begin{mydef}
+\textbf{Límite por la izquierda. } Sea una función $f(x)$ definida en cada número del intervalo abierto $]a,d[$. Entonces, el límite de $f(x)$, conforme $x$ tiende a $'a'$ por la izquierda es L. Se denota por 
+\begin{eqnarray*}
+\lim_{x\rightarrow a^{-}}f(x)=L
+\end{eqnarray*}
+\end{mydef}
+
+\begin{myexample}
+La función signo (denotada sgn(x)) es la cual antes del cero es $-1$, en $x=0$ es $0$ y después del cero es $1$, por lo que se ve notoriamente si me acerco por las laterales el resultado de un límite va a ser distinto del otro. 
+\begin{eqnarray*}
+sgn(x)= \left\{\begin{array}{ll}
+-1&, x< 0\\
+0 &, x=0\\ 
+1 &, x>0 \\
+\end{array} \hspace{6px} \right.
+\end{eqnarray*}
+Calcule el límite de sgn(x). Primero el limite por la izquierda
+\begin{eqnarray*}
+\lim_{x\rightarrow 0^{-}}sgn(x)=-1
+\end{eqnarray*}
+Análogamente se calcula el límite por la derecha
+\begin{eqnarray*}
+\lim_{x\rightarrow 0^{+}}sgn(x)=1
+\end{eqnarray*}
+Se dice que la función no tiene límite. Además, una vez más sirve para recalcar que el valor de la función no tiene por qué ser el del límite en el punto, aunque este muy cerca. El valor de la función en $x=0$ es $0$ y los límites resultaron $1$ y $-1$ respectivamente. Si los límites laterales resultan el ser el mismo valor, entonces el límite existe. 
+\end{myexample}
+
+\section{Derivadas}
+
+En la sección (\ref{cuociente0}) se dio las primeras pinceladas del problema que se resuelve en este capítulo. Ahí se planteó que se puede calcular  la pendiente de una curva tomando dos puntos cercanos, tan cercanos como uno desee. Esto tiene como consecuencia, que se termina calculando la pendiente de la función en dicho punto, es decir, el cambio que tiene en el eje $x$ y en el $y$. La diferencia de entre los puntos parte siendo la variable $h$ y en ese momento se escribió que $h$ se hace cero. Lo que haremos ahora es cambiar la notación para decir explícitamente que la pendiente es la razón de cambio en los ejes con la letra griega llamada \textit{Delta}.
+\begin{mydef}
+\textbf{Derivada de una función. } Si $f(x)$ es una función definida en un intervalo abierto que contiene a $c$ y además existe el límite
+\begin{eqnarray}
+\lim_{\Delta x\rightarrow 0 } &=&\dfrac{\Delta y}{\Delta x}\\
+&=&  \lim_{\Delta x\rightarrow 0 }\dfrac{f(c+\Delta x)-f(c)}{\Delta x}
+\label{limite0}
+\end{eqnarray}
+El resultado es una recta tangente a la gráfica de $f(x)$ en el punto (c,f(c)).
+\end{mydef}
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{der0.png}
+\caption[Muestra gráfica de la definición de derivada para una variable.]{Muestra gráfica de la definición de derivada para una variable. a) $\Delta x$ representa cuanto cambia la función en el eje $x$ y $\Delta y$ muestra cuanto cambia la función en el eje $y$. b) Cuando se acercan demasiado los puntos resulta una recta tangente a la función, mostrando la pendiente de la función en ese punto.} \label{der0}
+\end{figure}
+\end{center}
+
+La notación usual para la derivada de una función es $f'(x)$ o $df(x)/dx$, donde este último nos dice explícitamente con respecto a qué variable tenemos que derivar. Mencionar que si la función tiene derivadas en un punto es continua en ese punto,  es decir, no tiene un salto.
+
+\subsection{Reglas de la derivación}
+Resumiremos las principales reglas que tienen las funciones para derivarse. Es importante decir que no son las únicas y que aquí solo ocuparemos la regla, pero que cada una se puede comprobar con la expresión del límite de (\ref{limite0}).\\
+
+\noindent a) Derivada de una constante:\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[c\right]&=&0
+\end{eqnarray}
+
+\noindent b) Derivada de una potencia:\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[x^{n}\right]&=&n\cdot x^{n-1}
+\end{eqnarray}
+
+\noindent c) Derivada de una función por una constante:\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[c\cdot f(x)\right]&=&c\cdot f'(x)
+\end{eqnarray}
+
+\noindent d) Derivada de una suma o resta:\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[f(x)\pm g(x)\right]&=& f'(x)\pm g'(x)
+\end{eqnarray}
+
+\noindent f) Derivada de una multiplicación:\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[f(x)\cdot g(x) \right]&=& f'(x)\cdot g(x)+g'(x)\cdot f(x)
+\end{eqnarray}
+
+\noindent g) Derivada del cuociente. Con $g(x)\neq 0$.\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[\dfrac{f(x)}{g(x)}\right]&=& \dfrac{f'(x)\cdot g(x)-f(x)\cdot g'(x)}{g(x)^{2}}
+\end{eqnarray}
+
+\noindent h) Regla de la cadena para una potencia. Considerar que $h(x)=f(g(x))$.\\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[h(x)\right]&=& f'(g(x))\cdot g'(x)
+\end{eqnarray}
+
+\subsection{Derivada de orden superior}
+
+La derivada es una operación, como la suma, la resta o la multiplicación. Esto permite que se puede aplicar cuantas veces sea necesario (siempre y cuando la función cumple ciertas condiciones que aquí no entraremos en detalles). Uno de los ejemplos más conocidos es en física, si yo (el observador) sé la posición (coordenadas) de un objeto que se mueve, se puede derivar esa función una vez y saber su velocidad y si la derivo nuevamente sabré su aceleración.
+\begin{eqnarray*}
+f(t)&=& 2t^{2}=|\vec{r}|\\
+\dfrac{df(t)}{dt}&=&2\cdot 2t=4t=|\vec{v}|\\
+\dfrac{d^{2}f(t)}{dt^{2}}&=&4= |\vec{a}|\\
+\end{eqnarray*} 
+Esto se puede extender hasta $n$ casos, pero en este curso nos interesa hasta las derivadas de orden 2 (segunda derivada).
+
+\begin{mydef}
+\textbf{Derivadas de orden superior. } Sea de $f(x)$ una función derivable hasta el orden n. 
+\begin{eqnarray}
+f'(x)&=&\dfrac{df(x)}{dx}\\
+f''(x)&=&\dfrac{d^{2}f(x)}{dx^{2}}\\
+&\vdots  &\nonumber\\
+f^{(n)}(x)&=&\dfrac{d^{n}f(x)}{dx^{n}}
+\end{eqnarray}
+\end{mydef}
+
+\subsection{Extremos de una función}
+Lo visto hasta el momento de derivadas nos permite ver aplicaciones para llegar a conclusiones de las funciones, tales como donde tiene un valor máximo, un valor mínimo, si es creciente o decreciente en cierto intervalo. 
+
+\begin{mydef}
+\textbf{Definición de extremos. } Sea un intervalo cualquiera $I$ que contiene al número $c$.
+\begin{itemize}
+	\item $f(c)$ es el mínimo de $f(x)$ en $I$ si $f(c)\leq f(x)$ para toda $x$ en $I$. 
+	\item $f(c)$ es el máximo de $f(x)$ en $I$ si $f(c)\geq f(x)$ para toda $x$ en $I$. 
+\end{itemize}
+A los puntos extremos (o simplemente extremos) de una función se le llaman máximos y mínimos absolutos. 
+\end{mydef}
+
+Si la función está definida en un intervalo cerrado (esto es importante, que sea cerrado) y es continua en ese intervalo, entonces va a tener tanto un máximo como un mínimo en ese intervalo. Es importante mencionar que hasta el momento sabemos las que se necesita y cuando existen los puntos extremos, pero no se a visto como calcularlos.\\
+
+Puede pasar que uno analiza funciones y presentan máximos y mínimos, pero pueden tener otros puntos más altos o más bajos que son los absolutos. Estos puntos se llaman máximos y mínimos relativos.
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{der1.png}
+\caption[Máximos y mínimos de una función.]{Máximos y mínimos de una función. a) Muestra una función definida en un intervalo cerrado (considera los extremos) por lo que la función tiene un máximo y un mínimo. b) La función está definida en un intervalo abierto y muestra una discontinuidad en el punto más bajo de la curva, por lo que no tiene mínimo ni máximo (No se puede derivar en ese punto).} \label{der1}
+\end{figure}
+\end{center}
+
+\begin{mydef}
+\textbf{Maxímos y mínimos relativos. } Sea f(x) definida en los números reales.
+
+\begin{itemize}
+\item  Si hay un intervalo abierto que contiene el punto $c$ en el cual $f(c)$ es el máximo, entonces $f(c)$ recibe el nombre de máximo relativo de $f(x)$.
+\item Si hay un intervalo abierto que contiene el punto $c$ en el cual $f(c)$ es el mínimo, entonces $f(c)$ recibe el nombre de mínimo relativo de $f(x)$.
+\end{itemize}
+\end{mydef}
+
+Ahora se muestra el procedimiento para encontrar los máximos y mínimos de una función definida en un intervalo cerrado $[a,b]$.\\
+\begin{itemize}
+	\item Se encuentran los puntos extremos de la función.\\
+		\subitem Se calcula la derivada de primer orden.
+		\subitem Se encuentran las raíces de la función derivada. $f'(x)=0$. Estos valores se consideran puntos críticos.
+	\item Se evalúa $f(x)$ en cada punto crítico en el intervalo $]a,b[$.
+	\item Se evalúa $f(x)$ en los puntos extremos del intervalo $[a,b]$. Reemplazar $f(x=a)$ y $f(x=b)$.
+	\item Concluir que el valor más pequeño de los puntos encontrados es el mínimo y el más grande es el máximo de la función.
+\end{itemize}
+
+\begin{myexample}
+Sea $f(x)=3x^{4}-4x^{3}$ definida en el intervalo cerrado $[-1,2]$. Calcular el o los máximos y mínimos relativos.
+\begin{eqnarray*}
+f(x)&=& 3x^{4}-4x^{3}\\
+f'(x)&=& 12x^{3}-12x^{2}\\
+\end{eqnarray*}
+Ahora se iguala la deriva a cero.
+\begin{eqnarray*}
+f'(x)&=&0\\
+12x^{3}-12x^{2}&=&0\\
+12x^{2}(x-1)&=&0
+\end{eqnarray*}
+Los puntos críticos son $x=0$, $x=1$. Se deben evaluar estos puntos en la función $f(x)$.\\
+
+\noindent $f(x=0)=0$.\\
+\noindent $f(x=1)=-1$ Mínimo absoluto.\\
+\noindent $f(x=-1)=7$\\
+\noindent $f(x=2)=16$ Máximo absoluto.\\
+\end{myexample}
+
+\subsection{Función creciente y decreciente}
+En la sección (\ref{funcrede}) se habló por primera vez de funciones crecientes y decrecientes. Ahora seguiremos hablando de ellas, pero saber tal comportamiento en intervalos. Estos intervalos están definidos por los puntos críticos de la función.\\
+Con la operación de la derivada permite ahorrar camino y definir el comportamiento de la función con el resultado de la derivada en un intervalo dado. Como es una recta, si la derivada es positiva es una función creciente, es decir, su pendiente es positiva. Si es negativa, entonces es una función decreciente y si tiene derivada igual a cero es una función constante. Entonces el procedimiento para encontrar el comportamiento de la función es el siguiente:
+
+\begin{itemize}
+	\item Calcular la derivada de primer orden de la función $f(x)$.
+	\item Igualar la derivada a cero y encontrar las raíces de esa ecuación $f´(x)=0$.
+	\item Separar los intervalos según los puntos críticos obtenidos.
+	\item Tomar un $x$ del dominio según cada intervalo y reemplazarlo en la derivada de primer orden.
+	\item Ver el valor de cada derivada y concluir si la función es creciente, decreciente o constante según resulte.
+\end{itemize}
+
+\begin{myexample}
+Sea $f(x)=x^{3}-\dfrac{3x^{2}}{2}$. Determinar el comportamiento de $f(x)$.
+\begin{eqnarray*}
+f(x)&=& x^{3}-\dfrac{3x^{2}}{2}\\
+f'(x)&=&3x(x-1)
+\end{eqnarray*}
+Las raíces de las derivadas son $x=0$ y $x=1$. Entonces los intervalos son 3 y se resumen en la siguiente tabla:
+\begin{table}[h!]
+\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		Intervalos & $-\infty <x<0$   & $0<x<1$&$1<x<\infty$ \\ 
+		\hline
+		 Signo de $f'(x)$&$x=-1$ &$x=1/2$ &$x=2$   \\
+		 & $f'(x)=6>0$  & $f'(1/2)=-3/4<0$&$f'(2)=6$  \\
+		\hline
+		Criterio &Creciente&Decreciente& Creciente \\
+		\hline
+		\end{tabular}
+		\caption{Comportamiento de los intervalos de la función.}
+\end{center}
+\end{table}
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.35]{ext0.png}
+\caption{Gráfica de la función con los puntos críticos y sus cambios de comportamientos.} \label{ext0}
+\end{figure}
+\end{center}
+\end{myexample}
+
+Por lo visto, lo que ocurre en los puntos críticos es que el signo de la derivada cambia, ya sea de positivo a negativo  o viceversa. Entonces, si cambia de positivo a negativo es un máximo relativo y si cambia de negativo a positivo es un mínimo relativo o si tiene signos iguales antes y después del punto crítico no es ni máximo ni mínimo. Esto se le llama \textit{criterio de la primera derivada}.
+
+\subsection{Concavidad y criterio de segunda derivada}
+
+Con el criterio de la primera derivada se puede saber si la función crece o decrece en los intervalos, pero no sabemos como crece. El criterio de la segunda derivada viene a dar respuesta a ese problema, si crecen o decrecen con una curva hacia arriba o hacia abajo.
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{con0.png}
+\caption[Concavidad de las funciones.]{Concavidad de las funciones. a) Gráfica de una función con concavidad hacia arriba. b) Gráfica de una función con concavidad hacia abajo.} \label{con0}
+\end{figure}
+\end{center}
+
+La función es cóncava hacia arriba si la derivada $f'(x)$ es creciente en el intervalo de observación. En el caso en que la derivada es decreciente, la función es cóncava hacia abajo.\\ 
+
+\begin{mydef}
+\textbf{Criterio de concavidad. } Sea $f(x)$ una función que permite la segunda derivada definida en un intervalo $I$.
+\begin{itemize}
+	\item Si $f''(x)>0$ para todo x en el intervalo $I$, entonces la gráfica de $f(x)$ es cóncava hacia arriba.
+	\item Si $f''(x)<0$ para todo x en el intervalo $I$, entonces la gráfica de $f(x)$ es cóncava hacia abajo.
+\end{itemize}
+\end{mydef}
+
+Ahora visto el criterio, el procedimiento para encontrar los rangos de concavidad es el siguiente: 
+\begin{itemize}
+	\item Calcular la derivada de primer y segundo orden de la función $f(x)$.
+	\item Encontrar las raíces de la expresión de la segunda derivada. Dividir los intervalos en función de las raíces encontradas.
+	\item Evaluar con un $x$ que se encuentre dentro de los intervalos y aplicar el criterio de concavidad.
+\end{itemize}
+
+\begin{myexample}
+Sea $f(x)=\dfrac{x^{2}+1}{x^{2}-4}$. Encontrar la concavidad de sus intervalos.
+\begin{eqnarray*}
+f(x)&=&\dfrac{x^{2}+1}{x^{2}-4} \\
+f'(x)&=&\dfrac{-10x}{(x^{2}-4)^{2}} \\
+f''´(x)&=&\dfrac{10(3x^{2}+4)}{(x^{2}-4)^{3}} \\
+\end{eqnarray*}
+Los puntos críticos son $x=\pm 2$, por los que son 3 intervalos y se debe buscar tres concavidades.
+
+\begin{table}[h!]
+\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		Intervalos & $-\infty <x<-2$   & $-2<x<2$&$2<x<\infty$ \\ 
+		\hline
+		 Signo de $f''(x)$&$x=-3$ &$x=0$ &$x=3$   \\
+		 & $f''(x=-3)>0$  & $f''(x=0)<0$&$f''(3)>0$  \\
+		\hline
+		Criterio &C. hacia arriba &C. hacia abajo& C. hacia arriba \\
+		\hline
+		\end{tabular}
+		\caption{Comportamiento de los intervalos de la función.}
+\end{center}
+\end{table}
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{ext1.png}
+\caption{Gráfica de la función con las concavidades de cada intervalo.} \label{ext1}
+\end{figure}
+\end{center}
+\end{myexample}
+
+Los puntos que hacen cambiar la concavidad de la función $f(x)$ se les llama puntos de inflexión, es cuando la concavidad cambia de arriba a abajo o de abajo hacia arriba. Estos puntos no necesariamente son igual a un punto de un máximo o mínimo relativo.
+
+\subsection{Criterio de la segunda derivada}
+Para finalizar esta sección seguiremos exprimiendo la segunda derivada de una función. Cuando calculamos la derivada de primer orden y obtenemos los puntos críticos, para saber si es máximo o mínimo debemos calcular y ver los cambios de concavidad. La derivada de segundo orden permite evaluar estos puntos en la expresión y determinar para ahorrar cálculos
+
+\begin{mydef}
+\textbf{Criterio de la segunda derivada. } Sea $f(x)$ una función definida en los números reales y que acepta derivadas de primer y segundo orden. Además, si $f(x)$ tiene como punto crítico al número $c$. Entonces, basandonos en el criterio de la segunda derivada se puede concluir lo siguiente sobre el punto $c$
+\begin{itemize}
+ \item Si $f''(x)>0$, entonces $f(x)$ tiene un mínimo relativo en (c,f(c)).
+ \item Si $f''(x)<0$, entonces $f(x)$ tiene un máximo relativo en (c,f(c)).
+ \item Si $f(x)=0$ el criterio falla y ahí hay que recurrir a la primera derivada y concavidad.
+\end{itemize}
+\end{mydef}
+
+\begin{myexample}
+Calcular los puntos críticos de $f(x)=-3x^{5}+5x^{3}$ y decir si son máximos o mínimos.
+\begin{eqnarray*}
+f(x)&=& -3x^{5}+5x^{3}\\
+f'(x)&=&-15x^{4}+15x^{2}=15x^{2}(1-x^{2})\\
+\end{eqnarray*}
+Los puntos críticos son los valores $x=-1$, $x=0$ y $x=1$. Entonces ahora se deben evaluar en la segunda derivada de la función. 
+\begin{eqnarray*}
+f''(x)&=& -60x^{3}+30x=30x(1-2x^{2})
+\end{eqnarray*}
+
+\begin{table}[h!]
+\begin{center}
+		\begin{tabular}{|c|c|c|c|}
+		\hline
+		Puntos & $x=-1$   & $x=0$&$x=1$ \\ 
+		\hline
+		 Signo de $f''(x)$&$x=-1$ &$x=0$ &$x=1$   \\
+		 & $f''(x=-1)>0$  & $f''(x=0)<0$&$f''(1)>0$  \\
+		\hline
+		Criterio &Mínimo relativo &Máximo relativo& No entrega dato \\
+		\hline
+		\end{tabular}
+		\caption{Criterio de la segunda derivada.}
+\end{center}
+\end{table}
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{ext2.png}
+\caption{Gráfica de la función con los puntos críticos que demuestra el resultado del criterio de la segunda derivada.} \label{ext2}
+\end{figure}
+\end{center}
+
+Se ve que la función tiene un punto máximo y un punto mínimo, pero que además hay un punto que el criterio no entrega información. 
+\end{myexample}
+
+\section{Integrales}
+
+Con esta sección damos por finalizado el capítulo de cálculo (y el curso!), donde por tercera vez recurriremos a lo infinitesimal.\\
+
+Hay instancias en que se busca calcular el área alguna figura, y esto no ha sido problema hasta el momento porque las fórmulas de esas figuras las sabemos (cuadrados, triángulos, trapecios, etc.), pero si se complica un poco más la situación y la figura es más rara de lo que conocemos quedamos de brazos cruzados. Entonces se pensó en dividir en partes pequeñas, muy pequeñas para resolver este problema. Si le agregamos que la figura que elegimos para dividir es de área conocida, un rectángulo por ejemplo, el problema se vuelve más abordable. La integral el área debajo de la curva en rectángulos muy pequeños para luego sumar el área de todo esos rectángulos. Resulta que esa área se puede aproximar al área debajo de la curva sin problema.
+
+\begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.31]{int0.png}
+\caption[Representación de la integral.]{Representación gráfica de la integral. Desde la figura a) a la c) se va viendo como el rectángulo se hace más pequeño para que el área bajo la curva sea igual al área de la función.} \label{int0}
+\end{figure}
+\end{center}
+
+Así como el logaritmo y la función exponencial son funciones inversas, la derivada y la integral lo son. Esto ayuda a entender en el nombre de antiderivada que es lo primero que mostraremos.
+\begin{mydef}
+\textbf{Antiderivada. } Sea F(x) y F'(x) su derivada que podemos llamar f(x), es decir, $F'(x)=f(x)$. Se dice que $F(x)$ es la antiderivada de $f(x)$.
+\end{mydef}
+
+En el gráfico (c) de la figura (\ref{int0}) se ven varios rectángulos muy pequeños, entonces al momento de calcular el área se debe multiplicar la base que llamaremos $dx$ por el alto que es el valor de la función $f(x)$. El área de cada rectángulo es $f(x)\cdot dx$ y si los sumamos la integral queda definida por 
+\begin{eqnarray}
+y=\int f(x)dx= F(x)+C
+\label{integral}
+\end{eqnarray}
+La ecuación (\ref{integral}) está confirmado que se suma el área de los rectángulos (símbolo de la integral). Además, como resultado da la antiderivada más una constante arbitraria.
+
+\subsection{Reglas de integración}
+
+\noindent a) Dericada de una integral: \\
+\begin{eqnarray}
+\dfrac{d}{dx}\left[ \int  f(x)dx \right]&=& f(x)
+\end{eqnarray}
+
+\noindent b) Integral del cero: \\
+\begin{eqnarray}
+\int 0dx &=& C
+\end{eqnarray}
+
+\noindent c) Integral de una constante:\\
+\begin{eqnarray}
+ \int kdx &=& kx + C
+\end{eqnarray}
+
+\noindent d) Integral multiplicada por una constante:\\
+\begin{eqnarray}
+ \int kf(x)dx &=&  k\int f(x)dx 
+\end{eqnarray}
+
+\noindent e) Integral de una suma o resta:\\
+\begin{eqnarray}
+ \int \left[f(x)\pm g(x) \right]dx &=&\int f(x)dx \pm \int g(x)dx 
+\end{eqnarray}
+
+\noindent e) Integral de una potencia:\\
+\begin{eqnarray}
+ \int x^{n}dx &=&\dfrac{x^{n+1}}{n+1} +C
+\end{eqnarray}
+ 
+\subsection{Integrales definidas y teorema fundamental del cálculo}
+
+En la sección anterior se vieron las reglas de integración, pero para hacerlo un poco más real uno siempre quiere saber el área de la función en cierto rango. Cuando la integral no tiene límites se llama integral definida y cuando si los tiene se llama integral definida. Los límites entre los cuales quiero integrar se llaman límites de integración.
+
+\begin{mydef}
+\textbf{Teorema fundamental del cálculo. } Si una función $f(x)$ es continua en el intervalo cerrado $[a,b]$ y F es la antiderivada de la función f(x) en el intervalo $[a,b]$, entonces se cumple lo siguiente:
+\begin{eqnarray}
+\int_{a}^{b}f(x)dx=F(b)-F(a)
+\end{eqnarray}
+Se puede resumir en que se debe integrar la función con las reglas ya vistas para luego evaluar la función con los límites de integración. El procedimiento es evaluar el valor más grande menos el valor más pequeño.
+\end{mydef}
+
+\begin{myexample}
+Calcular la integral de $f(x)=x^{3}$ en el intervalo $[1,3]$.
+\begin{eqnarray*}
+\int_{1}^{3}x^{3}dx&=&\dfrac{x^{4}}{4}\Bigg|_{1}^{3}\\
+&=&\left[\dfrac{3^{4}}{4}-\dfrac{1^{4}}{4} \right]\\
+&=&\left[\dfrac{81}{4}-\dfrac{1}{4} \right]\\
+&=&\left[\dfrac{80}{4} \right]\\
+&=& 20
+\end{eqnarray*}
+\end{myexample}
+
+\subsection{Teorema de valor medio para integrales}
+
+Cuando se establecen los rectángulos de ancho $dx$ ocurre que algunos quedan dentro de la función y otros fuera (ver figura \ref{int0}). El teorema fundamental del valor medio para integrales establece que existe un valor del dominio $c$ que al evaluarlo en la función $f(c)$ es igual al área bajo la curva. 
+\begin{mydef}
+\textbf{Teorema de valor medio para integrales. }Si $f(x)$ es continua en el intervalo cerrado $[a,b]$, entonces existe un número $c$ en el intervalo cerrado $[a,b]$, tal que 
+\begin{eqnarray}
+\int_{a}^{b}f(x)dx&=&f(c)(b-a)\\
+\dfrac{1}{b-a}\int_{a}^{b}f(x)dx&=&f(c)
+\end{eqnarray}
+El término $f(c)$ que da como resultado el teorema se le llama valor medio de $f(x)$ en el intervalo $[a,b]$.
+\end{mydef}
+
+\begin{myexample}
+Determinar el valor medio de $f(x)=3x^{2}-2x$ en el intervalo $[1,4]$.
+\begin{eqnarray*}
+\dfrac{1}{b-a}\int_{a}^{b}f(x)dx&=&\dfrac{1}{4-1}\int_{1}^{4}(3x^{2}-2x)dx \\
+&=& \dfrac{1}{3}\left[x^{3}-x^{2} \right]\Bigg|_{1}^{4}\\
+&=&\dfrac{1}{3}\left[64-16-(1-1) \right]\\
+&=&\dfrac{48}{3}\\
+&=&16
+\end{eqnarray*}
+\begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.28]{ext3.png}
+\caption{Representación gráfica del valor medio de la función.} \label{ext3}
+\end{figure}
+\end{center}
+\end{myexample}

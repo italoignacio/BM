@@ -1,0 +1,31 @@
+\begin{appendix}
+\chapter{Completación del cuadrado} \label{completarbi}
+\markboth{Apéndices}{Apéndices}
+
+Hay casos en que los polinomios de grado dos se pueden escribir de la forma $(x+a)^{2}$, pero en los otros casos se puede forzar y quedan de la forma $(x+a)^{2}+b$. Para llegar al resultado se debe adicionar y restar el mismo término, el cual uno queda para formar el binomio y el otro queda fuera del paréntesis que está elevado al cuadrado. \\
+
+Sea un polinomio de grado dos de la forma $f(x)=ax^{2}+bx+c=0$ con $a\neq 0$, al cuál se le busca completar cuadrado.\\
+
+\begin{eqnarray}
+ax^{2}+bx+c&=&0\\
+ax^{2}+bx&=&-c, \hspace{10px} \slash \cdot \dfrac{1}{a} \\
+x^{2}+\dfrac{bx}{a}&=&-\dfrac{c}{a}\\
+x^{2}+\dfrac{bx}{a}+\left(\dfrac{b}{2a}\right)^{2}&=&-\dfrac{c}{a}+\left(\dfrac{b}{2a}\right)^{2}\\
+\left(x+\dfrac{b}{2a}\right)^{2}&=&-\dfrac{c}{a}+\dfrac{b^{2}}{4a^{2}} \label{cuadcom0}
+\end{eqnarray}
+
+Lo primero fue despejar la constante $c$, por lo que las variables quedaron de un lado y los números por el otro. Luego se dividió por el termino principal de la incógnita de orden dos ($x^{2}$). Finalmente, se sumo y resto el término $(b/2a)^{2}$ para así forzar que se puede formar el cuadrado de binomio. A continuación veremos un ejemplo utilizando la fórmula (\ref{cuadcom0}).\\
+
+\newpage
+\begin{myexample}
+Sea $f(x)=3x^{2}-5x+2=0$ un polinomio de orden y se debe completar cuadrado.
+\begin{eqnarray*}
+x^{2}-\dfrac{5x}{3}+\dfrac{2}{3}&=&0\\
+x^{2}-\dfrac{5x}{3}&=&-\dfrac{2}{3}\\
+x^{2}-\dfrac{5x}{3}+\left(\dfrac{5}{6}\right)^{2}&=&\left(\dfrac{5}{6}\right)^{2}-\dfrac{2}{3}\\
+\left(x-\dfrac{5}{6}\right)^{2}&=&\dfrac{25}{36}-\dfrac{2}{3}\\
+\left(x-\dfrac{5}{6}\right)^{2}&=&\dfrac{1}{36}\\
+\end{eqnarray*}
+\end{myexample}
+
+\end{appendix}
