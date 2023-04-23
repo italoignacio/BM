@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.10)  17 APR 2023 18:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2023.1.10)  23 APR 2023 14:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1183,7 +1183,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 269--270
 
  []
 
-<FiguresBM/DV0.png, id=933, 813.0375pt x 502.87875pt>
+<FiguresBM/DV0.png, id=937, 813.0375pt x 502.87875pt>
 File: FiguresBM/DV0.png Graphic file (type png)
 <use FiguresBM/DV0.png>
 Package pdftex.def Info: FiguresBM/DV0.png  used on input line 273.
@@ -1204,7 +1204,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [16]
-<FiguresBM/diferenciac.png, id=941, 436.63126pt x 306.14375pt>
+<FiguresBM/diferenciac.png, id=946, 436.63126pt x 306.14375pt>
 File: FiguresBM/diferenciac.png Graphic file (type png)
 <use FiguresBM/diferenciac.png>
 Package pdftex.def Info: FiguresBM/diferenciac.png  used on input line 296.
@@ -1221,7 +1221,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [17 <./FiguresBM/DV0.png>]
-<FiguresBM/complemento.png, id=951, 494.84875pt x 288.07625pt>
+<FiguresBM/complemento.png, id=955, 494.84875pt x 288.07625pt>
 File: FiguresBM/complemento.png Graphic file (type png)
 <use FiguresBM/complemento.png>
 Package pdftex.def Info: FiguresBM/complemento.png  used on input line 316.
@@ -1242,12 +1242,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [18 <./FiguresBM/diferenciac.png> <./FiguresBM/complemento.png>]
-<FiguresBM/interseccion.png, id=961, 538.01pt x 350.30875pt>
+<FiguresBM/interseccion.png, id=965, 538.01pt x 350.30875pt>
 File: FiguresBM/interseccion.png Graphic file (type png)
 <use FiguresBM/interseccion.png>
 Package pdftex.def Info: FiguresBM/interseccion.png  used on input line 344.
 (pdftex.def)             Requested size: 188.30632pt x 122.6099pt.
-<FiguresBM/union.png, id=962, 534.99875pt x 317.185pt>
+<FiguresBM/union.png, id=966, 534.99875pt x 317.185pt>
 File: FiguresBM/union.png Graphic file (type png)
 <use FiguresBM/union.png>
 Package pdftex.def Info: FiguresBM/union.png  used on input line 371.
@@ -1264,7 +1264,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [19 <./FiguresBM/interseccion.png>]
-<FiguresBM/diferencias.png, id=972, 498.86375pt x 317.185pt>
+<FiguresBM/diferencias.png, id=976, 498.86375pt x 317.185pt>
 File: FiguresBM/diferencias.png Graphic file (type png)
 <use FiguresBM/diferencias.png>
 Package pdftex.def Info: FiguresBM/diferencias.png  used on input line 385.
@@ -1443,12 +1443,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [26]
 Cap\'{\i }tulo 3.
-<FiguresBM//esquemam.png, id=1048, 1178.4025pt x 788.9475pt>
+<FiguresBM//esquemam.png, id=1052, 1178.4025pt x 788.9475pt>
 File: FiguresBM//esquemam.png Graphic file (type png)
 <use FiguresBM//esquemam.png>
 Package pdftex.def Info: FiguresBM//esquemam.png  used on input line 21.
 (pdftex.def)             Requested size: 412.44705pt x 276.13576pt.
-<FiguresBM//rectar.png, id=1049, 978.65625pt x 265.99374pt>
+<FiguresBM//rectar.png, id=1053, 978.65625pt x 265.99374pt>
 File: FiguresBM//rectar.png Graphic file (type png)
 <use FiguresBM//rectar.png>
 Package pdftex.def Info: FiguresBM//rectar.png  used on input line 26.
@@ -1831,7 +1831,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
-<FiguresBM//abs0.png, id=1108, 832.10875pt x 203.76125pt>
+<FiguresBM//abs0.png, id=1112, 832.10875pt x 203.76125pt>
 File: FiguresBM//abs0.png Graphic file (type png)
 <use FiguresBM//abs0.png>
 Package pdftex.def Info: FiguresBM//abs0.png  used on input line 319.
@@ -1839,7 +1839,7 @@ Package pdftex.def Info: FiguresBM//abs0.png  used on input line 319.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<FiguresBM//abs1.png, id=1109, 795.97375pt x 221.82875pt>
+<FiguresBM//abs1.png, id=1113, 795.97375pt x 221.82875pt>
 File: FiguresBM//abs1.png Graphic file (type png)
 <use FiguresBM//abs1.png>
 Package pdftex.def Info: FiguresBM//abs1.png  used on input line 326.
@@ -2205,30 +2205,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
 
 [51]
-Underfull \hbox (badness 10000) in paragraph at lines 280--281
+Underfull \hbox (badness 10000) in paragraph at lines 281--282
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 309--310
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 317--319
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-LaTeX Info: Redefining \. on input line 332.
-LaTeX Info: Redefining \% on input line 332.
+<FiguresBM//cua441.png, id=1266, 1156.32pt x 578.16pt>
+File: FiguresBM//cua441.png Graphic file (type png)
+<use FiguresBM//cua441.png>
+Package pdftex.def Info: FiguresBM//cua441.png  used on input line 310.
+(pdftex.def)             Requested size: 346.89868pt x 173.44933pt.
+LaTeX Info: Redefining \. on input line 315.
+LaTeX Info: Redefining \% on input line 315.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.21667pt, for example:
@@ -2237,28 +2224,28 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
 
-[52]
-Underfull \hbox (badness 10000) in paragraph at lines 340--341
+[52 <./FiguresBM//cua441.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 317--318
 
  []
 
 
-Overfull \hbox (20.62482pt too wide) in paragraph at lines 351--371
-[]$[]$ $[]$ 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 372--373
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
 
  []
 
-<FiguresBM//Desabsfracc0.png, id=1270, 1390.19376pt x 459.7175pt>
-File: FiguresBM//Desabsfracc0.png Graphic file (type png)
-<use FiguresBM//Desabsfracc0.png>
-Package pdftex.def Info: FiguresBM//Desabsfracc0.png  used on input line 376.
-(pdftex.def)             Requested size: 347.54759pt x 114.9291pt.
-LaTeX Info: Redefining \. on input line 378.
-LaTeX Info: Redefining \% on input line 378.
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 348--349
+
+ []
+
+LaTeX Info: Redefining \. on input line 357.
+LaTeX Info: Redefining \% on input line 357.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.21667pt, for example:
@@ -2268,27 +2255,27 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
 
 [53]
-Underfull \hbox (badness 10000) in paragraph at lines 381--382
-
- []
-
-
-Overfull \hbox (20.23589pt too wide) in paragraph at lines 391--411
+Overfull \hbox (20.62482pt too wide) in paragraph at lines 359--379
 []$[]$ $[]$ 
  []
 
-<FiguresBM//Desabsfracc1.png, id=1278, 1355.0625pt x 375.4025pt>
-File: FiguresBM//Desabsfracc1.png Graphic file (type png)
-<use FiguresBM//Desabsfracc1.png>
-Package pdftex.def Info: FiguresBM//Desabsfracc1.png  used on input line 417.
-(pdftex.def)             Requested size: 338.7648pt x 93.85039pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 380--381
 
-) (./Chapters/3-Funciones.tex
-LaTeX Info: Redefining \. on input line 4.
-LaTeX Info: Redefining \% on input line 4.
+ []
 
+<FiguresBM//Desabsfracc0.png, id=1283, 1390.19376pt x 459.7175pt>
+File: FiguresBM//Desabsfracc0.png Graphic file (type png)
+<use FiguresBM//Desabsfracc0.png>
+Package pdftex.def Info: FiguresBM//Desabsfracc0.png  used on input line 384.
+(pdftex.def)             Requested size: 347.54759pt x 114.9291pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 389--390
+
+ []
+
+LaTeX Info: Redefining \. on input line 396.
+LaTeX Info: Redefining \% on input line 396.
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 30.21667pt, for example:
@@ -2298,6 +2285,16 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-18.21667pt}.
 
 [54 <./FiguresBM//Desabsfracc0.png>]
+Overfull \hbox (20.23589pt too wide) in paragraph at lines 399--419
+[]$[]$ $[]$ 
+ []
+
+<FiguresBM//Desabsfracc1.png, id=1290, 1355.0625pt x 375.4025pt>
+File: FiguresBM//Desabsfracc1.png Graphic file (type png)
+<use FiguresBM//Desabsfracc1.png>
+Package pdftex.def Info: FiguresBM//Desabsfracc1.png  used on input line 425.
+(pdftex.def)             Requested size: 338.7648pt x 93.85039pt.
+) (./Chapters/3-Funciones.tex
 LaTeX Info: Redefining \. on input line 4.
 LaTeX Info: Redefining \% on input line 4.
 
@@ -2316,7 +2313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--15
 
  []
 
-<FiguresBM//function.png, id=1290, 447.6725pt x 445.665pt>
+<FiguresBM//function.png, id=1297, 447.6725pt x 445.665pt>
 File: FiguresBM//function.png Graphic file (type png)
 <use FiguresBM//function.png>
 Package pdftex.def Info: FiguresBM//function.png  used on input line 28.
@@ -2324,7 +2321,7 @@ Package pdftex.def Info: FiguresBM//function.png  used on input line 28.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<FiguresBM//function0.png, id=1291, 1108.14pt x 492.84125pt>
+<FiguresBM//function0.png, id=1298, 1108.14pt x 492.84125pt>
 File: FiguresBM//function0.png Graphic file (type png)
 <use FiguresBM//function0.png>
 Package pdftex.def Info: FiguresBM//function0.png  used on input line 37.
@@ -2376,7 +2373,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [58]
-<FiguresBM//lineafn.png, id=1316, 1045.9075pt x 378.41376pt>
+<FiguresBM//lineafn.png, id=1323, 1045.9075pt x 378.41376pt>
 File: FiguresBM//lineafn.png Graphic file (type png)
 <use FiguresBM//lineafn.png>
 Package pdftex.def Info: FiguresBM//lineafn.png  used on input line 93.
@@ -2401,7 +2398,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
-<FiguresBM//interfn.png, id=1323, 1122.1925pt x 545.03625pt>
+<FiguresBM//interfn.png, id=1330, 1122.1925pt x 545.03625pt>
 File: FiguresBM//interfn.png Graphic file (type png)
 <use FiguresBM//interfn.png>
 Package pdftex.def Info: FiguresBM//interfn.png  used on input line 109.
@@ -2436,7 +2433,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 134--136
 
  []
 
-<FiguresBM//parimpar.png, id=1334, 1120.185pt x 365.365pt>
+<FiguresBM//parimpar.png, id=1341, 1120.185pt x 365.365pt>
 File: FiguresBM//parimpar.png Graphic file (type png)
 <use FiguresBM//parimpar.png>
 Package pdftex.def Info: FiguresBM//parimpar.png  used on input line 147.
@@ -2486,7 +2483,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 171--172
 
  []
 
-<FiguresBM//trasfn.png, id=1342, 1217.54875pt x 344.28625pt>
+<FiguresBM//trasfn.png, id=1349, 1217.54875pt x 344.28625pt>
 File: FiguresBM//trasfn.png Graphic file (type png)
 <use FiguresBM//trasfn.png>
 Package pdftex.def Info: FiguresBM//trasfn.png  used on input line 179.
@@ -2521,7 +2518,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 198--199
 
  []
 
-<FiguresBM//deforfn.png, id=1350, 1205.50375pt x 329.23pt>
+<FiguresBM//deforfn.png, id=1357, 1205.50375pt x 329.23pt>
 File: FiguresBM//deforfn.png Graphic file (type png)
 <use FiguresBM//deforfn.png>
 Package pdftex.def Info: FiguresBM//deforfn.png  used on input line 204.
@@ -2566,7 +2563,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 236--240
 
  []
 
-<FiguresBM//linfn.png, id=1363, 1212.53pt x 463.7325pt>
+<FiguresBM//linfn.png, id=1370, 1212.53pt x 463.7325pt>
 File: FiguresBM//linfn.png Graphic file (type png)
 <use FiguresBM//linfn.png>
 Package pdftex.def Info: FiguresBM//linfn.png  used on input line 244.
@@ -2591,7 +2588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 257--261
 
  []
 
-<FiguresBM//cuafn.png, id=1371, 1195.46625pt x 473.77pt>
+<FiguresBM//cuafn.png, id=1378, 1195.46625pt x 473.77pt>
 File: FiguresBM//cuafn.png Graphic file (type png)
 <use FiguresBM//cuafn.png>
 Package pdftex.def Info: FiguresBM//cuafn.png  used on input line 265.
@@ -2641,7 +2638,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 329--331
 
  []
 
-<FiguresBM//credrefn.png, id=1400, 957.5775pt x 654.445pt>
+<FiguresBM//credrefn.png, id=1407, 957.5775pt x 654.445pt>
 File: FiguresBM//credrefn.png Graphic file (type png)
 <use FiguresBM//credrefn.png>
 Package pdftex.def Info: FiguresBM//credrefn.png  used on input line 335.
@@ -2676,7 +2673,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 381--382
 
  []
 
-<FiguresBM//partefn.png, id=1410, 838.13126pt x 632.3625pt>
+<FiguresBM//partefn.png, id=1417, 838.13126pt x 632.3625pt>
 File: FiguresBM//partefn.png Graphic file (type png)
 <use FiguresBM//partefn.png>
 Package pdftex.def Info: FiguresBM//partefn.png  used on input line 407.
@@ -2695,7 +2692,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [68]
-<FiguresBM//escalerafn.png, id=1420, 872.25874pt x 556.0775pt>
+<FiguresBM//escalerafn.png, id=1427, 872.25874pt x 556.0775pt>
 File: FiguresBM//escalerafn.png Graphic file (type png)
 <use FiguresBM//escalerafn.png>
 Package pdftex.def Info: FiguresBM//escalerafn.png  used on input line 428.
@@ -2835,7 +2832,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [73]
-<FiguresBM//cocientefn.png, id=1457, 857.2025pt x 555.07375pt>
+<FiguresBM//cocientefn.png, id=1464, 857.2025pt x 555.07375pt>
 File: FiguresBM//cocientefn.png Graphic file (type png)
 <use FiguresBM//cocientefn.png>
 Package pdftex.def Info: FiguresBM//cocientefn.png  used on input line 572.
@@ -2852,7 +2849,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [74 <./FiguresBM//cocientefn.png>]
-<FiguresBM//unoaunofn.png, id=1465, 556.0775pt x 522.95375pt>
+<FiguresBM//unoaunofn.png, id=1472, 556.0775pt x 522.95375pt>
 File: FiguresBM//unoaunofn.png Graphic file (type png)
 <use FiguresBM//unoaunofn.png>
 Package pdftex.def Info: FiguresBM//unoaunofn.png  used on input line 595.
@@ -2910,7 +2907,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 640--641
 
  []
 
-<FiguresBM//inversafn.png, id=1474, 527.9725pt x 521.95pt>
+<FiguresBM//inversafn.png, id=1481, 527.9725pt x 521.95pt>
 File: FiguresBM//inversafn.png Graphic file (type png)
 <use FiguresBM//inversafn.png>
 Package pdftex.def Info: FiguresBM//inversafn.png  used on input line 649.
@@ -2943,7 +2940,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 669--670
 
  []
 
-<FiguresBM//invergrfn.png, id=1483, 638.385pt x 424.58624pt>
+<FiguresBM//invergrfn.png, id=1491, 638.385pt x 424.58624pt>
 File: FiguresBM//invergrfn.png Graphic file (type png)
 <use FiguresBM//invergrfn.png>
 Package pdftex.def Info: FiguresBM//invergrfn.png  used on input line 676.
@@ -3006,7 +3003,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 706--707
 
  []
 
-<FiguresBM//mascarillas.png, id=1498, 433.62pt x 289.08pt>
+<FiguresBM//mascarillas.png, id=1505, 433.62pt x 289.08pt>
 File: FiguresBM//mascarillas.png Graphic file (type png)
 <use FiguresBM//mascarillas.png>
 Package pdftex.def Info: FiguresBM//mascarillas.png  used on input line 717.
@@ -3036,7 +3033,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 739--740
 
  []
 
-<FiguresBM//fnimpares.png, id=1509, 1193.45876pt x 271.0125pt>
+<FiguresBM//fnimpares.png, id=1516, 1193.45876pt x 271.0125pt>
 File: FiguresBM//fnimpares.png Graphic file (type png)
 <use FiguresBM//fnimpares.png>
 Package pdftex.def Info: FiguresBM//fnimpares.png  used on input line 744.
@@ -3046,7 +3043,7 @@ Overfull \hbox (16.65381pt too wide) in paragraph at lines 744--745
  [][] 
  []
 
-<FiguresBM//fnpares.png, id=1510, 1183.42125pt x 288.07625pt>
+<FiguresBM//fnpares.png, id=1517, 1183.42125pt x 288.07625pt>
 File: FiguresBM//fnpares.png Graphic file (type png)
 <use FiguresBM//fnpares.png>
 Package pdftex.def Info: FiguresBM//fnpares.png  used on input line 752.
@@ -3159,7 +3156,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 832--833
 
  []
 
-<FiguresBM//asintvert.png, id=1536, 956.57375pt x 268.00125pt>
+<FiguresBM//asintvert.png, id=1543, 956.57375pt x 268.00125pt>
 File: FiguresBM//asintvert.png Graphic file (type png)
 <use FiguresBM//asintvert.png>
 Package pdftex.def Info: FiguresBM//asintvert.png  used on input line 841.
@@ -3189,7 +3186,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 858--859
 
  []
 
-<FiguresBM//asintver.png, id=1545, 1156.32pt x 578.16pt>
+<FiguresBM//asintver.png, id=1552, 1156.32pt x 578.16pt>
 File: FiguresBM//asintver.png Graphic file (type png)
 <use FiguresBM//asintver.png>
 Package pdftex.def Info: FiguresBM//asintver.png  used on input line 873.
@@ -3233,7 +3230,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [85 <./FiguresBM//asintver.png>]
-<FiguresBM//asinth.png, id=1564, 1156.32pt x 578.16pt>
+<FiguresBM//asinth.png, id=1571, 1156.32pt x 578.16pt>
 File: FiguresBM//asinth.png Graphic file (type png)
 <use FiguresBM//asinth.png>
 Package pdftex.def Info: FiguresBM//asinth.png  used on input line 921.
@@ -3275,12 +3272,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [87]
-<FiguresBM//expb0.png, id=1582, 1156.32pt x 578.16pt>
+<FiguresBM//expb0.png, id=1589, 1156.32pt x 578.16pt>
 File: FiguresBM//expb0.png Graphic file (type png)
 <use FiguresBM//expb0.png>
 Package pdftex.def Info: FiguresBM//expb0.png  used on input line 970.
 (pdftex.def)             Requested size: 404.71806pt x 202.35902pt.
-<FiguresBM//expb1.png, id=1583, 1156.32pt x 578.16pt>
+<FiguresBM//expb1.png, id=1590, 1156.32pt x 578.16pt>
 File: FiguresBM//expb1.png Graphic file (type png)
 <use FiguresBM//expb1.png>
 Package pdftex.def Info: FiguresBM//expb1.png  used on input line 978.
@@ -3316,7 +3313,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 1022--1023
 
  []
 
-<FiguresBM//logb0.png, id=1606, 1156.32pt x 578.16pt>
+<FiguresBM//logb0.png, id=1613, 1156.32pt x 578.16pt>
 File: FiguresBM//logb0.png Graphic file (type png)
 <use FiguresBM//logb0.png>
 Package pdftex.def Info: FiguresBM//logb0.png  used on input line 1029.
@@ -3324,7 +3321,7 @@ Package pdftex.def Info: FiguresBM//logb0.png  used on input line 1029.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<FiguresBM//logb1.png, id=1607, 1156.32pt x 578.16pt>
+<FiguresBM//logb1.png, id=1614, 1156.32pt x 578.16pt>
 File: FiguresBM//logb1.png Graphic file (type png)
 <use FiguresBM//logb1.png>
 Package pdftex.def Info: FiguresBM//logb1.png  used on input line 1037.
@@ -3444,7 +3441,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
  []
 
-<FiguresBM//ang0.png, id=1652, 1264.725pt x 469.755pt>
+<FiguresBM//ang0.png, id=1659, 1264.725pt x 469.755pt>
 File: FiguresBM//ang0.png Graphic file (type png)
 <use FiguresBM//ang0.png>
 Package pdftex.def Info: FiguresBM//ang0.png  used on input line 22.
@@ -3452,7 +3449,7 @@ Package pdftex.def Info: FiguresBM//ang0.png  used on input line 22.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<FiguresBM//ang1.png, id=1653, 1285.80376pt x 446.66875pt>
+<FiguresBM//ang1.png, id=1660, 1285.80376pt x 446.66875pt>
 File: FiguresBM//ang1.png Graphic file (type png)
 <use FiguresBM//ang1.png>
 Package pdftex.def Info: FiguresBM//ang1.png  used on input line 35.
@@ -3484,7 +3481,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [97 <./FiguresBM//ang0.png> <./FiguresBM//ang1.png>]
-<FiguresBM//trig0.png, id=1665, 818.05624pt x 336.25626pt>
+<FiguresBM//trig0.png, id=1672, 818.05624pt x 336.25626pt>
 File: FiguresBM//trig0.png Graphic file (type png)
 <use FiguresBM//trig0.png>
 Package pdftex.def Info: FiguresBM//trig0.png  used on input line 71.
@@ -3535,7 +3532,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [99]
-<FiguresBM//vect0.png, id=1687, 646.415pt x 385.44pt>
+<FiguresBM//vect0.png, id=1694, 646.415pt x 385.44pt>
 File: FiguresBM//vect0.png Graphic file (type png)
 <use FiguresBM//vect0.png>
 Package pdftex.def Info: FiguresBM//vect0.png  used on input line 159.
@@ -3556,12 +3553,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 172--173
 
  []
 
-<FiguresBM//vect1.png, id=1696, 1395.2125pt x 347.2975pt>
+<FiguresBM//vect1.png, id=1703, 1395.2125pt x 347.2975pt>
 File: FiguresBM//vect1.png Graphic file (type png)
 <use FiguresBM//vect1.png>
 Package pdftex.def Info: FiguresBM//vect1.png  used on input line 179.
 (pdftex.def)             Requested size: 348.80226pt x 86.82416pt.
-<FiguresBM//vect2.png, id=1698, 1192.455pt x 512.91624pt>
+<FiguresBM//vect2.png, id=1705, 1192.455pt x 512.91624pt>
 File: FiguresBM//vect2.png Graphic file (type png)
 <use FiguresBM//vect2.png>
 Package pdftex.def Info: FiguresBM//vect2.png  used on input line 190.
@@ -3591,7 +3588,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 201--203
 
  []
 
-<FiguresBM//vect3.png, id=1707, 863.225pt x 635.37375pt>
+<FiguresBM//vect3.png, id=1715, 863.225pt x 635.37375pt>
 File: FiguresBM//vect3.png Graphic file (type png)
 <use FiguresBM//vect3.png>
 Package pdftex.def Info: FiguresBM//vect3.png  used on input line 230.
@@ -3614,7 +3611,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 255--257
 
  []
 
-<FiguresBM//vect4.png, id=1719, 1123.19624pt x 712.6625pt>
+<FiguresBM//vect4.png, id=1726, 1123.19624pt x 712.6625pt>
 File: FiguresBM//vect4.png Graphic file (type png)
 <use FiguresBM//vect4.png>
 Package pdftex.def Info: FiguresBM//vect4.png  used on input line 261.
@@ -3755,7 +3752,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [109]
-<FiguresBM//der0.png, id=1776, 1381.16pt x 457.71pt>
+<FiguresBM//der0.png, id=1783, 1381.16pt x 457.71pt>
 File: FiguresBM//der0.png Graphic file (type png)
 <use FiguresBM//der0.png>
 Package pdftex.def Info: FiguresBM//der0.png  used on input line 169.
@@ -3836,7 +3833,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [112]
-<FiguresBM//der1.png, id=1803, 1391.1975pt x 464.73625pt>
+<FiguresBM//der1.png, id=1810, 1391.1975pt x 464.73625pt>
 File: FiguresBM//der1.png Graphic file (type png)
 <use FiguresBM//der1.png>
 Package pdftex.def Info: FiguresBM//der1.png  used on input line 253.
@@ -3889,7 +3886,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [114]
-<FiguresBM//ext0.png, id=1817, 1156.32pt x 578.16pt>
+<FiguresBM//ext0.png, id=1825, 1156.32pt x 578.16pt>
 File: FiguresBM//ext0.png Graphic file (type png)
 <use FiguresBM//ext0.png>
 Package pdftex.def Info: FiguresBM//ext0.png  used on input line 334.
@@ -3906,7 +3903,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [115 <./FiguresBM//ext0.png>]
-<FiguresBM//con0.png, id=1825, 1392.20125pt x 484.81125pt>
+<FiguresBM//con0.png, id=1832, 1392.20125pt x 484.81125pt>
 File: FiguresBM//con0.png Graphic file (type png)
 <use FiguresBM//con0.png>
 Package pdftex.def Info: FiguresBM//con0.png  used on input line 349.
@@ -3934,7 +3931,7 @@ LaTeX Warning: Command \textasciiacute invalid in math mode on input line 376.
 LaTeX Warning: Command \textasciiacute invalid in math mode on input line 376.
 
 Missing character: There is no ´ in font cmr12!
-<FiguresBM//ext1.png, id=1832, 1156.32pt x 578.16pt>
+<FiguresBM//ext1.png, id=1839, 1156.32pt x 578.16pt>
 File: FiguresBM//ext1.png Graphic file (type png)
 <use FiguresBM//ext1.png>
 Package pdftex.def Info: FiguresBM//ext1.png  used on input line 398.
@@ -3950,7 +3947,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [117 <./FiguresBM//ext1.png>]
-<FiguresBM//ext2.png, id=1839, 1156.32pt x 578.16pt>
+<FiguresBM//ext2.png, id=1846, 1156.32pt x 578.16pt>
 File: FiguresBM//ext2.png Graphic file (type png)
 <use FiguresBM//ext2.png>
 Package pdftex.def Info: FiguresBM//ext2.png  used on input line 448.
@@ -3975,7 +3972,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [118]
-<FiguresBM//int0.png, id=1846, 1400.23125pt x 371.3875pt>
+<FiguresBM//int0.png, id=1853, 1400.23125pt x 371.3875pt>
 File: FiguresBM//int0.png Graphic file (type png)
 <use FiguresBM//int0.png>
 Package pdftex.def Info: FiguresBM//int0.png  used on input line 465.
@@ -4044,7 +4041,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-3.71667pt}.
 
 [121]
-<FiguresBM//ext3.png, id=1876, 1156.32pt x 578.16pt>
+<FiguresBM//ext3.png, id=1883, 1156.32pt x 578.16pt>
 File: FiguresBM//ext3.png Graphic file (type png)
 <use FiguresBM//ext3.png>
 Package pdftex.def Info: FiguresBM//ext3.png  used on input line 561.
@@ -4131,10 +4128,10 @@ Package rerunfilecheck Info: File `"BM UCSC".out' has not changed.
  )
 (\end occurred when \ifx on line 29 was incomplete) 
 Here is how much of TeX's memory you used:
- 16172 strings out of 479551
- 256182 string characters out of 5883383
- 616178 words of memory out of 5000000
- 33142 multiletter control sequences out of 15000+600000
+ 16182 strings out of 479551
+ 256390 string characters out of 5883383
+ 616238 words of memory out of 5000000
+ 33150 multiletter control sequences out of 15000+600000
  480626 words of font info for 70 fonts, out of 8000000 for 9000
  523 hyphenation exceptions out of 8191
  129i,15n,123p,1052b,688s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -4162,10 +4159,10 @@ m/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt1
 0.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10
 .pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.
 pfb>
-Output written on "build/BM UCSC.pdf" (133 pages, 2786127 bytes).
+Output written on "build/BM UCSC.pdf" (133 pages, 2832937 bytes).
 PDF statistics:
- 2145 PDF objects out of 2487 (max. 8388607)
- 1833 compressed objects within 19 object streams
- 652 named destinations out of 1000 (max. 500000)
- 1212 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2152 PDF objects out of 2487 (max. 8388607)
+ 1837 compressed objects within 19 object streams
+ 653 named destinations out of 1000 (max. 500000)
+ 1217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

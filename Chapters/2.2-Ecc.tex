@@ -11,7 +11,7 @@
 \label{ecc0}
 %----------------------------------------------------------------------
 
-En las ecuaciones se plantea que ambos lados de ella son iguales. Para tener una única solución se debe tener igual número de ecuaciones y de variables que se desean encontrar. En el caso particular veremos que necesitamos una ecuación para una sola variable.\\
+En las ecuaciones se plantea que ambos lados de ellas son iguales. Para tener una única solución se debe tener igual número de ecuaciones y de variables que se desean encontrar. En el caso particular que veremos, necesitamos una ecuación para una sola variable.\\
 \begin{equation}
 x-10^{2}=0 \label{ecc01}
 \end{equation} 
@@ -39,7 +39,7 @@ x&=&6\\
 \end{myexample}
 
 \subsection{Ecuaciones con mas variables}
-Está el caso en que tengamos más variables que número de ecuaciones, por lo que debemos elegir una variable para \textit{dejarla en función} de otras variables. Esto es muy común cuando tengo conocimiento parcial de las variables.
+Está el caso en que tendremos más variables que número de ecuaciones, por lo que debemos elegir una variable para \textit{dejarla en función} de otras variables. Esto es muy común cuando tengo conocimiento parcial de las variables.
 \begin{myexample}
 Reduzca la siguiente ecuación y deje la variable $R_{2}$ en función de  $R$ y $R_{1}$
 \begin{eqnarray*}
@@ -110,7 +110,7 @@ ahora se puede reemplazar la variable $S_{20}$ en la ecuación (\ref{spor}).
 \dfrac{1}{2}\cdot S_{70}=3\nonumber\\
 S_{70}=6\label{s70}
 \end{eqnarray}
-Ahora, falta reemplazar (\ref{s70}) en (\ref{s}) y se obtiene que $S_{20}=9$. Finalmente necesita 6 y 9 de cada solución.
+Ahora, falta reemplazar (\ref{s70}) en (\ref{s}) y se obtiene que $S_{20}=9$. Finalmente necesita 6 y 9 litros de cada solución.
 
 \section{Desigualdades}
 Así como la sección anterior plantea una igualdad de ambos lados de la ecuación y hay ciertos valores que convierten la proposición en verdadera (las raíces), pero en las desigualdades son intervalos los que hacen verdadera una proposición. Cualquier número del intervalo solución convierte la inecuación en verdadera.\\
@@ -209,7 +209,7 @@ x=-1 &\vee & x=11/5\\
 \{-1\} &\cup & \{11/5\}
 \end{eqnarray*}
 \end{myexample}
-Como las ecuaciones de valores absolutos tienen más de una solución, sucede que la ecuación \textit{puede ser de una forma u otra}. Esto hace aparecer el conector lógico $\vee$, que en conjuntos es una unión de intervalos.\\
+Como las ecuaciones de valores absolutos tienen más de una solución, sucede que la ecuación \textit{puede ser de una forma u otra}. Esto hace aparecer el conector lógico $\vee$, que en conjuntos es una unión de elementos o intervalos.\\
 
 \subsection{Desigualdades}
 
@@ -218,10 +218,10 @@ Para el caso de las desigualdades se debe tomar mayor precaución, ya que los ca
 \begin{mydef}
 \textbf{Desigualdades de valor absoluto.}\\
 
-\noindent i) $|x|<a$ si y solo si $-a<x<a$.\\
-\noindent ii) $|x|>a$ si y solo si $x<-a$ o $x>a$.
+\noindent i) $|x|<a$ si y solo si $-a<x<a$. Que es análogo a $ -a<x\wedge x<a$.\\
+\noindent ii) $|x|>a$ si y solo si $x<-a$ o $x>a$. Que es análogo a $x<-a$ $\vee$ $x>a$ .
 \end{mydef}
-Para esta definición son igualmente válidas si se cambian los símbolos de $<$ y $>$ por $\leq$ y $\geq$.
+Para esta definición son igualmente válidas si se cambian los símbolos de $<$ y $>$ por $\leq$ y $\geq$. 
 
 \begin{myexample}
 \label{ejemplodosd}
@@ -246,15 +246,15 @@ x\leq -8 &\vee &x\geq 2\\
 \textit{iii)}\\
 \begin{eqnarray*}
 |6x-11| &<& 5 \\
--5< 6x-11 &\vee & 6x-11<5\\
-6< 6x &\vee & 6x<16\\
-1< x &\vee & x<16/6\\
-1< x &\vee & x<8/3\\
+-5< 6x-11 &\wedge& 6x-11<5\\
+6< 6x &\wedge & 6x<16\\
+1< x &\wedge & x<16/6\\
+1< x &\wedge & x<8/3\\
 & ]1,8/3[ &
 \end{eqnarray*}
 
 \section{Desigualdades racionales y polinomiales}
-Hasta el momento se ha visto ecuaciones y desigualdades lineales con valor absoluto de la forma $ax+b$, ahora se ampliará el abanico de posibilidades	de la expresión, será una división de polinomios de la forma:
+Hasta el momento se ha visto ecuaciones y desigualdades lineales con valor absoluto de la forma $ax+b$, ahora se ampliará el abanico de posibilidades. Será una división de polinomios de la forma:
 \begin{eqnarray*}
 \dfrac{P(x)}{Q(x)}, \hspace{6px} Q(x)\neq 0
 \end{eqnarray*}
@@ -277,6 +277,7 @@ Lo que se busca en esos intervalos, es que coincida la condición de la desigual
 \end{mydef}
 \newpage
 \begin{myexample}
+\label{ejem441}
 Resolver la siguiente desigualdad:\\
 \begin{eqnarray*}
 x^{2}&\geq & -2x+15 \\
@@ -303,6 +304,13 @@ $(-)(-)=+$ & $(+)(-)=-$ & $(+)(+)=+$ \\
 		\caption[Tabla de signos.]{Tabla de signos. En la primera fila se ubican los intervalos donde los extremos son los infinitos y los ceros de los polinomios en orden de menor a mayor. En la segunda fila se toma un número particular que pertenece al intervalo y se reemplaza en cada paréntesis y/o elemento de la expresión. Finalmente, se hace el producto de los signos y se ve el signo del intervalo completo.}
 	\end{table}
 \end{center}
+
+\begin{center}
+\begin{figure}[h!]
+\includegraphics[scale=0.30]{cua441.png}
+\caption[Gráfica de función cuadrática del ejemplo \ref{ejem441}.]{Gráfica de función cuadrática del ejemplo \ref{ejem441}. La expresión cuadrática tiene dos puntos de intersección con el eje $x$, que son justamente en donde cambia de signo los intervalos. }
+\end{figure}
+\end{center}
 La desigualdad solicita que sea mayor que cero, por lo que los intervalos solución son $]-\infty,-5]\cup [3,+\infty[$. Los infinitos siempre son intervalos abiertos, en los otros casos lo determina el símbolo de la desigualdad (en este caso es un intervalo cerrado por el símbolo de la igualad).
 \end{myexample}
 
@@ -313,9 +321,9 @@ Resolver la siguiente desigualdad fraccional:\\
 \begin{eqnarray}
 \dfrac{x+1}{x+3}+1&\leq &0 \\
 \dfrac{x+1+x+3}{x+3} &\leq &0 \\
-\dfrac{2x+4}{x+3}& \leq & 0 \\
+\dfrac{2x+4}{x+3}& \leq & 0 
 \end{eqnarray} 
-Los ceros son $x=-3$ y $x\neq -2$. Ahora se hace la tabla de signos con los ceros encontrados.\\
+Los ceros son $x\neq-3$ y $x=-2$. Ahora se hace la tabla de signos con los ceros encontrados.\\
 \begin{center}
 \begin{table}[h!]
 \centering
@@ -324,7 +332,7 @@ Los ceros son $x=-3$ y $x\neq -2$. Ahora se hace la tabla de signos con los cero
 $-\infty$ a $-3$&$-3$ a $-2$& $-2$ a $+\infty$ \\
 \hline
 $x=-10$&$x=-2,5=-5/2$&$0$ \\
-$\dfrac{(-)}{(-)}=+$&$\dfrac{(+)}{(-)}=-$&$\dfrac{(+)}{(+)}=+$ \\
+$\dfrac{(-)}{(-)}=+$&$\dfrac{(-)}{(+)}=-$&$\dfrac{(+)}{(+)}=+$ \\
 \hline 
 \end{tabular}
 \caption[Tabla de signos de una inecuación fraccional.]{Tabla de signos de una inecuación fraccional.}
