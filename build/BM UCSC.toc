@@ -98,26 +98,27 @@
 \contentsline {section}{\numberline {5.16}Modelos matemáticos exponenciales y logarítmicos}{94}{section.5.16}%
 \contentsline {subsection}{\numberline {5.16.1}Modelos matemáticos exponenciales}{94}{subsection.5.16.1}%
 \contentsline {subsection}{\numberline {5.16.2}Modelos matemáticos logarítmicos}{95}{subsection.5.16.2}%
-\contentsline {chapter}{\numberline {6}Cálculo vectorial}{97}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ángulos y su orientación}{97}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trigonometría}{99}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Vectores}{101}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Vectores unitarios}{103}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Componentes de un vector}{104}{subsection.6.3.2}%
-\contentsline {chapter}{\numberline {7}Cálculo infinitesimal}{107}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Límites}{107}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Límites laterales}{110}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Derivadas}{111}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Reglas de la derivación}{112}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Derivada de orden superior}{113}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Extremos de una función}{113}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Función creciente y decreciente}{115}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Concavidad y criterio de segunda derivada}{117}{subsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.2.6}Criterio de la segunda derivada}{119}{subsection.7.2.6}%
-\contentsline {section}{\numberline {7.3}Integrales}{120}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Reglas de integración}{121}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Integrales definidas y teorema fundamental del cálculo}{122}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Teorema de valor medio para integrales}{123}{subsection.7.3.3}%
-\contentsline {chapter}{\numberline {A}Completación del cuadrado}{124}{appendix.Alph1}%
-\contentsline {chapter}{\textbf {Referencias}}{126}{section*.12}%
-\contentsline {chapter}{Apéndices}{126}{section*.12}%
+\contentsline {subsection}{\numberline {5.16.3}Escalas logarítmicas y lineales}{96}{subsection.5.16.3}%
+\contentsline {chapter}{\numberline {6}Cálculo vectorial}{99}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ángulos y su orientación}{99}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Trigonometría}{101}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Vectores}{103}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Vectores unitarios}{105}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Componentes de un vector}{106}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}Cálculo infinitesimal}{109}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Límites}{109}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Límites laterales}{112}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Derivadas}{113}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Reglas de la derivación}{114}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Derivada de orden superior}{115}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Extremos de una función}{115}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Función creciente y decreciente}{117}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Concavidad y criterio de segunda derivada}{119}{subsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.2.6}Criterio de la segunda derivada}{121}{subsection.7.2.6}%
+\contentsline {section}{\numberline {7.3}Integrales}{122}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Reglas de integración}{123}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Integrales definidas y teorema fundamental del cálculo}{124}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Teorema de valor medio para integrales}{125}{subsection.7.3.3}%
+\contentsline {chapter}{\numberline {A}Completación del cuadrado}{126}{appendix.Alph1}%
+\contentsline {chapter}{\textbf {Referencias}}{128}{section*.12}%
+\contentsline {chapter}{Apéndices}{128}{section*.12}%
