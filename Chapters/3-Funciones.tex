@@ -5,7 +5,7 @@
 \label{FM}
 \markboth{Funciones matemáticas}{Funciones matemáticas}
 %======================================================================
-Usualmente, se necesita agrupar elementos bajo ciertas condiciones como lo vimos en la sección (\ref{TC}). Ahora, hay ciertos grupos que tienen una correspondencia que asocia estos conjuntos, entonces se genera una dependencia del valor de un conjunto con respecto a otro, a esto se le llama \textit{función}. 
+Usualmente, se necesita agrupar elementos bajo ciertas condiciones como lo vimos en la sección (\ref{TC}). Ahora, hay ciertos grupos que tienen una correspondencia que asocia estos conjuntos, entonces se genera una dependencia del valor de un conjunto con respecto a otro, a esto se le llama \textit{función matemática}. 
 \begin{mydef}
 \textbf{Función matemática. }Una función de un conjunto $X$ a un conjunto $Y$ es una regla de correspondencia que asigna a cada elemento $x$ de $X$ exactamente un elemento $y$ de $Y$.
 \end{mydef}
@@ -18,7 +18,7 @@ La variable que aparece dentro del paréntesis en $f()$ es la que se reemplaza c
 Evaluar una función con un elemento del dominio.
 \begin{eqnarray*}
 f(x)&=&x^{4}+3x^{2}+x+56\\
-f(7)&=& (7)^{4}+3\cdot (7)^{2}+(7)+56
+f(7)&=& (7)^{4}+3\cdot (7)^{2}+(7)+56=2611
 \end{eqnarray*}
 \end{myexample}
 
@@ -34,8 +34,8 @@ f(7)&=& (7)^{4}+3\cdot (7)^{2}+(7)+56
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{function0.png}
-\caption[Esquema de una función y gráfico de una variable dependiente e independiente.]{Esquema de una función y gráfico de una variable dependiente e independiente. a) Las variables $x_{i}$ representan las entradas de la función. Luego la caja es donde se aplica la función $f(x)$ y finalmente se tiene una salida que son las variables $y_{i}$. b) Gráfica de una variable independiente $x$ y una variable independiente, que va cambiando su valor cuando se evalúa cada elemento del dominio (los $x_{i}$).}
+\includegraphics[scale=0.45]{function0.png}
+\caption[Esquema de una función y gráfico de una variable dependiente e independiente.]{Esquema de una función y gráfico de una variable dependiente e independiente. a) Las variables $x_{i}$ representan las entradas de la función. Luego, la caja es donde se aplica la función $f(x)$ y finalmente se tiene una salida que son las variables $y_{i}$. b) Gráfica de una variable independiente, $x$, y una variable dependiente, $y$, que va cambiando su valor cuando se evalúa cada elemento del dominio (los $x_{i}$).}
 \label{imagfx}
 \end{figure}
 \end{center}
@@ -51,7 +51,7 @@ Dom(f(x))=\{x\in X|\exists y \in Y,f(x)=y\}
 \end{eqnarray}
 \label{domfx}
 \end{mydef}
-Entonces, el dominio de una función es el conjunto más grande donde está definida, por ejemplo $1/x$ está definido en para cualquier número real menos para el cero, por lo que el dominio de la función son todos los números reales menos el cero ($\mathbb{R}-\{0\}$). En la imagen son todos los valores que puede tomar la función.
+Entonces, el dominio de una función es el conjunto más grande donde está definida, por ejemplo $1/x$ está definido en para cualquier número real menos para el cero, por lo que el dominio de la función son todos los números reales menos el cero ($\mathbb{R}-\{0\}$). La imagen de la función son todos los valores que puede tomar $f(x)$.
 
 \begin{mydef}
 \textbf{Imagen de una función.} Es el conjunto $Y$ que tiene como elementos todos los posibles valores que puede tomar la función. Se denota como $Im(f(x))$.
@@ -83,14 +83,53 @@ Dom(f(x))&=& \mathbb{R}-\{-2,+2\}
 \end{eqnarray*}
 \end{myexample}
 
+Para calcular el dominio de una función no hay un procedimiento único, por lo que se debe analizar el tipo de función que tenemos y que no se anule para que tome siempre valores reales. Por ejemplo, en el caso de las raíces cuadradas se debe cumplir que el radicando debe ser mayor que cero o para el caso de las expresiones fraccionales, el denominador debe ser distinto de cero. A continuación cual es el dominio de cierto tipo de funciones.
+
+\begin{itemize}
+	\item Funciones polinomiales: El dominio son todos los números reales.
+	\begin{eqnarray*}
+	f(x)&=&4x^{7}+50x^{25}+2\\
+	Dom(f(x))&:& \mathbb{R}
+	\end{eqnarray*}
+	\item Función racional (fracciones): Son todos los números reales, menos los valores que hace cero al denominador.
+	\begin{eqnarray*}
+	f(x)&=&\dfrac{1}{x+2}\\
+	Dom(f(x))&:&\mathbb{R}-\{-2\}
+	\end{eqnarray*}
+	\item Funciones radicales con índice par: El dominio son todos los valores que hacen que el radicando sea mayor que cero.
+	\begin{eqnarray*}
+	f(x)&=&\sqrt{3x+7}\\
+	Dom(f(x))&:& \left[\dfrac{-7}{3},+\infty \right[
+	\end{eqnarray*}
+	\item Funciones radicales con índice impar: Es el dominio del radicando, no está sujeta a una desigualdad.
+	\begin{eqnarray*}
+	f(x)&=&\sqrt[3]{7x+3}\\
+	Dom(f(x))&:& \mathbb{R}
+	\end{eqnarray*}
+	\item Función logarítmica: El dominio está formado por todos los valores que hacen que el argumento del logaritmo sea mayor que cero.
+	\begin{eqnarray*}
+	f(x)&=&log\left(2x^{2}+3x+1\right)\\
+	Dom(f(x))&:& \left]-\infty ,-1\right[ \cup \left]-\dfrac{1}{2},\infty \right[
+	\end{eqnarray*}
+	\item Función exponencial: El dominio son todos los reales, excepto los valores que anulan a la función que está en el exponente.
+	\begin{eqnarray*}
+	f(x)&=&e^{x}\\
+	Dom(f(x))&:&\mathbb{R}
+	\end{eqnarray*}
+	\begin{eqnarray*}
+	f(x)&=&e^{1/x}\\
+	Dom(f(x))&:&\mathbb{R}-\{0\}
+	\end{eqnarray*}
+\end{itemize}
+
 \section{Gráficas de una función}
-Al momento de plasmar una función cualquiera debemos juntar las definiciones (\ref{domfx}), (\ref{imfx}) y la figura (\ref{imagfx}), con estos tres elementos podemos graficar una función. Cada punto de la gráfica tiene la forma $(x_{i},y_{i})$ o $(x_{i},f(x_{i}))$, por lo que el eje $x$ representa el dominio de la función y el eje $y$ la imagen. \\
+Al momento de plasmar una función cualquiera debemos juntar las definiciones de dominio (\ref{domfx}), imagen (\ref{imfx}) y la figura (\ref{imagfx}), con estos tres elementos podemos graficar una función. Cada punto de la gráfica tiene la forma $(x_{i},y_{i})$ o $(x_{i},f(x_{i}))$, por lo que el eje $x$ representa el dominio de la función y el eje $y$ la imagen. \\
 La función para un valor $y$ puede tener más de un valor en $x$, por ejemplo en $x^{2}$. No se puede dar el caso inverso, es decir, que por un valor de $x$ la función tenga dos o más valores en el $y$, es por ello que si uno traza una línea vertical en las gráficas, esta línea debe tocar solo un punto del gráfico, si no, no es una función.\\
 
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.4]{lineafn.png}
+\includegraphics[scale=0.5]{lineafn.png}
 \caption[Gráfica para diferenciar una función.]{Gráfica para diferenciar una función. a) Es una gráfica que muestra una línea vertical que toca en un solo punto a la gráfica, por lo tanto, es una función. b) La gráfica no es una función, ya que la línea toca a la función en tres puntos.}
 \label{difx}
 \end{figure}
@@ -99,7 +138,7 @@ Si la línea solo debe tocar en un punto, entonces ¿Qué ocurre cuando se grafi
 
 \subsection{Intersecciones con los ejes}
 Una de las formas más rápidas de obtener información de la gráfica de la función es ver en que puntos pasa por los ejes, se debe ver que para las intersecciones en el eje $y$ son de la forma ($0,f(0)$) mientras que para los del eje $x$ son ($x,0$). De esto se desprende que hay ciertos valores de $x$ que hacen que $y=0$, entonces el objetivo es encontrar esos $x$ que hace que $f(x)=0$. \\
-Cuando se encuentran esos números se le llaman \textit{raíces} o \textit{soluciones} de la función que satisfacen la ecuación $f(c)=0$, siendo $c$ los números reales que son solución de la función $f(x)$.\\
+Cuando se encuentran esos números se le llaman \textit{raíces} o \textit{soluciones} de la función que satisfacen la ecuación $f(c)=0$, siendo $c$ los números reales que son solución de la función.\\
 
 Como se puede notar no siempre las funciones pasan por los ejes, hay casos en que la función toca en un solo punto, pero no cruza, a esto se llama una gráfica \textit{tangente} al eje. La función solo puede pasar o tocar al eje $y$ en un solo punto, siempre y cuando el $0$ esté en el dominio de la función.\\ 
 
@@ -144,7 +183,7 @@ f(x)&=&-f(x)
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{parimpar.png}
+\includegraphics[scale=0.5]{parimpar.png}
 \caption[Función par e impar.]{Función par e impar. a) Muestra una parábola que es una función par, es decir, los puntos ($x,y$) y (-$x,y$) son parte de la gráfica. b) Muestra una función impar, es decir, que los puntos ($x,y$) y ($-x,-y$) son parte de la gráfica.}
 \label{parimparfx}
 \end{figure}
@@ -152,6 +191,7 @@ f(x)&=&-f(x)
 
 \begin{mydef}
 \textbf{Simetría.}\\
+
 \noindent i) Una función $f$ es par si y sólo si su gráfica es simétrica respecto al $y$. \\
 \noindent ii) Una función $f$ es impar si y sólo si su gráfica es simétrica respecto al origen.\\
 \end{mydef}
@@ -176,8 +216,8 @@ Se puede combinar estas traslaciones, que en el gráfico sería trasladar en \te
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{trasfn.png}
-\caption[Transformaciones rígidas.]{Transformaciones rígidas. Se ven las posibilidades de trasladar la función $f(x)$ sin cambiar su forma original.}
+\includegraphics[scale=0.5]{trasfn.png}
+\caption[Transformaciones rígidas.]{Transformaciones rígidas. a) Es la función original. b) Muestra la función original (linea naranja) y sus traslaciones verticales en $c$ unidades. c) Muestra la función original y sus respectivas traslaciones horizontales en $c$ unidades.}
 \label{trasfx}
 \end{figure}
 \end{center}
@@ -190,7 +230,7 @@ Se puede combinar estas traslaciones, que en el gráfico sería trasladar en \te
 \end{mydef}
 %ejemplos 
 \subsection{Transformaciones no rígidas}
-A diferencia de la subsección anterior, ahora si se modificará la forma de la función original. 
+A diferencia de la subsección anterior, ahora si se modificará la forma de la función original. Ahora, la función se puede achatar, estirar o en otros casos cambiar la pendiente.
 \begin{mydef}
 \textbf{Transformaciones no rígidas: Estiramientos y compresiones verticales.} Sea $f(x)$ una función definida en los números reales, entonces la gráfica de $y=c\cdot f(x)$ es:\\
 
@@ -215,7 +255,7 @@ Anteriormente vimos a los polinomios y su forma más general (ver la ecuación  
 f(x)=a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots +a_{2}x^{2}+a_{1}x+a_{0}
 \label{polfn}
 \end{eqnarray}
-De (\ref{polfn}) desprenderemos tres casos. La constante cuando $a_{0}\neq 0$, el caso lineal cuando $a_{0},a_{1}\neq 0$ y el caso cuadrático $a_{0},a_{1}, a_{2}\neq 0$.
+De (\ref{polfn}) desprenderemos tres casos. La constante es cuando $a_{0}\neq 0$, el caso lineal es cuando $a_{0},a_{1}\neq 0$ y el caso cuadrático es cuando $a_{0},a_{1}, a_{2}\neq 0$.
 
 \begin{mydef}
 \textbf{Funcionales polinomiales.} Sea $f(x)$ una función polinomial definida en los números reales, se desprenden los siguientes casos:\\
@@ -242,7 +282,7 @@ Muestra de algunas ecuaciones lineales:\\
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{linfn.png}
+\includegraphics[scale=0.5]{linfn.png}
 \caption[Funciones lineales.]{Funciones lineales. a) Ejemplo de tres funciones lineales, la recta naranja grafica la función $ii$ y las otras dos rectas son la misma función pero desplazadas (caso $i$ y $ii$). b) Gráfica de la recta $f(x)=-x$ que da muestra que el factor que acompaña a $x$ es la pendiente de la recta.} \label{linfn}
 \end{figure}
 \end{center}
@@ -251,7 +291,8 @@ Muestra de algunas ecuaciones lineales:\\
 
 \subsection{Función cuadrática}
 Subiendo de $n$ en las funciones polinomiales nos encontramos con el caso cuadrático, usualmente llamado parábola. El caso mas simple es $f(x)=ax^{2}$, pero el caso más general tiene deformaciones y traslaciones que la dejan de la forma $f(x)=ax^{2}+bx+c$.\\
-Si el coeficiente $a<0$ la parábola es un reflejo de $ax^{2}$ con $a>0$, o lo que se dice frecuentemente que \textit{apunta hacia abajo}. El coeficiente $c$ es el que desplaza horizontal o verticalmente la gráfica.
+Si el coeficiente $a<0$ la parábola es un reflejo de $ax^{2}$ con $a>0$, o lo que se dice frecuentemente que \textit{apunta hacia abajo}. El coeficiente $c$ es el que desplaza horizontal o verticalmente la gráfica.\\
+\newpage
 \begin{myexample}
 Muestra de algunas ecuaciones cuadráticas:\\
 
@@ -263,7 +304,7 @@ Muestra de algunas ecuaciones cuadráticas:\\
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{cuafn.png}
+\includegraphics[scale=0.5]{cuafn.png}
 \caption[Funciones cuadraticas.]{Funciones cuadráticas. a) Gráfica de funciones cuadráticas desplazadas con respecto a la función original $f(x)=x^{2}$. b) Gráfica de la función parabólica de $f(x)=-x^{2}$ que es el reflejo con respecto al eje $x$ de $x^{2}$. } \label{cuadfn}
 \end{figure}
 \end{center}
@@ -271,7 +312,7 @@ Muestra de algunas ecuaciones cuadráticas:\\
 
 
 \subsubsection{Vértice y eje}
-La parábola puede estar apuntando hacia arriba ($a>0$) o hacia abajo ($a<0$), el punto más abajo ($a>0$) o más arriba ($a<0$) se llama vértice. Este punto marca la mitad de la parábola, que al hacer una línea en $x=h$ marca el eje de simetría. La forma matemática de obtener el vértice de una parábola cualquiera es la siguiente:\\
+Los puntos que caracterizan a una parábola son el signo de $a$ para ver hacia donde crece, los posibles puntos de intersección con el eje $x$ y su vértice. La parábola puede estar apuntando hacia arriba ($a>0$) o hacia abajo ($a<0$), el punto más abajo ($a>0$) o más arriba ($a<0$) se llama vértice. Este punto marca la mitad de la parábola, que al hacer una línea en $x=h$ marca el eje de simetría. La forma matemática de obtener el vértice de una parábola cualquiera es la siguiente:\\
 \begin{eqnarray}
 f(x)=a(x-h)^{2}+k,\label{eqver}
 \end{eqnarray}
@@ -324,7 +365,7 @@ Al comparar los términos se obtiene que el vértice de la parábola está en el
 \section{Funciones crecientes y decrecientes}
 \label{funcrede}
 Hemos visto en las figuras (\ref{deforfx}), (\ref{linfn}) y (\ref{cuadfn}) un comportamiento de las funciones que aumentan y disminuyen por tramos. Cuando la función se mantiene en una tendencia de crecer o decrecer se clasifican en los siguientes casos:
-\begin{myexample}
+\begin{mydef}
 \textbf{Funciones crecientes y decrecientes.} Sea $f(x)$ una función real que está definida en un intervalo con extremos $x_{1}$ y $x_{2}$, que son dos números cualesquiera tales que $x_{1}<x_{2}$. Entonces, se cumple lo siguiente:\\
 
 \noindent i) La función $f(x)$ es creciente en el intervalo si, $f(x_{1})<f(x_{2})$. \\
@@ -337,8 +378,29 @@ Hemos visto en las figuras (\ref{deforfx}), (\ref{linfn}) y (\ref{cuadfn}) un co
 \caption[Funciones crecientes y decrecientes.]{Funciones crecientes y decrecientes. .} \label{credrefn}
 \end{figure}
 \end{center}
+\end{mydef}
+
+Esta clasificación es una primera herramienta para saber como se comporta la función y consiste en seleccionar dos elementos del dominio para ver la respectiva imagen. Se debe considerar que una herramienta más poderosa se verán más adelante en el capítulo de calculo infinitesimal.
+
+\begin{myexample}
+Sean las funciones $f(x)=x^{2}$ y $g(x)=-x^{2}$ definida en los números reales. Seleccione dos elementos del dominio y mencione si es creciente o decreciente.\\
+
+i) $f(x)=x^{2}$:\\
+\begin{eqnarray*}
+f(x_{1})&=& f(x_{1}=3)=f(3)=3^{2}=9\\
+f(x_{2})&=& f(x_{2}=4)=f(4)=4^{2}=16
+\end{eqnarray*}
+$x_{2}>x_{1}$, por lo que $f(x)$ es una función creciente en este intervalo. \\
+
+i) $g(x)=-x^{2}$:\\
+\begin{eqnarray*}
+f(x_{1})&=& f(x_{1}=3)=f(3)=-3^{2}=-9\\
+f(x_{2})&=& f(x_{2}=4)=f(4)=-4^{2}=-16
+\end{eqnarray*}
+$x_{2}<x_{1}$, por lo que $g(x)$ es una función decreciente en este intervalo. \\
 \end{myexample}
-%A la izquierda del gráfico se muestra una función decreciente y es porqué si se evaluá en la función un numero menor que otro el resultado serpa mayor para el elemento menor. Al lado derecho es una función creciente donde al evaluar un elemento del dominio menor que otro, el resultado será que la imagen del número menor es el más pequeño
+Si los valores coinciden para ambos $x$, entonces es una función constante.
+\newpage
 \section{Funciones por partes}
 Como el nombre lo dice, es una función que según el tramo del dominio que uno seleccione va a tener una función diferente. El primer acercamiento es el valor absoluto, que en su versión mas simple son dos rectas con pendientes opuestas (ver la definición \ref{absdef}).\\
 
@@ -405,7 +467,7 @@ x+1 &, x>0 \\
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{partefn.png}
+\includegraphics[scale=0.3]{partefn.png}
 \caption[Función por partes.]{Función por partes. Son tres funciones, la primera es una función constante, la segunda un punto y la tercera es una recta. Notar que los extremos de la primera y tercera función consideran los extremos (por eso los círculos sin pintar). } \label{partefn}
 \end{figure}
 \end{center}
@@ -426,13 +488,48 @@ La lógica de las funciones por partes es igual, pero veremos un caso particular
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{escalerafn.png}
+\includegraphics[scale=0.30]{escalerafn.png}
 \caption[Función máximo entero.]{Función máximo entero.  } \label{escalerafn}
 \end{figure}
 \end{center}
 
 La imagen de la función es discreta, es decir, tomar ciertos valores y no es un \textit{continuo} de valores. 
 \newpage
+\subsection{Dominio de una función por partes}
+
+Al momento de analizar el dominio completo de la función por partes, se debe ver la definición de la misma. Si se ve el lado derecho, se encuentran las expresiones de las funciones y al lado izquierdo los intervalos en los cuales se defines las funciones, justamente son el dominio de cada función. Entonces, el dominio de la función por partes es la unión de cada uno de los dominios de la funciones que lo conforman.\\
+
+\begin{myexample}
+Encontrar el dominio de siguiente función por partes:
+\begin{eqnarray*}
+ f(x)= \left\{\begin{array}{ll}
+f_{1}(x)&, x< 0\\
+f_{2}(x) &, x=0\\ 
+f_{3}(x) &, x>0 \\
+\end{array} \hspace{6px} \right.
+\end{eqnarray*}
+$Dom(f(x))=Dom(f_{1}(x))\cup Dom(f_{2}(x))\cup Dom(f_{3}(x))=\mathbb{R}$
+\end{myexample}
+En el ejemplo anterior se ve que el dominio son todos los números reales, ya que entre los tres dominios completan el intervalo $]-\infty,\infty[$. En el caso en que algún punto o intervalo no sea considerado aparecen los tramos en que la función no está definida.
+
+\begin{myexample}
+Encontrar el dominio de siguiente función por partes:
+\begin{eqnarray*}
+ g(x)= \left\{\begin{array}{ll}
+g_{1}(x)&, -5<x<1\\
+g_{2}(x) &, 1\leq x\leq 10\\ 
+g_{3}(x) &, 15<x<20 \\
+\end{array} \hspace{6px} \right.
+\end{eqnarray*}
+
+\begin{eqnarray*}
+Dom(g(x))&=& Dom(g_{1}(x))\cup Dom(g_{2}(x))\cup Dom(g_{3}(x))\nonumber\\
+&=&]-5,1[\cup [1,10]\cup ]15,20[\\
+&=&]-5,10]\cup ]15,20[\\
+\end{eqnarray*}
+\end{myexample}
+Para este caso se ve, en la definición y en el resultado del dominio, que la función tiene tramos no definidos. Específicamente, los intervalos $]-\infty,-5]$, $]10,15]$ y $[20,\infty[$ no son parte del dominio.
+
 \section{Combinación de funciones}
 Luego de ver las funciones por partes, sigue la opción de combinar funciones, que en estricto rigor ya lo hemos visto cuando sumamos, restamos o dividimos polinomios. Las operaciones formales que se pueden hacer al momento de combinar funciones son: \\
 \begin{mydef}
@@ -455,7 +552,7 @@ Escribir la función resultante de las cuatro operaciones con las funciones $f(x
 
 \subsection{Dominio de una función combinada}
 Es importante que por más combinaciones que se hagan entre dos o más funciones sigan estando definidas en los números reales, suena obvio, pero hay verificarlo. El dominio que tiene una función combinada es el conjunto más grande que tiene en común todas las funciones, entonces es la intersección del dominio de las funciones. Para el caso de la división se suma la condición que la expresión del denominador debe ser diferente de cero.\\
- Supongamos el ejemplo que tenemos dos funciones $f_{1}(x)$ y $f_{2}(x)$ con su conjunto dominio $X_{1}$ y $X_{2}$ respectivamente. Entonces el dominio de la función combinada es: \\
+ Supongamos el ejemplo que tenemos dos funciones $f_{1}(x)$ y $f_{2}(x)$ con su conjunto dominio $X_{1}$ y $X_{2}$ respectivamente. Entonces, el dominio de la función combinada es: \\
  
  \noindent i) El dominio para las operaciones de suma, resta y y multiplicación es $X_{1}\cap X_{2}$.\\
  
@@ -478,7 +575,7 @@ Notar que la condición del denominador sea diferente de cero se cumplió al pas
 \end{myexample}
 
 \section{Composición de funciones}
-Al principio de esta sección se mencionó que dentro del paréntesis de la función ($f()$) va la incógnita, por ende lo que se reemplaza es la función $f()$. En esta sección veremos que ocurre cuando dentro de la función hay otra función, como por ejemplo $f(g(x))$.\\
+Al principio de esta sección se mencionó que dentro del paréntesis de la función ($f()$) va la incógnita, por ende lo que se reemplaza en este caso es la función $f()$. En esta sección veremos que ocurre cuando dentro de la función hay otra función, como por ejemplo $f(g(x))$.\\
 
 \begin{mydef}
 \textbf{Composición de funciones.} Sea $f(x)$ y $g(x)$ dos funciones definidas en los números reales. La composición de ambas funciones se escribe de la siguiente manera:\\
@@ -534,7 +631,7 @@ Dom(f(g(x)))&=& [2,+\infty [ \\
 
 \section{Cociente de diferencias}
 \label{cuociente0}
-Ahora veremos una aplicación de la composición de funciones. Suponga que tomamos dos puntos del gráfico de una función ¿Cuán cerca están estos puntos? Tanto como uno quiera. Definiremos la distancia entre los dos puntos con la variable $h$, que repito, es muy pero muy pequeña. \\ Al conocer dos puntos de una función se abre el abanico de opciones para calcular. Una de ellas es trazar una recta entre los puntos y calcular la pendiente de dicha recta. Recordando la fórmula de la pendiente de una recta:\\ 
+Ahora, veremos una aplicación de la composición de funciones. Suponga que tomamos dos puntos del gráfico de una función ¿Cuán cerca están estos puntos? Tanto como uno quiera. Definiremos la distancia entre los dos puntos con la variable $h$, que repito, es muy pero muy pequeña. \\ Al conocer dos puntos de una función se abre el abanico de opciones para calcular. Una de ellas es trazar una recta entre los puntos y calcular la pendiente de dicha recta. Recordando la fórmula de la pendiente de una recta:\\ 
 
 \begin{eqnarray}
 m = \dfrac{y_{2}-y_{1}}{x_{2}-x_{1}}
@@ -564,7 +661,7 @@ m&=&\dfrac{f(x+h)-f(x)}{h}\\
 &=&2x+h,\hspace*{15px} h\approx 0\\
 &=&2x \\
 \end{eqnarray*}
-Entonces el cocientes de diferencias de $f(x)$ es $2x$, más adelante veremos que este cociente es la \textbf{derivada} de $f(x)$.
+Entonces el cocientes de diferencias de $f(x)$ es $2x$, más adelante veremos que este cociente es la \textbf{derivada} de $f(x)$ y se puede denotar como $f'(x)$.
 \end{myexample}
 
 \begin{center}
@@ -574,9 +671,8 @@ Entonces el cocientes de diferencias de $f(x)$ es $2x$, más adelante veremos qu
 \caption[Cociente de diferencia.]{Cociente de diferencia. La línea naranja continua representa la función, la línea negra continua representa la recta de los puntos y las líneas punteadas muestran la diferencia entre los puntos (la distancia es representada por $h$). El gráfico insertado amplía la función y la recta, donde para los dos puntos hay una distancia $h$.} \label{cocifn}
 \end{figure}
 \end{center}
-
 \section{Funciones inversas}
-En un principio, vimos en (\ref{fn00}) que las funciones son una correspondencia entre un dominio $X$ y una imagen $Y$. Siempre a un elemento $x_{i}$ del dominio se le asocia un elemento $y_{i}$ de la imagen y por más que haya casos en que hay más de un elemento del dominio para un mismo $y_{i}$ (por ejemplo las funciones del tipo $x^{2}$), las funciones que que por cada elemento del dominio tienen un solo elemento de la imagen se llaman funciones uno a uno.
+En un principio, vimos en (\ref{fn00}) que las funciones son una correspondencia entre un dominio $X$ y una imagen $Y$. Siempre a un elemento $x_{i}$ del dominio se le asocia un elemento $y_{i}$ de la imagen y por más que haya casos en que hay más de un elemento del dominio para un mismo $y_{i}$ (por ejemplo las funciones del tipo $x^{2}$), las funciones que por cada elemento del dominio tienen un solo elemento de la imagen se llaman funciones uno a uno.
 
 \begin{mydef}
 \textbf{Función uno a uno.} Sea una función $f(x)$ definida en los números reales, es uno a uno o biunívoca si cada número en el rango de $f(x)$ está asociado con exactamente con \textbf{un} número en su dominio $X$.  
@@ -679,46 +775,46 @@ En las propiedades vistas en las definiciones (\ref{propinv}) y en la figura (\r
 \end{figure}
 \end{center}
 
-\section{Problemas con enunciado}
-En esta sección juntaremos los conceptos para acercarlos a problemas con enunciado. Usualmente, como veremos ahora y durante este curso en general son situaciones ideales, es decir, no consideramos todas variables o son situaciones ficticias para ejercitar los tópicos. Puede ver (bajo su responsabilidad) un caso más real \href{https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2499579/pdf/Nheartj00138-0006.pdf}{aquí}, con altas probabilidades que haya conceptos que aún no vea.
-
-%inversa,cociente de diferencia, fn combinadas, función escalón,interseccion con los ejes, transformaciones y deformaciones, funcion par e impar
-Resolver los siguientes problemas:\\
-
-\noindent 1) El consumo de mascarillas en el año 2016 tuvo la forma $5x+60$ y en el 2020 fue $10x-90$. Si $x$ representa los días del año ($x=1,2,3,...,365$), responda las siguientes preguntas:\\
-
-\noindent 1.a) ¿ Qué función cruza el eje $y$ en su parte positiva?
-\noindent \textit{Sol:} $f(x)=5x+60$ \\
-
-\noindent 1.b) ¿ Qué función cruza el eje $x$ en su parte positiva? 
-\noindent \textit{Sol:} $f(x)=10x-90$\\
-
-\noindent 1.c) ¿ En que año se utilizaron más mascarillas en diciembre?\\
-\noindent \textit{Sol:} Una pista se puede deducir por la pendiente de la función del año 2020, que es mayor, entonces ese es el año de mayor uso en diciembre. Lo segundo es reemplazar un número de $x$ que equivaldría a estar en diciembre \\
-\begin{eqnarray*}
-5x+60 \hspace{8px} &vs& \hspace{8px} 10x-90 \\
-5(360)+60 \hspace{8px} &vs& \hspace{8px} 10(360)-90 \\
-1860 \hspace{8px} &< & \hspace{8px} 3510 
-\end{eqnarray*}
-Se concluye que en el año 2020 se utilizaron mas mascarillas.\\
-
-\noindent 1.d) ¿ En que día del año se ocuparon el mismo número de mascarillas?
-
-\noindent \textit{Sol:} Si se ocuparon el mismo número, nos dice que ambas rectas tuvieron la misma imagen (número de mascarillas). Entonces, se deben interceptar ambas ecuaciones lineales. \\
-\begin{eqnarray*}
-5x+60  &=&  10x-90 \\
-90+60  &=&  10x-5x\\
-150  &=&  5x\\
-x  &=&  30
-\end{eqnarray*}
-
-\begin{center}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.8]{mascarillas.png}
-\caption{Gráfica de las rectas del problema 1.} \label{prob1}
-\end{figure}
-\end{center}
+%\section{Problemas con enunciado}
+%En esta sección juntaremos los conceptos para acercarlos a problemas con enunciado. Usualmente, como veremos ahora y durante este curso en general son situaciones ideales, es decir, no consideramos todas variables o son situaciones ficticias para ejercitar los tópicos. 
+%
+%%inversa,cociente de diferencia, fn combinadas, función escalón,interseccion con los ejes, transformaciones y deformaciones, funcion par e impar
+%Resolver los siguientes problemas:\\
+%
+%\noindent 1) El consumo de mascarillas en el año 2016 tuvo la forma $5x+60$ y en el 2020 fue $10x-90$. Si $x$ representa los días del año ($x=1,2,3,...,365$), responda las siguientes preguntas:\\
+%
+%\noindent 1.a) ¿ Qué función cruza el eje $y$ en su parte positiva?
+%\noindent \textit{Sol:} $f(x)=5x+60$ \\
+%
+%\noindent 1.b) ¿ Qué función cruza el eje $x$ en su parte positiva? 
+%\noindent \textit{Sol:} $f(x)=10x-90$\\
+%
+%\noindent 1.c) ¿ En que año se utilizaron más mascarillas en diciembre?\\
+%\noindent \textit{Sol:} Una pista se puede deducir por la pendiente de la función del año 2020, que es mayor, entonces ese es el año de mayor uso en diciembre. Lo segundo es reemplazar un número de $x$ que equivaldría a estar en diciembre \\
+%\begin{eqnarray*}
+%5x+60 \hspace{8px} &vs& \hspace{8px} 10x-90 \\
+%5(360)+60 \hspace{8px} &vs& \hspace{8px} 10(360)-90 \\
+%1860 \hspace{8px} &< & \hspace{8px} 3510 
+%\end{eqnarray*}
+%Se concluye que en el año 2020 se utilizaron mas mascarillas.\\
+%
+%\noindent 1.d) ¿ En que día del año se ocuparon el mismo número de mascarillas?
+%
+%\noindent \textit{Sol:} Si se ocuparon el mismo número, nos dice que ambas rectas tuvieron la misma imagen (número de mascarillas). Entonces, se deben interceptar ambas ecuaciones lineales. \\
+%\begin{eqnarray*}
+%5x+60  &=&  10x-90 \\
+%90+60  &=&  10x-5x\\
+%150  &=&  5x\\
+%x  &=&  30
+%\end{eqnarray*}
+%
+%\begin{center}
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.8]{mascarillas.png}
+%\caption{Gráfica de las rectas del problema 1.} \label{prob1}
+%\end{figure}
+%\end{center}
 
 \section{Funciones polinomiales}
 En la sección (\ref{fnlincua}) se vio desde la función constante ($ax^{0}$) hasta la función cuadrática ($ax^{2}$), pero este tipo de funciones son parte de un conjunto más grande, las polinomiales. Ahora entraremos en detalles de como graficar este tipo de funciones. Recordar la ecuación (\ref{polfn}), donde el exponente es un número entero no negativo y en caso de que $n$ no cumpla estas condiciones, la función no es polinomial (Ejemplo: $x^{-1}$ o $x^{1/2}$).
@@ -742,26 +838,26 @@ Lo más simple es partir por el caso en que la función es un solo término de l
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.4]{fnimpares.png}
-\caption[Ejemplo funciones impares.]{Ejemplo funciones impares. a) Es la función lineal y en los casos b) y c) se ve como se va aplanando la región que pasa por el origen del plano.} \label{fnimp}
+\includegraphics[scale=0.5]{fnimpares.png}
+\caption[Ejemplo funciones impares.]{Ejemplo funciones impares. a) Es la función lineal y en los casos b) y c) se ve como se va aplanando la región que pasa por el origen del plano a medida que aumenta el $n$ de $x^{n}$.} \label{fnimp}
 \end{figure}
 \end{center}
  
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.4]{fnpares.png}
+\includegraphics[scale=0.52]{fnpares.png}
 \caption[Ejemplo funciones pares.]{Ejemplo funciones pares. a) Es la función cuadrática y en los casos b) y c) se ve como se va aplanando la región que pasa por el origen del plano, al igual que en el caso de los exponentes impares.} \label{fnpar}
 \end{figure}
 \end{center}
 
 A estas funciones se debe sumar las variantes de las traslaciones, si se suma o resta una constante dentro o fuera del término principal, $x^{n}\pm c$ o $(x\pm c)^{n}+d$. \\
-Por el momento, entraremos solo en el caso $x^{n}$ y debemos descifrar su comportamiento. En las figuras (\ref{fnimp}) y (\ref{fnpar}) se muestran todas las funciones cuando pasan por el origen, es decir, que los valores que toman los $x_{i}$ son muy bajos, pero ¿Qué ocurre cuando $x$ es muy grande?. Lo que nos dirá esta respuesta es como se comporta la función muy lejos del origen.\\
+Por el momento, entraremos solo en el caso $x^{n}$ y debemos descifrar su comportamiento. En las figuras (\ref{fnimp}) y (\ref{fnpar}) se muestran todas las funciones cuando pasan por el origen, es decir, que los valores que toman los $x_{i}$ son muy bajos, pero ¿Qué ocurre cuando $x$ es muy grande? Lo que nos dirá esta respuesta es como se comporta la función muy lejos del origen.\\
 El tomar valores altos del dominio de la función, es decir, que $x\longrightarrow +\infty$ o $x\longrightarrow -\infty$ hace ver como se comporta la función en \textbf{los extremos}.
 
 \begin{mydef}
 \label{extrefn0}
-\textbf{Comportamiento de los extremos.} Cuando $x\longrightarrow\pm\infty$ la gráfica de una función polinomial\footnote{El símbolo $\rightarrow$ significa 'tiende'. Es ponerse en caso en que la variable toma valores muy grandes.}
+\textbf{Comportamiento de los extremos.} Cuando $x\longrightarrow\pm\infty$ la gráfica de una función polinomial\footnote{El símbolo $\rightarrow$ significa `tiende'. Es ponerse en caso en que la variable toma valores muy grandes.}
 \begin{eqnarray*}
 f(x)&=&a_{n}x^{n}+a_{n-1}x^{n-1}+a_{n-2}x^{n-2}+\cdots +a_{0} \\
 \end{eqnarray*}
@@ -804,7 +900,7 @@ Al igual que los números, los polinomios tienen sus operaciones y forman nuevas
 \begin{eqnarray}
 f(x)=\dfrac{P(x)}{Q(x)}
 \end{eqnarray}
-en donde $P(x)$ y $Q(x)$ son funciones polinomiales. Además, el denominador $Q(x)\neq 0$.
+en donde $P(x)$ y $Q(x)$ son funciones polinomiales. Además, el denominador debe seer distinto de cero, $Q(x)\neq 0$.
 \end{mydef}
 
 Al momento de graficar las funciones racionales no es tan trivial, por lo que hay que sumar herramientas a las ya conocidas (Simetrías, intersecciones con los ejes, desplazamiento, etc.) para modelar las funciones, es por ellos que entraremos en detalle con las \textit{asíntotas}.\\
@@ -839,7 +935,7 @@ La definición (\ref{asintvert}) explica que cuando uno se acerca a las asíntot
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.5]{asintvert.png}
+\includegraphics[scale=0.6]{asintvert.png}
 \caption[Asíntotas verticales.]{Asíntotas verticales. a) Se ve en la gráfica que cuando me acerco por la izquierda la función tiende a $+\infty$, es decir, que $f(x)\rightarrow +\infty$ cuando $x\rightarrow a^{-}$.  b) $f(x)\rightarrow +\infty$ cuando $x\rightarrow a^{-}$ y $f(x)\rightarrow -\infty$ cuando $x\rightarrow a^{+}$. c) $f(x)\rightarrow \infty$ cuando $x\rightarrow a$. } \label{asintvert0}
 \end{figure}
 \end{center}
@@ -876,7 +972,7 @@ $f(x)$ tiene una asíntota en $x=2$.
 \end{figure}
 \end{center}
 \end{myexample}
-\newpage
+
 \subsection{Asíntotas horizontales}
 Al igual que el caso vertical, existen asíntotas horizontales, pero ahora es una recta de valor constante. En este tipo de asíntotas muestran una diferencia con las verticales y es que se puede cruzar por la grafica.
 
@@ -920,12 +1016,12 @@ y &=& 0
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.35]{asinth.png}
+\includegraphics[scale=0.3]{asinth.png}
 \caption[Gráfica de la función $f(x)$ con su asíntota horizontal en $y=0$.]{Gráfica de la función $f(x)$ con su asíntota horizontal en $y=0$. Notar que la función tiene una asíntota vertical, pero en este caso no es calculada.} \label{asintvert1}
 \end{figure}
 \end{center}
 \end{myexample}
-
+\newpage
 \section{Funciones exponenciales}
 En las secciones anteriores la variable es elevada a un número entero o decimal, para este caso veremos cuando un número es  elevado a la incógnita
 \begin{mydef}
@@ -992,7 +1088,7 @@ e&=&1 + \dfrac{1}{1} + \dfrac{1}{1\cdot 2} + \dfrac{1}{1\cdot 2\cdot 3} + \dfrac
 &=&\dfrac{1}{0!} + \dfrac{1}{1!} + \dfrac{1}{ 2!} + \dfrac{1}{3!} + \dfrac{1}{4!}+\cdots \\
 &=&\sum_{n=0}^{\infty}\dfrac{1}{n!}
 \end{eqnarray*}
-Para $n$ muy muy grandes ($n\rightarrow \infty$) el número $e$ tiende a la función
+La notación $n!$ se le llama factorial y es la multiplicación de todos los números que hay desde $n$ hasta el $1$, el caso particular del del cero es $0!=1$. Para $n$ muy muy grandes ($n\rightarrow \infty$) el número $e$ tiende a la función
 \begin{eqnarray*}
 e&\rightarrow &\left(1+\dfrac{1}{x}\right)^{x} \\
 e&=&2,7182818...
@@ -1007,7 +1103,7 @@ f(x)=e^{x}
 \end{mydef}
 Las gráficas de la función natural siguen la misma lógica de las figuras (\ref{expb0}) y (\ref{expb1}) cuando la base es $e$ y $1/e$ respectivamente. Puede ser desplazada verticalmente si se agrega una constante, por ejemplo $f(x)=c\pm e^{x}$.
 
-Un caso en donde es muy usado el número $e$ es la en la función gaussiana\footnote{Función que también recibe el nombre de campana de Gauss (por su forma) y que se utiliza principalmente en estadística. Puede ver detalles aquí:\url{https://en.wikipedia.org/wiki/Gaussian_function} }  , que en su forma más simple es $e^{-x^2}$. No cruza el eje $x$ y es simétrica  con respecto al eje $y$.
+Un caso en donde es muy usado el número $e$ es la en la función gaussiana, que en su forma más simple es $e^{-x^2}$. No cruza el eje $x$ y es simétrica  con respecto al eje $y$.
 %Gráfica
 \section{Funciones logarítmicas}
 
@@ -1036,7 +1132,7 @@ Por el lado de las gráficas, ocurre igual que en las funciones exponenciales y 
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.30]{logb1.png}
+\includegraphics[scale=0.3]{logb1.png}
 \caption[Gráfica de funciones logarítmicas para el caso de la base $0<b<1$]{Gráfica de funciones logarítmicas para el caso de la base $0<b<1$. Notar que se invierte el dominio con la imagen.} \label{logb1}
 \end{figure}
 \end{center}
@@ -1049,7 +1145,7 @@ x&=&e^{ln(x)}\\
 y&=&ln(e^{y})
 \end{eqnarray}
 Lo que en palabras simples se traduce en que si tengo una función logarítmicas la puede eliminar con una función exponencial y viceversa. Para finalizar, mostraremos las leyes de los logaritmos
-
+\newpage
 \begin{mydef}
 \textbf{Leyes de los logaritmos. } Para toda base $b>0$, $b\neq 1$, y para todos los números positivos $M$ y $N$.
 \begin{itemize}
@@ -1060,10 +1156,32 @@ Lo que en palabras simples se traduce en que si tengo una función logarítmicas
 \end{mydef}
 
 \begin{myexample}
-Reducir el siguiente logaritmo:
-\begin{eqnarray}
+Reducir el siguiente logaritmo:\\
+\noindent\textit{i)}
+\begin{eqnarray*}
 ln(\sqrt{e})=ln(e^{1/2})=\dfrac{1}{2}ln(e)=\dfrac{1}{2}\cdot 1=\dfrac{1}{2}
-\end{eqnarray}
+\end{eqnarray*}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+log_{10}2\sqrt{2\sqrt{2\sqrt{2}}} &=&log_{10}2\left( 2\sqrt{2\sqrt{2}}\right)^{1/2}\\
+ &=& log_{10}(2)+ log_{10}\left( 2\sqrt{2\sqrt{2}}\right)^{1/2}\\
+ &=& log_{10}(2)+\dfrac{1}{2} log_{10}\left( 2\sqrt{2\sqrt{2}}\right)\\
+  &=& log_{10}(2)+\dfrac{1}{2}\left[ log_{10}(2)+log_{10}\left( \sqrt{2\sqrt{2}}\right)\right]\\
+    &=& log_{10}(2)+\dfrac{1}{2} log_{10}(2)+\dfrac{1}{2} log_{10}\left( \sqrt{2\sqrt{2}}\right)\\
+    &=& log_{10}(2)+\dfrac{1}{2} log_{10}(2)+\dfrac{1}{2} log_{10}\left( 2\sqrt{2}\right)^{1/2}\\
+     &=& \dfrac{3}{2} log_{10}(2)+\dfrac{1}{4} log_{10}\left( 2\sqrt{2}\right)\\
+      &=& \dfrac{3}{2} log_{10}(2)+\dfrac{1}{4} log_{10}(2)+\dfrac{1}{4}log_{10}(2)^{1/2}\\
+      &=& \dfrac{3}{2} log_{10}(2)+\dfrac{1}{4} log_{10}(2)+\dfrac{1}{8}log_{10}(2)\\
+      &=& log_{10}(2)\left[\dfrac{3}{2}+\dfrac{1}{4}+\dfrac{1}{8} \right]\\
+      &=& \dfrac{15}{8} log_{10}(2)\\
+\end{eqnarray*}
+\noindent\textit{iii)}
+\begin{eqnarray*}
+log_{10}\left(\dfrac{x^{4}y(w+z)}{wz} \right)&=& log_{10}\left(x^{4}y(w+z) \right)-log_{10}\left(wz \right)\\
+&=& log_{10}(x^{4}y)+ log_{10}(w+z)-log_{10}\left(wz \right)\\
+&=& log_{10}(x^{4})+log_{10}(y)+ log_{10}(w+z)-\left[ log_{10}(w)+log_{10}(z) \right]\\
+&=& 4log_{10}(x)+log_{10}(y)+ log_{10}(w+z)-log_{10}(w)-log_{10}(z) \\
+\end{eqnarray*}
 \end{myexample}
 
 \section{Ecuaciones exponenciales y logarítmicas}
@@ -1093,7 +1211,7 @@ Si\hspace{4px} log_{b}(x_{1})&=&log_{b}(x_{2}),\hspace{4px} entonces\hspace{4px}
 \begin{myexample}
 Encontrar el valor de x de las siguientes ecuaciones:\\
 
-\noindent a)
+\noindent\textit{i)}
 \begin{eqnarray*}
 7^{2(x+1)}&=&343\\
 7^{2(x+1)}&=&7^{3}\\
@@ -1103,7 +1221,7 @@ Encontrar el valor de x de las siguientes ecuaciones:\\
 x&=&\dfrac{1}{2}
 \end{eqnarray*}
 \end{myexample}
-\noindent b)
+\noindent\textit{ii)}
 \begin{eqnarray*}
 ln(2)+ln(4x-1)&=&ln(2x+5)\\
 ln(2(4x-1))&=&ln(2x+5)\\
@@ -1123,8 +1241,8 @@ Si hablamos de modelos exponenciales, es porque  la incógnita se encuentra en e
 \begin{eqnarray}
 P(t)=P_{0}e^{kt}, \hspace{6px} k>0 
 \end{eqnarray} 
-El término $P(t)$ no dice que la incógnita es $t$, es decir, el tiempo. Por lo que el modelo nos dice cuanta población habrá en un tiempo determinado. La constante $P(0)$ se llama población inicial y se condiciona a la cantidad población que hay en el tiempo cero ($t=0$). Por último, la constante $k$ se llama tasa de crecimiento y nos dice que tan rápido crece, notar que si $k<0$ sería de decrecimiento. 
-
+El término $P(t)$ nos dice que la incógnita es $t$, es decir, el tiempo. Por lo que el modelo nos dice cuanta población habrá en un tiempo determinado. La constante $P(0)$ se llama población inicial y se condiciona a la cantidad población que hay en el tiempo cero ($t=0$). Por último, la constante $k$ se llama tasa de crecimiento y nos dice que tan rápido crece, notar que si $k<0$ sería de decrecimiento. 
+\newpage
 \begin{myexample}
 La bacteria Escherichia coli (E. coli) duplica su población en 20 minutos. Usar el modelo exponencial para calcular la población de bacterias después de 6 horas.\\
 
@@ -1148,6 +1266,36 @@ P(t=6)&=&P_{0}\cdot 262144
 Ahora uno puede poner casos particulares de la población inicial ($P_{0}$) y multiplicarlo por $262144$, que es la población de la bacteria luego de $6$ $horas$.
 \end{myexample}
 
+\begin{myexample}
+Se necesita estudiar el crecimiento de dos tipos de bacterias, $P_{1}$ y $P_{2}$. La primera alcanza la población de $10.000$ en $4$ horas y la segunda comienza con el doble de la población respecto a la primera, además la segunda alcanza la población de $10.000$ en $3$ horas. Con el modelo exponencial encuentre la población inicial ($P_{0}$) de cada bacteria. Se asume el parámetro de crecimiento $k$ es el mismo para ambas bacterias
+\end{myexample}
+Expresiones para ambas bacterias:
+\begin{eqnarray}
+P_{1}(t)= P_{0}e^{kt} &y& P_{2}=2P_{0}e^{kt}
+\label{bac}
+\end{eqnarray}
+Expresiones en que la población de ambas bacterias es de $10.000$:
+\begin{eqnarray*}
+P_{1}(t=4)=10000 &y& P_{2}(t=3)=10000 \\
+P_{0}e^{4k}&=&2P_{0}e^{3k}=10000\\
+e^{4k}&=&2e^{3k}\hspace*{90px} / \cdot e^{-3k}\\
+e^{k}&=&2\hspace*{105px} / ln()\\
+ln(e^{k})&=&ln(2)\\
+k&=& ln(2)
+\end{eqnarray*}
+Encontrado el parámetro k (que es el mismo para ambas bacterias), se reemplaza en (\ref{bac}) y se obtiene:
+\begin{eqnarray*}
+P_{1}(t)= P_{0}e^{ln(2)t} &y& P_{2}=2P_{0}e^{ln(2)t}
+\end{eqnarray*}
+y las expresiones cuando alcanzar las $10000$ bacterias son:
+\begin{eqnarray*}
+10000= P_{0}e^{4\cdot ln(2)} &y& 10000=2P_{0}e^{3\cdot ln(2)}\\
+10000= P_{0}e^{4\cdot ln(2)} &y& 5000=P_{0}e^{3\cdot ln(2)}\\
+10000= P_{0}e^{ ln(16)} &y& 5000=P_{0}e^{ln(8)}\\
+P_{0}=\dfrac{10000}{e^{ln(16)}} &y& P_{0}=\dfrac{5000}{e^{ln(8)}}\\
+P_{0}&=&625
+\end{eqnarray*}
+Como la población inicial es $P_{0}=625$ unidades. Entonces la bacteria uno, $P_{1}$, comenzó con $625$ de población inicial y la bacteria dos, $P_{2}$, con $1250$ unidades.
 \subsection{Modelos matemáticos logarítmicos}
 
 Una aplicación muy interesante donde aplicar los logaritmos, en base 10 en este caso, es en la escala de Ricther. Esta escala compara las energías de distintos sismos. 
@@ -1174,7 +1322,7 @@ Entonces, el terremoto del año $1960$ en Valdivia fue más de $6$ veces más fu
 \end{mydef}
 
 \subsection{Escalas logarítmicas y lineales}
-Al ver las funciones logarítmicas y exponenciales se puede notar que no siempre es lo más optimo ocupar la \textit{escala usual}.  Comúnmente se una la escala lineal en los gráficos, que tiene la misma distancia entre los puntos que delimitan el gráfico (la distancia que hay entre en 1 y el 2, es la misma que hay entre el 2 y el 3 y así sucesivamente). Hay otras escalas que representan mejor algunas funciones, como por ejemplo las logarítmicas. Esta escala tiene como etiquetas los números $10^{n}$, siendo $n$ un número entero positivo o negativo (por lo que la etiqueta es siempre positiva).\\
+Al ver las funciones logarítmicas y exponenciales se puede notar que no siempre es lo más optimo ocupar la \textit{escala usual}.  Comúnmente se una la escala lineal en los gráficos, que tiene la misma distancia entre los puntos que delimitan el gráfico (la distancia que hay entre en 1 y el 2, es la misma que hay entre el 2 y el 3 y así sucesivamente). Hay otras escalas que representan mejor algunas funciones, como por ejemplo las logarítmicas. Esta escala tiene como etiquetas los números $10^{n}$, siendo $n$ un número entero positivo o negativo, por lo que la etiqueta es siempre positiva.\\
 Como resumen de estas escalas, es que son importante o son útiles usarlas cuando el rango de los datos es muy amplia.\\
 
 A continuación mostramos algunos ejemplos de diferentes funciones graficadas en cuatros escalas distintas. De izquierda a derecha y de arriba a abajo es: Escala lineal, escala logarítmica en $x$ o semilog en $x$ (esto quiere decir que se utiliza escala logarítmica solo en el eje $x$), escala logarítmica en $y$ o semilog $y$ y escala logarítmica (escala logarítmica tanto en $x$ como en $y$).\\
@@ -1184,7 +1332,7 @@ A continuación mostramos algunos ejemplos de diferentes funciones graficadas en
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.45]{Func0.png}
+\includegraphics[scale=0.4]{Func0.png}
 \caption[Cuatro escalas de la función $0.5^{x}$]{Cuatro escalas de la función $0.5^{x}$.} \label{func00}
 \end{figure}
 \end{center}
@@ -1192,7 +1340,7 @@ A continuación mostramos algunos ejemplos de diferentes funciones graficadas en
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.45]{Func1.png}
+\includegraphics[scale=0.4]{Func1.png}
 \caption[Cuatro escalas de la función $e^{x/2}/160$]{Cuatro escalas de la función $e^{x/2}/160$.} \label{func01}
 \end{figure}
 \end{center}
@@ -1200,15 +1348,15 @@ A continuación mostramos algunos ejemplos de diferentes funciones graficadas en
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.45]{Func2.png}
+\includegraphics[scale=0.4]{Func2.png}
 \caption[Cuatro escalas de la función $log_{10}(x)$]{Cuatro escalas de la función $log_{10}(x)$.} \label{func02}
 \end{figure}
 \end{center}
 
- \begin{center}
-\begin{figure}[h!]
-\centering
-\includegraphics[scale=0.45]{Func3.png}
-\caption[Cuatro escalas de la función $x^{2}$]{Cuatro escalas de la función $x^{2}$.} \label{func03}
-\end{figure}
-\end{center}
+% \begin{center}
+%\begin{figure}[h!]
+%\centering
+%\includegraphics[scale=0.45]{Func3.png}
+%\caption[Cuatro escalas de la función $x^{2}$]{Cuatro escalas de la función $x^{2}$.} \label{func03}
+%\end{figure}
+%\end{center}

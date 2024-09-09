@@ -9,8 +9,8 @@
 %----------------------------------------------------------------------
 
 %----------------------------------------------------------------------
-En el capítulo (\ref{TC}) se vieron conjuntos de elementos que cuando tiene una característica en común se les llama conjuntos. Más explícitamente en el ejemplo (\ref{ejemplosNR}) se revisó los diferentes conjuntos de números que existen (No son los únicos). En el presente capítulo nos enfocaremos en el conjunto de los números reales, denotado por la letra $\mathbb{R}$.\\
-Para representar los números reales, recurriremos al conjunto de los números irracionales ($\mathbb{I}$) y el conjunto de los números racionales ($\mathbb{Q}$), entonces la unión de estos dos conjuntos forman el conjunto de los números reales
+En el capítulo (\ref{TC}) se vieron conjuntos de elementos que cuando tiene una característica en común y se les llama conjuntos. Más explícitamente, en el ejemplo (\ref{ejemplosNR}) se revisó los diferentes conjuntos de números que existen (No son los únicos). En el presente capítulo nos enfocaremos en el conjunto de los números reales, denotado por la letra $\mathbb{R}$.\\
+Para representar los números reales, recurriremos al conjunto de los números irracionales ($\mathbb{I}$), el cual son todos aquellos números que no se pueden expresar como una fracción y el conjunto de los números racionales ($\mathbb{Q}$) que si es posible expresarlos como un cociente de dos números enteros. Entonces, la unión de estos dos conjuntos forman el conjunto de los números reales.
 \begin{eqnarray*}
 \mathbb{R}&=&\mathbb{I}\cup \mathbb{Q} \nonumber\\
 \mathbb{N}&\subset & \mathbb{Z }\subset \mathbb{Q}\subset \mathbb{R}\nonumber
@@ -58,6 +58,34 @@ El conjunto de los números reales contiene dos operaciones, una adición y una 
 \textbf{Sustracción.} $a-b=a+(-b)$, $\forall$ $a,b \in \mathbb{R}$ 
 \end{mydef}
 
+\begin{myexample}
+Considere tres números reales $a=5$, $b=4$, $c=7$ y resuelva los tres enunciados anteriores.
+\end{myexample}
+\noindent\textit{i)}
+\begin{eqnarray*}
+a+(b+c)&=&(a+b)+c\\
+5+(4+7)&=&(5+4)+7\\
+5+(11)&=&(9)+7\\
+16&=&16
+\end{eqnarray*}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+a+b&=&b+a\\
+5+4&=&4+5\\
+9&=&9
+\end{eqnarray*}
+\noindent\textit{iii)}
+\begin{eqnarray*}
+a+0&=&a\\
+5+0&=&5
+\end{eqnarray*}
+\noindent\textit{iv)}
+\begin{eqnarray*}
+a-b&=&a+(-b)\\
+5-4&=&5+(-4)\\
+5-4&=&5-4\\
+1&=&1\\
+\end{eqnarray*}
 
 \subsection{Multiplicación en los números reales}
 \noindent 1) $a\cdot(b\cdot c)=(a\cdot b)\cdot c$, $\forall a$, $b$, $c$ $\in \mathbb{R}$.\\
@@ -72,9 +100,35 @@ El conjunto de los números reales contiene dos operaciones, una adición y una 
 \textbf{División.} $\dfrac{a}{b}=a\cdot b^{-1}$, $\forall a,b\in\mathbb{R}$, $b\neq 0$.
 \end{mydef}
 
+\begin{myexample}
+Considere tres números reales $a=5$, $b=4$, $c=7$ y resuelva los tres enunciados anteriores
+\end{myexample}
+\noindent\textit{i)}
+\begin{eqnarray*}
+a\cdot(b\cdot c)&=&(a\cdot b)\cdot c \\
+5\cdot(4\cdot 7)&=&(5\cdot 4)\cdot 7 \\
+5\cdot(28)&=&(20)\cdot 7 \\
+140&=&140
+\end{eqnarray*}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+a\cdot b&=&b\cdot a\\
+5\cdot 4&=&4\cdot 5\\
+20&=&20
+\end{eqnarray*}
+\noindent\textit{iii)}
+\begin{eqnarray*}
+a\cdot 1=a\\
+5\cdot 1=5
+\end{eqnarray*}
+\noindent\textit{iv)}
+\begin{eqnarray*}
+\dfrac{a}{b}&=&a\cdot b^{-1}\\
+\dfrac{5}{4}&=&5\cdot 4^{-1}\\
+\end{eqnarray*}
 \subsection{Consecuencias de la adición y sustracción}
 \label{consecu}
-\noindent 1) Unicidad del 0 y del 1. Unicidad significa que existe solo un elemento dentro del conjunto, más específicamente, hay un solo elemento que cumple la acción del cero y el uno. \\
+\noindent 1) Unicidad del 0 y del 1. Unicidad significa que existe solo un elemento dentro del conjunto, más específicamente, hay un solo elemento que cumple la acción del cero (elemento absorbente) y el uno (elemento neutro). \\
 
 \noindent 2) Unicidad de los inversos. Tanto en la suma como en la multiplicación existe un solo inverso.\\
 
@@ -90,7 +144,7 @@ El conjunto de los números reales contiene dos operaciones, una adición y una 
 
 \noindent 8) $(-a)\cdot b=a\cdot(-b)=-(a\cdot b)$; \hspace{8px} $(-a)\cdot(-b)=a\cdot b$, $\forall a,b\in\mathbb{R}$. \\
 
-\noindent 9) Si $a\neq 0$, la ecuación $ax+b=c$ tiene solución única en $\mathbb{R}$. \\
+\noindent 9) Si $a\neq 0$, la ecuación $ax+b=c$ tiene solución única en $\mathbb{R}$, es decir, que la incógnita $x$ solo puede tomar un solo valor para cumplir dicha igualdad. \\
 
 \noindent 10) $-(a+b)=(-a)+(-b)=-a-b$, $\forall a,b\in\mathbb{R}$. \\
 
@@ -99,30 +153,73 @@ El conjunto de los números reales contiene dos operaciones, una adición y una 
 \noindent 12) $\forall a,b\in\mathbb{R}:$ $a\cdot b=0\Leftrightarrow a=0\vee b=0$. \\
 
 \noindent 13) Si $a\neq 0$, entonces $(a^{-1})^{-1}=a$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+(5^{-1})^{-1}&=&\left(\dfrac{1}{5}\right)^{-1}=\dfrac{1}{1/5}=5 \\
+\end{eqnarray*}
+\end{myexample}
+\newpage
 \noindent 14) Si $a,b\neq 0$, entonces $(a\cdot b)^{-1}=a^{-1}b^{-1}$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+(5\cdot 7)^{-1}&=&5^{-1}\cdot 7^{-1} \\
+&=& \dfrac{1}{5}\cdot \dfrac{1}{7}=\dfrac{1}{35}
+\end{eqnarray*}
+\end{myexample}
 \noindent 15) Si $b,d\neq 0$, $\dfrac{a}{b}=\dfrac{c}{d}\Leftrightarrow a\cdot d =b\cdot c$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{x}{3}&=&\dfrac{7}{2} \\
+2\cdot x &=& 3\cdot 7\\
+x&=&\dfrac{21}{2}
+\end{eqnarray*}
+\end{myexample}
 \noindent 16) Si $b,c\neq 0$, $\dfrac{a}{b}=\dfrac{a\cdot c}{b\cdot c}$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{5}{3}&=&\dfrac{5\cdot 7}{3\cdot 7}=\dfrac{5}{3} \\
+\end{eqnarray*}
+\end{myexample}
 \noindent 17) Si $c\neq 0$, $\dfrac{a}{c}\pm\dfrac{b}{c}=\dfrac{a\pm b}{c}$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{5}{3}+\dfrac{7}{3}&=&\dfrac{5+7}{3}=\dfrac{12}{3}=4 \\
+\end{eqnarray*}
+\end{myexample}
 \noindent 18) Si $b,d \neq 0$, $\dfrac{a}{b}\cdot\dfrac{c}{d}=\dfrac{a\cdot c}{b\cdot d}$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{5}{3}\cdot\dfrac{7}{2}&=&\dfrac{5\cdot 7}{3\cdot 2}=\dfrac{35}{6} \\
+\end{eqnarray*}
+\end{myexample}
 \noindent 19) Si $b,c,d\neq 0$, $\dfrac{a/b}{c/d}=\dfrac{a}{b}\cdot\dfrac{d}{c}$. \\
-
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{5/3}{7/2}&=&\dfrac{5}{3}\cdot\dfrac{2}{7}=\dfrac{10}{21} \\
+\end{eqnarray*}
+\end{myexample}
 \noindent 20) Si $b,d\neq 0$, $\dfrac{a}{b}\pm\dfrac{c}{d}=\dfrac{a\cdot d\pm b\cdot c}{b\cdot d}$. \\
+
+\begin{myexample}
+\begin{eqnarray*}
+\dfrac{5}{3}+\dfrac{7}{2}&=&\dfrac{5\cdot 2+7\cdot 3}{6} \\
+&=& \dfrac{10+21}{6}=\dfrac{31}{6}
+\end{eqnarray*}
+\end{myexample}
 \section{Porcentajes}
 De la figura (\ref{rectar}) se  pueden ver algunos elementos de los números reales son fracciones, que a su vez son números decimales. Mencionar que todo número real puede ser expresado como número decimal.
 \begin{eqnarray*}
 \dfrac{25}{7}=3.57142...
 \end{eqnarray*}
-Para algunos casos prácticos sirven estos decimales o fracciones para representar porcentajes de  alguna cantidad. Cuando se dice ``un $x$ porcentaje de algo'' se representa como
+Para algunos casos, sirven estos decimales o fracciones para representar porcentajes de  alguna cantidad. Cuando se dice ``un $P_{\%}$ porcentaje de algo'' se representa como
 \begin{eqnarray}
-\dfrac{x}{100}\cdot Cantidad
+x_{\%}=\dfrac{P_{\%}}{100}\cdot Cantidad
 \end{eqnarray} 
-Donde $x$ es el porcentaje que busco calcular de la cantidad. En algunos casos simplemente se multiplica la fracción y se multiplica directamente el número decimal por la cantidad
+Donde $P_{\%}$ es el porcentaje que busco calcular de la cantidad y $x_{\%}$ es el resultado. Además, considerar la palabra \textit{de} como una multiplicación. En algunos casos simplemente se multiplica el número decimal por la cantidad. Esto surge desde la regla de tres simple que se puede hacer entre el porcentaje y la cantidad que busco
+\begin{eqnarray}
+Cantidad\rightarrow 100\% \nonumber \\
+x_{\%} \rightarrow P_{\%} \nonumber
+\end{eqnarray}
 
 \begin{myexample}
 Calcular el $20\%$ de $120$:
@@ -132,6 +229,24 @@ x_{20}&=&\dfrac{1}{5}\cdot 120\\
 x_{20}&=&24
 \end{eqnarray*}
 \end{myexample}
+
+Una propiedad importante que se cumple en los porcentajes es ocupando la conmutativa de la multiplicación\footnote{Propiedad conmutativa: Tanto en la suma como en la multiplicación si se cambia el orden de los factores, el resultado será el mismo}. Se puede decir que el $A\%$ de $B$ es igual a $B\%$ de $A$. 
+\begin{eqnarray*}
+\dfrac{A}{100}\cdot B &y&  \dfrac{B}{100}\cdot A \\
+\dfrac{A\cdot B}{100} &y&  \dfrac{B\cdot A}{100} \\
+Conmutatividad \longrightarrow A\cdot B &=& B\cdot A\\
+\dfrac{A\cdot B}{100} &=& \dfrac{B\cdot A}{100}
+\end{eqnarray*}
+
+\begin{myexample}
+Calcular el $20\%$ de $150$ y el $150\%$ de $20$:
+\end{myexample}
+
+\begin{eqnarray*}
+\dfrac{20}{100}\cdot 150 &y&  \dfrac{150}{100}\cdot 20 \\
+\dfrac{1\cdot 150}{5} &y&  \dfrac{3\cdot 20}{2} \\
+30 &=& 30
+\end{eqnarray*}
 
 Para otro caso que se utilizan los porcentajes, es para calcular el porcentaje de crecimiento o decrecimiento de cierta cantidad.\\
 
@@ -175,7 +290,7 @@ Sol: Primero, se identifica las cantidades que se deben reemplazar en (\ref{perc
 \end{myexample}
 
 \begin{myexample}
-El ejemplo anterior se puede resolver también con la formula de decreciemiento. Si definimos $V_{i}=150$ $litros$ y $V_{f}=100$ $litros$. 
+El ejemplo anterior se puede resolver también con la fórmula de decreciemiento. Si definimos $V_{i}=150$ $litros$ y $V_{f}=100$ $litros$. 
 \begin{eqnarray*}
 \dfrac{V_{i}-V_{f}}{V_{i}}\times 100\% &=&\dfrac{150-100\hspace{3px}litros}{150\hspace{3px}litros}\times 100\%\\
 &=& \dfrac{50\hspace{3px}litros}{150\hspace{3px}litros}\times 100\%\\
@@ -184,14 +299,16 @@ El ejemplo anterior se puede resolver también con la formula de decreciemiento.
 \end{eqnarray*}
 \end{myexample}
 
-Con las fórmulas de porcentaje se puede obtener diferente información desde un mismo problema según lo que uno necesite.\\
+Con las fórmulas de porcentaje se puede obtener diferente información desde un mismo problema según lo que uno necesite, pero siempre considerando que si son porcentajes complementarios deben sumar $100\%$.\\
  
 \section{Desigualdades}
 
-En la figura (\ref{rectar}) se muestra la recta de los números reales, donde uno puede definir el elemento cero como el \textit{origen} y cada número, ya sea positivo o negativo, tener una distancia con respecto a ese origen. Cada número real puede representarte como un punto en esta recta que se llama \textit{coordenada}, pero usualmente solo se dice $5$ y no ``el punto $5$''.\\
-Esta distancia que tienen los números permite dar un orden a los números reales, entonces si tomamos dos elementos $a$ y $b$ se puede decir las siguientes afirmaciones.\\
-
-Si $a$ está a la izquierda de $b$, se dice que $a$ es menor que $b$ y se denota $a<b$. El otro caso es que si $a$ está a la derecha de $b$, entonces se dice que $a$ es mayor que $b$ y se denota $a>b$. Siguiendo esa lógica están los caso de menor o igual que se denota como $a\leq b$ y mayor igual $a\geq b$ que agrega la posibilidad que los elementos sean iguales. Estos cuatro elementos son los símbolos de las desigualdades.\\
+En la figura (\ref{rectar}) se muestra la recta de los números reales, donde uno puede definir el elemento cero como el \textit{origen} y cada número, ya sea positivo o negativo, tener una distancia con respecto a ese origen. Cada número real puede representarte como un punto en esta recta que se llama \textit{coordenada}, pero usualmente solo se dice $5$ y no ``el punto $5$''. Esta distancia que tienen los números permite dar un orden a los números reales (Esto no se cumple en todos los conjuntos de números, por ejemplo en los números complejos). Entonces, si tomamos dos elementos $a$ y $b$ se puede decir las siguientes afirmaciones:
+\begin{itemize}
+\item  Si $a$ está a la izquierda de $b$, se dice que $a$ es menor que $b$ y se denota $a<b$.
+\item  Si $a$ está a la derecha de $b$, entonces se dice que $a$ es mayor que $b$ y se denota $a>b$.
+\end{itemize}
+ Siguiendo esa lógica están los caso de menor o igual que se denota como $a\leq b$ y mayor igual $a\geq b$ que agrega la posibilidad que los elementos sean iguales. Estos cuatro elementos son los símbolos de las desigualdades.\\
 
 Para definir las propiedades de las desigualdades se debe utilizar un subconjunto de los números reales que llamaremos $\mathbb{P}$ ($\mathbb{P}\subset\mathbb{R}$) donde sus elementos son los números positivos.\\
 
@@ -203,30 +320,43 @@ Para definir las propiedades de las desigualdades se debe utilizar un subconjunt
 \begin{eqnarray*}
 a\in\mathbb{P}, \hspace{3px} a=0, \hspace{3px} -a\in\mathbb{R}
 \end{eqnarray*}
-
+Esto nos indica las tres posibilidades donde puede estar $a$, que es parte del conjunto $\mathbb{P}$, ser igual a cero o su negativo está en los números reales ($\mathbb{R}$) que no se considera en $\mathbb{P}$.
 \begin{mydef}
 Dado $a,b\in\mathbb{R}$ se define:\\
 
 \noindent 1) $a<b\Leftrightarrow b-a\in\mathbb{P}$.\\
-\noindent 2) $a\leq b\Leftrightarrow a<b\vee a=b$. \\
-\noindent 3) $a>b\Leftrightarrow b<a$. \\
-\noindent 4) $a\geq b\Leftrightarrow b\leq a$. \\
-\end{mydef}
+Si el número $b$ es mayor que $a$, la resta de ambos elementos existe en los números positivos\\
 
+\noindent 2) $a\leq b\Leftrightarrow a<b\vee a=b$. \\
+Se simboliza la situación que $a$ puede ser menor o igual al número $b$.\\
+
+\noindent 3) $a>b\Leftrightarrow b<a$. \\
+
+\noindent 4) $a\geq b\Leftrightarrow b\leq a$. \\
+La definición 3 y 4 simboliza que si se invierten los elementos $a$ y $b$, para mantener la desigualdad verdadera, se debe cambiar el sentido del símbolo de la desigualdad.
+\end{mydef}
+\newpage
 \subsection{Propiedades de las desigualdades}
 
 \noindent 1) $\forall a\in\mathbb{R}$, $a>0\Leftrightarrow a\in\mathbb{P}$ \\
+Se considera que el número $a$ es positivo, por lo que existe en el tramo (intervalo) entre lo números inmediatamente después del cero y el infinito positivo.\\
 
 \noindent 2) $a\in\mathbb{R}$,  $a<0\Leftrightarrow -a>0$ \\
+Si la desigualdad dice, que para este caso el número $a$ es menor que cero. Cuando se multiplica a ambos lados de la desigualdad por un factor con signo negativo (por ejemplo: $-1$), el símbolo cambia de sentido.\\
+
 \noindent 3) Para cada $a\neq 0$, $a^{2}>0$ \\
+Por las reglas de los signos, independiente si $a$ es negativo o positivo el resultado siempre será positivo.\\
+
 \noindent 4) Para $a,b,c\in\mathbb{R}$, 
 $$\left\{\begin{array}{ll} 
 a<b \\
 \hspace{35px}\Rightarrow a<c\\
 b<c
 \end{array} \right. \\$$
+Si se dice que que el número $a$ es menor que el número $b$ y luego que el número $b$ es menor que el número $c$. Entonces, el número $a$ es menor que el número $c$. Se le llama relación transitiva.\\
 
 \noindent 5) Para $a,b,c\in\mathbb{R}$ $a<b\Leftrightarrow a+c<b+c$\\
+Si hay una desigualdad entre los números $a$ y $b$ y se le suma una número $c$ a ambos lados, la desigualdad se mantiene en el mismo sentido.\\
 
 \noindent 6) Para $a,b,c,d\in\mathbb{R}$
 $$
@@ -235,31 +365,45 @@ a<b\\
 \hspace{35px} \Rightarrow a+c<b+d\\
 c<d
 \end{array}\right. $$\\
+Si hay dos desigualdad y se suman los números menores de cada una ($a$ y $c$ para este caso) siempre serán menores que la suma de los números mayores de las desigualdades correspondientes ($b$ y $d$ para este caso).\\
 
 \noindent 7) $a,b,c\in\mathbb{R}, c>0$, $a<b\Leftrightarrow a\cdot c< b\cdot c$\\
-
+Si hay una desigualdad entre dos números ($a$ y $b$ para este caso) y se multiplica por un factor $c$ mayor que cero, la desigualdad mantiene su sentido.\\
+\newpage
 \noindent 8) $a,b,c\in\mathbb{R}, c<0$, $a<b\Leftrightarrow a\cdot c> b\cdot c$\\
+Si hay una desigualdad entre dos números ($a$ y $b$  para este caso) y se multiplica por un factor $c$ menor que cero, la desigualdad cambia su sentido.\\
 
-\noindent 9) $a>0\Leftrightarrow a^{-1}>0$, \hspace{10px} $a<0\Leftrightarrow a^{-1}<0$
-
+\noindent 9) $a>0\Leftrightarrow a^{-1}>0$, \hspace{10px} $a<0\Leftrightarrow a^{-1}<0$\\
+Esta propiedad dice que independiente del signo del número $a$, su respectivo inverso seguirá teniendo el mismo signo, por lo tanto el símbolo de la desigualdad no cambia.\\
+ 
 \noindent 10) $$ a\cdot b>0\Leftrightarrow \left\{ 
 \begin{array}{ll}
 a>0 \wedge b>0\\
 \vee \\
 a<0 \wedge b<0
 \end{array}
-\right. $$
+\right. $$\\
+Si los números $a$ y $b$ se multiplican y el resultado es mayor que cero, solo existen los casos en que ambos números tienen el mismo signo.\\
 
-\noindent 11) $$ a\cdot b<0 \left\{\begin{array}{ll}
+\noindent 11) $$ a\cdot b<0 \Leftrightarrow \left\{\begin{array}{ll}
 a>0 \wedge b<0\\
 \vee \\
 a<0 \wedge b>0
 \end{array} \right.$$
+Si los números $a$ y $b$ se multiplican y el resultado es menor que cero, solo existe el caso en los números tengan signos distintos.\\
 
-\noindent 12) Para $a,b>0$, $a<b\Leftrightarrow a^{-1}>b^{-1}$
+\noindent 12) Para $a,b>0$, $a<b\Leftrightarrow a^{-1}>b^{-1}$\\
+Si hay una desigualdad entre los números $a$ y $b$, donde $a$ es menor que $b$. Cuando se hace la desigualdad con sus respectivos inversos, la desigualdad cambia de sentido. Lo veremos con un ejemplo.\\
 
+\begin{myexample}
+Se consideran dos números bajo la condición $a<b$, entonces se selecciona $a=2$ y $b=4$. Ahora, mostramos la propiedad de la desigualdad. 
+\end{myexample}
+\begin{eqnarray*}
+2<4&\Leftrightarrow & \dfrac{1}{2}>\dfrac{1}{4}\\
+&\Leftrightarrow & 0.5>0.25
+\end{eqnarray*}
 \subsection{Intervalos con desigualdades}
-Es momento de juntar lo visto hasta el momento de conjuntos con los conceptos de las desigualdades. Utilizaremos el paréntesis cuadrado (en algunos textos ocupan otros tipos de paréntesis) para identificar cuando un intervalo es \textit{cerrado} o \textit{abierto}.\\
+Es momento de juntar lo visto hasta el momento de conjuntos con los conceptos de las desigualdades. Utilizaremos el paréntesis cuadrado (en otros textos utilizan el paréntesis redondo para representar que el intervalo tiene un extremo abierto) para identificar cuando un intervalo es \textit{cerrado} o \textit{abierto}.\\
 \begin{eqnarray}
 \left] a,b\right[ =\left\{x\in\mathbb{R}:a<x<b\right\} \label{abierto}\\
 \left[ a,b\right] = \left\{x\in\mathbb{R}:a\leq x\leq b\right\}\label{cerrado} \\
@@ -268,25 +412,44 @@ Es momento de juntar lo visto hasta el momento de conjuntos con los conceptos de
 \end{eqnarray}
 El caso (\ref{abierto}) se llama un intervalo abierto en ambos extremos o solamente abierto, esto significa que los elementos $a$ y $b$ no pertenecen al conjunto. Para el caso (\ref{cerrado}) es un conjunto cerrado, por lo que si considera a los elementos $a$ y $b$. Los casos (\ref{abiertob}) y (\ref{abiertoa}) son abiertos en un solo extremo y siguen las mismas reglas que los otros dos casos anteriores. Cuando hay un infinito en el intervalo siempre se considera abierto por ese extremo.
 \begin{eqnarray}
-\left]a,+\infty\right[=\{x\in\mathbb{R}:x>a\}\\
+\left]a,+\infty\right[=\{x\in\mathbb{R}:x>a\}\label{infabierto0}\\
 \left[a,+\infty\right[=\{x\in\mathbb{R}:x\geq a\}\\
-\left]-\infty ,a\right[=\{x\in\mathbb{R}:x< a\}\\
-\left]-\infty ,a\right]=\{x\in\mathbb{R}:x\leq a\}
-\label{interif}
+\left]-\infty ,a\right[=\{x\in\mathbb{R}:x< a\}\label{infabierto}\\
+\left]-\infty ,a\right]=\{x\in\mathbb{R}:x\leq a\} 
 \end{eqnarray}
 
+
+
+\begin{center}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.35]{intervalos0.png}
+		\caption[Representación de intervalos cerrados y abiertos]{Representación de intervalos cerrados y abiertos. a) Muestra el caso de un intervalo entre los números $a$ y $b$, donde en el extremo $a$ es cerrado (circulo negro) y abierto por el extremo $b$ (circunferencia negra). b) Muestra dos casos, el de la izquierda es un intervalo abierto desde $a$ hasta $-\infty$ (caso \ref{infabierto}) y el de la derecha es un intervalo abierto desde $a$ hasta $+\infty$ (\ref{infabierto0}).}
+		\label{interbalos0}
+	\end{figure}
+\end{center}
+
 \section{Valor absoluto}
-Así como anteriormente se mencionó que la recta permite dar orden a los números reales, también puede representar una distancia. Esta distancia que tiene un elemento dado con respecto al origen es el \textit{valor absoluto}. Como no hay distancias negativas, la distancia es la misma para un elemento $a$ como para un elemento $-a$. La notación son dos barras verticales $||$.
+Así como anteriormente se mencionó que la recta permite dar orden a los números reales, también puede representar una distancia. Esta distancia que tiene un elemento dado con respecto al origen es el \textit{valor absoluto}. Como no hay distancias negativas, el resultado es la mismo para un elemento $a$ como para un elemento $-a$. La notación son dos barras verticales $||$.
 
 \begin{mydef}
 \textbf{Valor absoluto}. Sea $a\in\mathbb{R}$, entonces el valor absoluto de un número se define como:\
 
-$$ |a| \left\{\begin{array}{ll}
+$$ |a|= \left\{\begin{array}{ll}
 a, & si \hspace{6px} a\geq 0\\
 -a, & si \hspace{6px} a<0 
 \end{array} \hspace{6px} \right.$$
 \label{absdef}
 \end{mydef}
+
+\begin{center}
+	\begin{figure}[h!]
+		\centering
+		\includegraphics[scale=0.35]{abscorrido.png}
+		\caption[Representación del valor absoluto]{Representación del valor absoluto. La linea continua muestra el valor absoluto más común, el cual está centrado en el origen del plano. Las lineas continuas verde y azul son gráficas del absoluto común, pero trasladados en 3 unidades hacia la derecha e izquierda. Se valida que el valor absoluto siempre es positivo.}
+		\label{abscorrido}
+	\end{figure}
+\end{center}
 
 \subsection{Propiedades del valor absoluto}
 \label{Propabs}
@@ -294,15 +457,47 @@ a, & si \hspace{6px} a\geq 0\\
 
 \noindent 2) $\forall a\in\mathbb{R}$, $|a|=0\Leftrightarrow a=0$ \\
 
-\noindent 3) $\forall a\in\mathbb{R}$, $|-a|=|a|$ \\
-
-\noindent 4) $\forall a,b\in\mathbb{R}$, $|a\cdot b|=|a|\cdot|b|$ \\
-
+\noindent 3)  $\forall a,b\in\mathbb{R}$, $|a\cdot b|=|a|\cdot|b|$  \\
+\begin{myexample}
+\begin{eqnarray*}
+|5\cdot 3|=|5|\cdot |3|= 5\cdot 3= 15
+\end{eqnarray*}
+\end{myexample}
+\noindent 4) $\forall a\in\mathbb{R}$, $|-a|=|a|$ \\
+\begin{myexample}
+\begin{eqnarray*}
+|5|=|-5|=5
+\end{eqnarray*}
+\end{myexample}
 \noindent 5) $\forall a,b\in\mathbb{R}$, $b\neq 0$, $\left|\dfrac{a}{b}\right|=\dfrac{|a|}{|b|}$ \\
-
-\noindent 6) $\forall a,b\in\mathbb{R}$, $|a \pm b|\leq |a|+|b|$ \\
+\begin{myexample}
+\begin{eqnarray*}
+\left|\dfrac{24}{12}\right|=\dfrac{|24|}{|12|}=\dfrac{24}{12}=2
+\end{eqnarray*}
+\end{myexample}
+\noindent 6) $\forall a,b\in\mathbb{R}$, $|a \pm b|\leq |a|+|b|$. A esta propiedad se le llama desigualdad triangular. Se a llevado a contextos más complicados de lo que abarca este texto, pero la idea primitiva es que siempre se cumplirá que la suma de las longitudes de dos lados cualesquiera de un triangulo, es mayor o igual que la del tercer lado. \\
 
 \noindent 7) $\forall a,b\in\mathbb{R}$, $||a|-|b||\leq |a\pm b|$ \\
+
+\begin{myexample}
+Sea $a=6$ y $b=5$.  Comprobar ambos casos de la propiedad $7$. 
+\end{myexample}
+\noindent\textit{i)}
+\begin{eqnarray*}
+||a|-|b||&\leq & |a- b| \\
+||6|-|5||&\leq & |6- 5| \\
+|6-5|&\leq & |1|\\
+1&\leq & 1\\
+\end{eqnarray*}
+
+\noindent\textit{ii)}
+\begin{eqnarray*}
+||a|-|b||&\leq & |a+ b| \\
+||6|-|5||&\leq & |6+ 5| \\
+|6-5|&\leq & |11|\\
+1&\leq & 11\\
+\end{eqnarray*}
+Se ve que para ambos casos se cumple la regla que el lado derecho es mayor o igual.\\
 
 \noindent 8) $\forall a,b\in\mathbb{R}$, $|a|=|b|\Rightarrow a=b \vee a= -b$ \\
 
@@ -312,22 +507,24 @@ a, & si \hspace{6px} a\geq 0\\
 
 9.2) $|x|<c\Leftrightarrow -c<x<c \Leftrightarrow -c<x\wedge x<c$\\
 
-9.3) $|x|>c\Leftrightarrow x>c \vee x<-c$
+9.3) $|x|>c\Leftrightarrow x>c \vee x<-c$\\
+
+Tomar en consideración que el resultado de un valor absoluto siempre es positivo, por lo que es importante que $c>0$. Distinto es que el valor dentro del valor absoluto pueda tener valor negativo.
 \begin{center}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.55]{abs0.png}
+		\includegraphics[scale=0.65]{abs0.png}
 		\caption[Representación de un caso de valor absoluto de la propiedad 9.2]{Representación de un caso de valor absoluto de la propiedad 9.2. La zona sombreada es donde se encuentre la variable $x$ y las flechas muestran el sentido de la desigualdad particular. El resultado es la intersección de ambas condiciones.}
 	\end{figure}
 \end{center}
 \begin{center}
 	\begin{figure}[h!]
 		\centering
-		\includegraphics[scale=0.5]{abs1.png}
+		\includegraphics[scale=0.6]{abs1.png}
 		\caption[Representación de un caso de valor absoluto de la propiedad 9.3]{Representación de un caso de valor absoluto de la propiedad 9.3. La zona sombreada es donde se encuentre la variable $x$ y las flechas muestran el sentido de la desigualdad particular. El resultado es la unión de ambas condiciones.}
 	\end{figure}
 \end{center}
-
+\newpage
 \begin{myexample}
 Ejercicios de valor absoluto.
 \end{myexample}
@@ -335,11 +532,13 @@ Ejercicios de valor absoluto.
 &a)& |2|=2\\
 &b)&|-2|=2\\
 &c)&|5-7|=|-2|=2\\
-&d)&|-3|-|-10|=3-(10)=-7
+&d)&|-3|-|-10|=3-(10)=-7\\
+&e)& |x|<3 \longrightarrow -3<x<3\longrightarrow -3<x \wedge x<3\\
+&f)& |x|>3 \longrightarrow -3>x\vee x>3\\
 \end{eqnarray*}
 
 \begin{myexample}
-Encontrar el signo de la expresión $|x-6|$ para los casos cuando $a)$ $x>6$, $b)$ $x=6$ y $c)$ $x<6$
+Encontrar el signo de la expresión $|x-6|$ para los casos cuando: $a)$ $x>6$, $b)$ $x=6$ y $c)$ $x<6$
 \end{myexample}
 \noindent a) Primero notar que la variable toma cualquier valor mayor a $6$ y no considera al mismo número $6$. Se puede tomar cualquier número del conjunto para ver el signo del valor absoluto, por ejemplo el número $10$.\\
 \begin{eqnarray}
@@ -360,7 +559,7 @@ En la ecuación (\ref{vapmenos}) el resultado final es positivo por la operació
 
 \section{Exponentes}
 \label{exponentes}
-Cuando se suma varias veces una variable, para acortar la notación se escribe el número de las veces que se repite la variable y esto se multiplica por la variable, como por ejemplo $w+w+w+s+s=3w+2s$. Para el caso de la multiplicación de variables elevados a un número están las reglas de los exponentes (ya sean números enteros o fracciones) que veremos a continuación.\\
+Cuando se suma varias veces una variable, para acortar la notación se escribe el número de las veces que se repite la variable y esto se multiplica por la variable, como por ejemplo $w+w+w+s+s=3w+2s$. Para el caso de la multiplicación de variables están las reglas de los exponentes (ya sean números enteros o fracciones) que veremos a continuación.\\
 
 \begin{eqnarray}
 x^{m}x^{n}&=&x^{m+n}\\
@@ -397,18 +596,18 @@ x&,\hspace{6px} si\hspace{2px} n\hspace{2px} es\hspace{2px} impar.\\
 \end{eqnarray}
 
 \begin{myexample}
-Ejercicios de exponentes
+Ejercicios de exponentes enteros y fracciones:
 \end{myexample}
 \begin{eqnarray*}
-&a)& 77\cdot 77 \cdot 77\cdot 77 =77^{4}\\
-&b)& 8^{-3}=\dfrac{1}{8^{3}}=\dfrac{1}{8\cdot 8\cdot 8}=\dfrac{1}{512}\\
-&c)& \sqrt{2}=2^{1/2}\\
-&d)& \sqrt[3]{10^{2}}=10^{2/3}\\
-&e)& -5^{2}=-(5\cdot 5)=-25\\
-&f)& (-5)^{2}=25\\
-&g)& \sqrt{\dfrac{x^{2}}{25}}=\dfrac{\sqrt{x^{2}}}{\sqrt{25}}=\dfrac{|x|}{5}\\
-&h)& \sqrt[3]{-8}=-2\\
-&i)& \sqrt{256}=\sqrt{2^{8}}=2^{8/2}=2^{4}=16
+&i)& 77\cdot 77 \cdot 77\cdot 77 =77^{4}\\
+&ii)& 8^{-3}=\dfrac{1}{8^{3}}=\dfrac{1}{8\cdot 8\cdot 8}=\dfrac{1}{512}\\
+&iii)& \sqrt{2}=2^{1/2}\\
+&iv)& \sqrt[3]{10^{2}}=10^{2/3}\\
+&v)& -5^{2}=-(5\cdot 5)=-25\\
+&vi)& (-5)^{2}=25\\
+&vii)& \sqrt{\dfrac{x^{2}}{25}}=\dfrac{\sqrt{x^{2}}}{\sqrt{25}}=\dfrac{|x|}{5}\\
+&viii)& \sqrt[3]{-8}=-2\\
+&ix)& \sqrt{256}=\sqrt{2^{8}}=2^{8/2}=2^{4}=16
 \end{eqnarray*}
 
 \subsection{Racionalización}
@@ -436,6 +635,19 @@ Para el caso en que solo sea un término de raíz en la fracción, se debe multi
 \dfrac{a}{\sqrt[n]{x^{k}}}\cdot\dfrac{\sqrt[n]{x^{n-k}}}{\sqrt[n]{x^{n-k}}}=\dfrac{a\sqrt[n]{x^{n-k}}}{\sqrt[n]{x^{k}}\sqrt[n]{x^{n-k}}}=\dfrac{a\sqrt[n]{x^{n-k}}}{\sqrt[n]{x^{k}\cdot x^{n-k}}}=\dfrac{a\sqrt[n]{x^{n-k}}}{\sqrt[n]{x^{k+n-k}}}=\dfrac{a\sqrt[n]{x^{n-k}}}{\sqrt[n]{x^{n}}}=\dfrac{a\sqrt[n]{x^{n-k}}}{x}
 \end{eqnarray} 
 Donde el número $k$ es al que está elevado el número dentro de la raíz y $n$ es la $n-$é$sima$ raíz del número.
+
+\begin{myexample}
+Considere la fórmula anterior para racionalizar la expresión $\dfrac{5}{\sqrt[5]{x^{3}}}$
+\end{myexample}
+Se identifica que el $a=5$, $k=3$ y $n=5$, por lo que al racionalizar se obtiene lo siguiente:
+\begin{eqnarray*}
+\dfrac{5}{\sqrt[5]{x^{3}}}&=& \dfrac{5}{\sqrt[5]{x^{3}}}\dfrac{\sqrt[5]{x^{5-3}}}{\sqrt[5]{x^{5-3}}}\nonumber\\
+&=& \dfrac{5}{\sqrt[5]{x^{3}}}\dfrac{\sqrt[5]{x^{2}}}{\sqrt[5]{x^{2}}}\nonumber\\
+&=& \dfrac{5\sqrt[5]{x^{2}}}{\sqrt[5]{x^{3}x^{2}}}\nonumber\\
+&=& \dfrac{5\sqrt[5]{x^{2}}}{\sqrt[5]{x^{5}}}\nonumber\\
+&=& \dfrac{5\sqrt[5]{x^{2}}}{x}\nonumber\\
+\end{eqnarray*}
+
 \section{Factorización de polinomios}
 
 \begin{mydef}
@@ -446,7 +658,7 @@ a_{n}x^{n}+a_{n-1}x^{n-1}+\cdots +a_{2}x^{2}+a_{1}x+a_{0}
 \end{eqnarray}
 con $a_{n}\neq 0$, $n$ es un número entero no negativo y $a_{i}$, $i=0,1,...,n$ son números reales.
 \end{mydef}
-Para los casos particulares, cuando $n=0$ es una constante, $n=1$ es un polinomio lineal, $n=2$ es un polinomio cuadratico, $n=3$ es un polinomio cúbico y para los $n\geq 4$ son polinomios de orden $n$.\\
+Para los casos particulares, cuando $n=0$ es una constante, $n=1$ es un polinomio lineal, $n=2$ es un polinomio cuadrático, $n=3$ es un polinomio cúbico y para los $n\geq 4$ son polinomios de orden $n$.\\
 \begin{myexample}
 Sea  $5x^{4}+3x^{2}+1$ un polinomio de orden 4. Se identifican los términos desde la ecuación (\ref{polg00}) con el caso de $n=4$.
 \begin{eqnarray*}
@@ -462,7 +674,7 @@ Puede darse el caso en que hay una expresión que permite escribir un polinomio 
 Factorizar el siguiente polinomio.
 \end{myexample}
 \begin{eqnarray*}
-6x^{4}y^{4}-4x^{2}y^{2}+10\sqrt{2}xy^{3}-2xy^{2}&=& 2xy^{2}(3x^{3}y^{2}-2x+5\sqrt{2}y-1)
+\sqrt{2}x^{5}y^{4}+5x^{4}y^{7}+10y^{7}x^{3}-3x^{2}y^{5}=y^{4}x^{2}(\sqrt{2}x^{3}+5x^{2}y^{3}+10xy^{3}-3y)
 \end{eqnarray*}
 Lo importante en la factorización es encontrar el factor común que tienen los términos. Este factor puede ser común en todos los términos o solo en algunos.\\
 
@@ -493,13 +705,13 @@ Los coeficientes son $b=-9$ y $c=18$, entonces $B+D=-9$ y $BD=18$. La segunda re
 \begin{eqnarray*}
 1(18),\hspace{6px}2(9),\hspace{6px}3(6),\hspace{6px}-1(-18),\hspace{6px}-2(-9),\hspace{6px}o \hspace{6px}-3(-6),
 \end{eqnarray*}
-pero de todas las opciones anteriores solo sirve el caso en que  $B=-3$ y $D=-6$. Entonces los factores queda de la forma 
+pero de todas las opciones anteriores solo sirve el caso en que  $B=-3$ y $D=-6$. Entonces, los factores queda de la forma:
 \begin{eqnarray*}
 x^{2}-9x+18=(x-3)(x-6)
 \end{eqnarray*}
 
 \subsubsection{Polinomio cuadrática en caso general}
-Para el caso  general donde el polinomio tiene la forma $ax^{2}+bx+c=0$ se debe aplicar la formula de ecuación cuadrática
+Para el caso general, donde el polinomio tiene la forma $ax^{2}+bx+c=0$ se debe aplicar la fórmula de ecuación cuadrática
 \begin{eqnarray}
 x_{\pm}=\dfrac{-b\pm\sqrt{b^{2}-4ac}}{2a}
 \label{ecccuadra}
@@ -527,17 +739,26 @@ x_{+}=\dfrac{-2}{10} &y& x_{-}=\dfrac{-10}{10}\\
 x_{+}=\dfrac{-1}{5} &y& x_{-}=-1\\
 \left(x+\dfrac{1}{5}\right)&\wedge &\left( x+1\right)=0
 \end{eqnarray*}
+\newpage
+\begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{casoscuad.png}
+\caption[Casos de la ecuación cuadrática según su determinante.]{Casos de la ecuación cuadrática según su determinante. Para los tres gráficos se muestran dos casos, las parábolas con coeficiente $a>0$ (linea continua roja y etiquetada como $f(x)$) y las parábolas con coeficiente $a<0$ (linea continua celeste y etiquetada como $g(x)$), además los puntos verdes muestran las soluciones (intersecciones con el eje $x$) de cada caso. a) El determinante es cero ($\Delta=0$), por lo que existe una solución en los números reales (Cuadrado del binomio). b) Determinante mayor que cero ($\Delta >0$), por lo que sol soluciones reales y distintas. c) Determinante menor que cero ($\Delta <0$), en este caso no existen soluciones en los números reales por lo que las parábolas no intersectan al eje $x$.}
+\end{figure}
+\end{center}
 
-Algo importante a notar en la ecuación (\ref{ecccuadra}) es el término que está bajo la raíz cuadrad al cual se le llama determinante. El término es $\sqrt{b^{2}-4ac}$ y se desprenden 3 casos posibles
+Algo importante a notar en la ecuación (\ref{ecccuadra}) es el término que está bajo la raíz cuadrada, a la cual se le llama determinante (Que se simboliza con la letra griega delta, $\Delta$). El término es $\sqrt{b^{2}-4ac}$ y se desprenden 3 casos posibles
 
 \begin{itemize}
 	\item Si $b^{2}-4ac>0$ la ecuación tiene soluciones distintas y reales.\\
 	\item  Si $b^{2}-4ac=0$, tiene soluciones iguales y reales\\
-	\item Si $b^{2}-4ac<0$ la solución pertenece a los números complejos $\mathbb{C}$.\\
+	\item Si $b^{2}-4ac<0$, la solución pertenece a los números complejos $\mathbb{C}$.\\
 \end{itemize}
 
 
-\subsection{Formulas de factorización}
+
+\subsection{fórmulas de factorización}
 \label{facto}
 \begin{eqnarray}
  x^{2}+2ax+a^{2}&=&(x+a)^{2} \label{fa0}\\
@@ -547,18 +768,41 @@ x^{3}+a^{3} &=& (x+a)(x^{2}-ax+a^{2}) \label{fa3}
 \end{eqnarray}
 La ecuación (\ref{fa0}) es un cuadrado perfecto, la ecuación (\ref{fa1}) es una diferencia de cuadrados, la ecuación (\ref{fa2}) es una diferencia de dos cubos y la ecuación (\ref{fa3}) es una suma de dos cubos. Siempre estas ecuaciones pueden cambiar las variables y no altera el resultado.
 
+\begin{myexample}
+Expandir o reducir los siguientes casos:\\
+\noindent\textit{i)}
+\begin{eqnarray*}
+(x+3)^{2} &=& (x+3)(x+3)\nonumber \\
+&=& x(x+3)+3(x+3) \nonumber \\
+&=& x^{2}+3x+3x+9 \nonumber \\
+&=& x^{2}+6x+9 \nonumber \\
+\end{eqnarray*}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+(x-5)(x+5) &=& x(x+5)-5(x+5)\nonumber \\
+&=& x^{2}+5x-5x-25 \nonumber \\
+&=& x^{2}-25\nonumber \\
+\end{eqnarray*}
+\noindent\textit{iii)}
+\begin{eqnarray*}
+(x+4)(x^{2}-4x+16) &=&  x(x^{2}-4x+16)+4(x^{2}-4x+16) \nonumber \\
+&=& x^{3}-4x^{2}+16x+4x^{2}-16x+64  \nonumber \\
+&=& x^{3}+64  \nonumber \\
+\end{eqnarray*}
+\end{myexample}
+
 \section{Expresiones racionales}
 Expandiendo el universo de posibilidades, veremos el caso de polinomios en fracciones. Aquí combinaremos lo visto en la sección anterior de polinomios con las propiedades vistas en la sección (\ref{consecu}).\\
 Lo importante de esta sección es ver cuando se puede simplificar algunas expresiones, para ello, en algunos casos debemos dejar que los factores coincidan tanto en el denominador como en numerador de la fracción.\\
 \begin{myexample}
-Simpleficar la siguiente expresión:
+Simplificar la siguiente expresión:
 \begin{eqnarray*}
 \dfrac{2x^{2}-x-1}{x^{2}-1}=\dfrac{(2x+1)(x-1)}{(x+1)(x-1)}=\dfrac{2x+1}{x+1}
 \end{eqnarray*}
 \end{myexample}
 
 \subsection{Mínimo común denominador (MCD)}
-Al igual que en los números se busca el factor que tienen en común cada una de las fracciones. El factor se encuentra mediante la factorización de cada denominador y tomando los elementos en común que tengan. 
+Al igual que en los números, se busca el factor que tienen en común cada una de las fracciones. El factor se encuentra mediante la factorización de cada denominador y tomando los elementos en común que tengan. 
 
 \begin{myexample}
 Reduzca la siguiente expresión fraccional

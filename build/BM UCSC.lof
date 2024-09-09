@@ -1,69 +1,75 @@
 \babel@toc {spanish}{}\relax 
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Representación del diagrama de Venn para tres conjuntos}}{17}{figure.2.1}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Representación de diferencia de dos conjuntos}}{18}{figure.2.2}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Representación del complemento del conjunto $A$}}{18}{figure.2.3}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Representación de la intersección de dos conjuntos}}{19}{figure.2.4}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Representación de la unión de dos conjuntos}}{20}{figure.2.5}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de la diferencia simétrica entre el conjunto $A$ y $B$ }}{20}{figure.2.6}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Representación del diagrama de Venn para tres conjuntos}}{18}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Representación de diferencia de dos conjuntos}}{19}{figure.2.2}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Representación del complemento del conjunto $A$}}{19}{figure.2.3}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Representación de la intersección de dos conjuntos}}{20}{figure.2.4}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Representación de la unión de dos conjuntos}}{21}{figure.2.5}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Representación de la diferencia simétrica entre los conjuntos $A$ y $B$ }}{22}{figure.2.6}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Representación de conjuntos disjuntos y no disjuntos}}{24}{figure.2.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de los números reales}}{28}{figure.3.1}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Representación de la recta de los números reales}}{28}{figure.3.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Representación de un caso de valor absoluto de la propiedad 9.2}}{36}{figure.3.3}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Representación de un caso de valor absoluto de la propiedad 9.3}}{36}{figure.3.4}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Esquema de los números reales}}{30}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Representación de la recta de los números reales}}{30}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Representación de intervalos cerrados y abiertos}}{41}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Representación del valor absoluto}}{42}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Representación de un caso de valor absoluto de la propiedad 9.2}}{44}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Representación de un caso de valor absoluto de la propiedad 9.3}}{44}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Casos de la ecuación cuadrática según su determinante.}}{51}{figure.3.7}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfica de función cuadrática del ejemplo (\ref {ejem441}).}}{52}{figure.4.1}%
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfico del ejemplo (\ref {ejemplo442}).}}{54}{figure.4.2}%
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Gráfica de los intervalos en la recta de los números reales.}}{55}{figure.4.3}%
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Gráfica de los intervalos en la recta de los números reales.}}{56}{figure.4.4}%
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Gráfica de función cuadrática del ejemplo (\ref {ejem441}).}}{63}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Gráfico del ejemplo (\ref {ejemplo442}).}}{65}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Gráfica de los intervalos en la recta de los números reales.}}{66}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Gráfica de los intervalos en la recta de los números reales.}}{67}{figure.4.4}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Esquema de una función matemática.}}{58}{figure.5.1}%
-\contentsline {figure}{\numberline {5.2}{\ignorespaces Esquema de una función y gráfico de una variable dependiente e independiente.}}{58}{figure.5.2}%
-\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráfica para diferenciar una función.}}{60}{figure.5.3}%
-\contentsline {figure}{\numberline {5.4}{\ignorespaces Función que intersecta los ejes.}}{61}{figure.5.4}%
-\contentsline {figure}{\numberline {5.5}{\ignorespaces Función par e impar.}}{62}{figure.5.5}%
-\contentsline {figure}{\numberline {5.6}{\ignorespaces Transformaciones rígidas.}}{63}{figure.5.6}%
-\contentsline {figure}{\numberline {5.7}{\ignorespaces Transformaciones no rígidas.}}{64}{figure.5.7}%
-\contentsline {figure}{\numberline {5.8}{\ignorespaces Funciones lineales.}}{65}{figure.5.8}%
-\contentsline {figure}{\numberline {5.9}{\ignorespaces Funciones cuadraticas.}}{66}{figure.5.9}%
-\contentsline {figure}{\numberline {5.10}{\ignorespaces Funciones crecientes y decrecientes.}}{68}{figure.5.10}%
-\contentsline {figure}{\numberline {5.11}{\ignorespaces Función por partes.}}{70}{figure.5.11}%
-\contentsline {figure}{\numberline {5.12}{\ignorespaces Función máximo entero.}}{71}{figure.5.12}%
-\contentsline {figure}{\numberline {5.13}{\ignorespaces Cociente de diferencia.}}{75}{figure.5.13}%
-\contentsline {figure}{\numberline {5.14}{\ignorespaces Función uno a uno.}}{76}{figure.5.14}%
-\contentsline {figure}{\numberline {5.15}{\ignorespaces Función inversa.}}{78}{figure.5.15}%
-\contentsline {figure}{\numberline {5.16}{\ignorespaces Grafico de una función inversa.}}{79}{figure.5.16}%
-\contentsline {figure}{\numberline {5.17}{\ignorespaces Gráfica de las rectas del problema 1.}}{80}{figure.5.17}%
-\contentsline {figure}{\numberline {5.18}{\ignorespaces Ejemplo funciones impares.}}{81}{figure.5.18}%
-\contentsline {figure}{\numberline {5.19}{\ignorespaces Ejemplo funciones pares.}}{82}{figure.5.19}%
-\contentsline {figure}{\numberline {5.20}{\ignorespaces Asíntotas verticales.}}{84}{figure.5.20}%
-\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráfica de la función $f(x)$ con su asíntota en $x=2$.}}{86}{figure.5.21}%
-\contentsline {figure}{\numberline {5.22}{\ignorespaces Gráfica de la función $f(x)$ con su asíntota horizontal en $y=0$.}}{87}{figure.5.22}%
-\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfica de funciones exponenciales para el caso de la base $b>1$.}}{89}{figure.5.23}%
-\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráfica de funciones exponenciales para el caso de la base $0<b<1$}}{90}{figure.5.24}%
-\contentsline {figure}{\numberline {5.25}{\ignorespaces Gráfica de funciones logarítmicas para el caso de la base $b>1$}}{92}{figure.5.25}%
-\contentsline {figure}{\numberline {5.26}{\ignorespaces Gráfica de funciones logarítmicas para el caso de la base $0<b<1$}}{92}{figure.5.26}%
-\contentsline {figure}{\numberline {5.27}{\ignorespaces Cuatro escalas de la función $0.5^{x}$}}{97}{figure.5.27}%
-\contentsline {figure}{\numberline {5.28}{\ignorespaces Cuatro escalas de la función $e^{x/2}/160$}}{97}{figure.5.28}%
-\contentsline {figure}{\numberline {5.29}{\ignorespaces Cuatro escalas de la función $log_{10}(x)$}}{98}{figure.5.29}%
-\contentsline {figure}{\numberline {5.30}{\ignorespaces Cuatro escalas de la función $x^{2}$}}{98}{figure.5.30}%
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Esquema de una función matemática.}}{69}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Esquema de una función y gráfico de una variable dependiente e independiente.}}{69}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gráfica para diferenciar una función.}}{72}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Función que intersecta los ejes.}}{73}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Función par e impar.}}{74}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Transformaciones rígidas.}}{75}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Transformaciones no rígidas.}}{76}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Funciones lineales.}}{78}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Funciones cuadraticas.}}{78}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Funciones crecientes y decrecientes.}}{81}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Función por partes.}}{83}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Función máximo entero.}}{84}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Cociente de diferencia.}}{89}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Función uno a uno.}}{90}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Función inversa.}}{92}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Grafico de una función inversa.}}{92}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Ejemplo funciones impares.}}{93}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Ejemplo funciones pares.}}{94}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Asíntotas verticales.}}{97}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Gráfica de la función $f(x)$ con su asíntota en $x=2$.}}{98}{figure.5.20}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Gráfica de la función $f(x)$ con su asíntota horizontal en $y=0$.}}{99}{figure.5.21}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Gráfica de funciones exponenciales para el caso de la base $b>1$.}}{101}{figure.5.22}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Gráfica de funciones exponenciales para el caso de la base $0<b<1$}}{102}{figure.5.23}%
+\contentsline {figure}{\numberline {5.24}{\ignorespaces Gráfica de funciones logarítmicas para el caso de la base $b>1$}}{104}{figure.5.24}%
+\contentsline {figure}{\numberline {5.25}{\ignorespaces Gráfica de funciones logarítmicas para el caso de la base $0<b<1$}}{104}{figure.5.25}%
+\contentsline {figure}{\numberline {5.26}{\ignorespaces Cuatro escalas de la función $0.5^{x}$}}{110}{figure.5.26}%
+\contentsline {figure}{\numberline {5.27}{\ignorespaces Cuatro escalas de la función $e^{x/2}/160$}}{111}{figure.5.27}%
+\contentsline {figure}{\numberline {5.28}{\ignorespaces Cuatro escalas de la función $log_{10}(x)$}}{111}{figure.5.28}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {6.1}{\ignorespaces Figura de ángulos positivo y negativo}}{100}{figure.6.1}%
-\contentsline {figure}{\numberline {6.2}{\ignorespaces Figura de radianes positivo y negativo}}{100}{figure.6.2}%
-\contentsline {figure}{\numberline {6.3}{\ignorespaces Triangulo rectángulo con las etiquetas sus catetos e hipotenusa}}{101}{figure.6.3}%
-\contentsline {figure}{\numberline {6.4}{\ignorespaces Representación de un vector.}}{103}{figure.6.4}%
-\contentsline {figure}{\numberline {6.5}{\ignorespaces Representación Representación de vectores iguales y opuestos.}}{104}{figure.6.5}%
-\contentsline {figure}{\numberline {6.6}{\ignorespaces Representación de la suma y resta de dos vectores.}}{104}{figure.6.6}%
-\contentsline {figure}{\numberline {6.7}{\ignorespaces Representación de los vectores unitarios.}}{106}{figure.6.7}%
-\contentsline {figure}{\numberline {6.8}{\ignorespaces Representación de las componentes de un vector.}}{107}{figure.6.8}%
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Figura de ángulos positivo y negativo}}{113}{figure.6.1}%
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Figura de radianes positivo y negativo}}{113}{figure.6.2}%
+\contentsline {figure}{\numberline {6.3}{\ignorespaces Triangulo rectángulo con las etiquetas sus catetos e hipotenusa}}{114}{figure.6.3}%
+\contentsline {figure}{\numberline {6.4}{\ignorespaces Representación de un vector.}}{116}{figure.6.4}%
+\contentsline {figure}{\numberline {6.5}{\ignorespaces Representación Representación de vectores iguales y opuestos.}}{117}{figure.6.5}%
+\contentsline {figure}{\numberline {6.6}{\ignorespaces Representación de la suma y resta de dos vectores.}}{118}{figure.6.6}%
+\contentsline {figure}{\numberline {6.7}{\ignorespaces Representación de los vectores unitarios.}}{120}{figure.6.7}%
+\contentsline {figure}{\numberline {6.8}{\ignorespaces Representación de las componentes de un vector.}}{122}{figure.6.8}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {7.1}{\ignorespaces Muestra gráfica de la definición de derivada para una variable.}}{113}{figure.7.1}%
-\contentsline {figure}{\numberline {7.2}{\ignorespaces Máximos y mínimos de una función.}}{116}{figure.7.2}%
-\contentsline {figure}{\numberline {7.3}{\ignorespaces Gráfica de la función con los puntos críticos y sus cambios de comportamientos.}}{118}{figure.7.3}%
-\contentsline {figure}{\numberline {7.4}{\ignorespaces Concavidad de las funciones.}}{119}{figure.7.4}%
-\contentsline {figure}{\numberline {7.5}{\ignorespaces Gráfica de la función con las concavidades de cada intervalo.}}{120}{figure.7.5}%
-\contentsline {figure}{\numberline {7.6}{\ignorespaces Gráfica de la función con los puntos críticos que demuestra el resultado del criterio de la segunda derivada.}}{122}{figure.7.6}%
-\contentsline {figure}{\numberline {7.7}{\ignorespaces Representación de la integral.}}{122}{figure.7.7}%
-\contentsline {figure}{\numberline {7.8}{\ignorespaces Representación gráfica del valor medio de la función.}}{125}{figure.7.8}%
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Gráfica de la definición de límite.}}{125}{figure.7.1}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Muestra gráfica de la definición de derivada para una variable.}}{130}{figure.7.2}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Máximos y mínimos de una función.}}{134}{figure.7.3}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Gráfica de la función con los puntos críticos y sus cambios de comportamientos.}}{136}{figure.7.4}%
+\contentsline {figure}{\numberline {7.5}{\ignorespaces Concavidad de las funciones.}}{137}{figure.7.5}%
+\contentsline {figure}{\numberline {7.6}{\ignorespaces Gráfica de la función con las concavidades de cada intervalo.}}{138}{figure.7.6}%
+\contentsline {figure}{\numberline {7.7}{\ignorespaces Gráfica de la función con los puntos críticos que demuestra el resultado del criterio de la segunda derivada.}}{139}{figure.7.7}%
+\contentsline {figure}{\numberline {7.8}{\ignorespaces Gráfico de las funciones de concentración de los fármacos.}}{141}{figure.7.8}%
+\contentsline {figure}{\numberline {7.9}{\ignorespaces Gráfico del modelo polinómico del periodo arterial.}}{142}{figure.7.9}%
+\contentsline {figure}{\numberline {7.10}{\ignorespaces Representación de la integral.}}{143}{figure.7.10}%
+\contentsline {figure}{\numberline {7.11}{\ignorespaces Casos de la función $f(x)$ del ejemplo (\ref {ejemploConst}) para tres valores distintos de la constante C.}}{147}{figure.7.11}%
+\contentsline {figure}{\numberline {7.12}{\ignorespaces Representación gráfica del valor medio de la función.}}{149}{figure.7.12}%
 \addvspace {10\p@ }

@@ -11,24 +11,28 @@
 \label{ecc0}
 %----------------------------------------------------------------------
 
-En las ecuaciones se plantea que ambos lados de ellas son iguales. Para tener una única solución se debe tener igual número de ecuaciones y de variables que se desean encontrar. En el caso particular que veremos, necesitamos una ecuación para una sola variable.\\
+En las ecuaciones se plantea que ambos lados de ellas son iguales, por lo mismo es que se utiliza el símbolo $=$. Para tener una única solución se debe tener igual número de ecuaciones y de variables que se desean encontrar, solo para ese caso se obtienen soluciones exactas para el o las incógnitas. En el caso particular que veremos, necesitamos una ecuación para una sola variable.\\
 \begin{equation}
 x-10^{2}=0 \label{ecc01}
 \end{equation} 
 Entonces, al menos uno de los lados de la expresión debe contener la variable que se busca, en la ecuación (\ref{ecc01}) está al lado izquierdo y la variable es la $x$. Cuando se encuentra la (o las) solución(es) de la ecuación(es) se le llaman raíz (raíces en el caso de tener más de una). En términos de lógica matemática, la solución o raíz de una ecuación es cualquier número que convierte la expresión en una proposición verdadera.\\
 
 \begin{mydef}
-\textbf{Ecuaciones equivalentes} Dos ecuaciones son equivalentes si tienen las mismas soluciones
+\textbf{Ecuaciones equivalentes} Dos ecuaciones son equivalentes si tienen las mismas soluciones.
 \end{mydef} 
 
 \begin{mydef}
 \textbf{Operaciones que producen ecuaciones equivalentes. }\\
+
 \noindent i) Sumar o restar un elemento que represente un número real a ambos lados de la ecuación. \\
+
 \noindent ii) Multiplicar o dividir cada miembro de la ecuación por un mismo elemento que represente un número real.\\
 \end{mydef} 
-
+\newpage
 \begin{myexample}
-Encontrar la solución de la siguiente ecuación:
+Encontrar las soluciones de las siguientes ecuaciones:
+\end{myexample}
+\noindent\textit{i)}
 \begin{eqnarray*}
 3x-18&=&0\\
 3x-18+18&=&+18\\
@@ -36,7 +40,13 @@ Encontrar la solución de la siguiente ecuación:
 x&=&18/3\\
 x&=&6\\
 \end{eqnarray*}
-\end{myexample}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+\dfrac{x}{2}+\dfrac{3}{4}&=&\dfrac{5}{8}\\
+\dfrac{x}{2}&=&\dfrac{5}{8}-\dfrac{3}{4}\\
+\dfrac{x}{2}&=&-\dfrac{1}{8}\\
+x&=&-\dfrac{1}{4}\\
+\end{eqnarray*}
 
 \subsection{Ecuaciones con mas variables}
 Está el caso en que tendremos más variables que número de ecuaciones, por lo que debemos elegir una variable para \textit{dejarla en función} de otras variables. Esto es muy común cuando tengo conocimiento parcial de las variables.
@@ -52,7 +62,30 @@ R_{2}&=&\dfrac{RR_{1}}{R_{1}-R}
 \end{myexample}
 En el ejemplo (\ref{ejR}) se puede ver que $R_{2}$ está en función de otras dos variables $R$ y $R_{1}$. Otra forma de escribirlo es $R_{2}\left( R,R_{1}\right)$.
 
+Se recurre a este procedimiento cuando se tiene sistemas de ecuaciones, para despejar una variable de una ecuación y la expresión resultante se reemplaza en las ecuaciones restantes.
+
+\begin{myexample}
+Se consideran un sistema de ecuaciones con dos expresiones. 
+\end{myexample}
+\begin{eqnarray*}
+2x+3y&=&10\\
+4x-2y&=&6
+\end{eqnarray*}
+\begin{eqnarray*}
+x=\dfrac{6+2y}{4}\\
+2\left(\dfrac{6+2y}{4} \right)+3y=10
+\end{eqnarray*}
+
+\begin{eqnarray*}
+12+4y+12y&=&40\\
+y&=&\dfrac{28}{16}=\dfrac{7}{4}\\
+x&=&\dfrac{6+2(7/4)}{4}=\dfrac{19}{8}
+\end{eqnarray*}
+Finalmente, se encuentran que las variables son $y=7/4$ y $x=19/8$ respectivamente.
+
 \subsection{Problemas con enunciado}
+Un proceso es importante en la matemática es contextualizar el problema y saber llevar el enunciado a una expresión matemática. Veremos como se pasa desde un texto a una ecuación o sistema de ecuaciones. Se debe tener en cuenta que lo primero es identificar el o las variables que son parte del problema para luego saber la relación que pueden tener entre ellas.
+
 \noindent 1) Escribir el doble y el triple de un número $x:$
   \begin{flalign*}
 Sol: 2x \hspace{6px}y \hspace{6px} 3x && 
@@ -67,7 +100,7 @@ Sol&: (3x)^{2}&&
   \begin{flalign*}
 Sol: \dfrac{x}{4} \hspace{6px}y \hspace{6px} \dfrac{3x}{4} && 
   \end{flalign*}
-  
+  \newpage
  \noindent 4) Camila tiene $15$ años que es la tercera parte de la edad que tiene su madre ¿Cuál es la edad de la madre de Camila?\\
  
  Primero se identifica la edad de la madre de Camila como la variable que se busca, la llamaremos $x$
@@ -93,7 +126,7 @@ Un médico usa habitualmente soluciones de alcohol al $20\%$ y otro al $70\%$, p
 S_{20}+S_{70}&=&15 \label{s}\\
 0,20\cdot S_{20}+0,70\cdot S_{70}&=&6\label{spor}
 \end{eqnarray}
- La ecuación (\ref{s}) surge de que los litros de ambas soluciones deben sumar 15 litros y la ecuación (\ref{spor}) es de los litros netos de alcohol de cada solución, por lo mismo es que se saca el porcentaje neto de alcohol a los 15 litros ($40\cdot 0,15=6$). \\
+ La ecuación (\ref{s}) surge de que los litros de ambas soluciones deben sumar 15 litros y la ecuación (\ref{spor}) es de los litros netos de alcohol de cada solución, por lo mismo es que se saca el porcentaje neto de alcohol a los 15 litros ($40\cdot 0,15=6$ o $(40\cdot 15)/100$). \\
  El procedimiento es despejar cualquier variable y luego reemplazar en la otra ecuación. En este caso despejamos $S_{20}$ en función de $S_{70}$.
 \begin{eqnarray*}
 S_{20}=15-S_{70},
@@ -136,7 +169,7 @@ Resolver y encontrar el conjunto solución de la siguiente desigualdad.
 x&<&12/3\\
 x&<&4\\
 \end{eqnarray*}
-El conjunto solución es $x\in ]\infty,4[$. Ver notación en (\ref{interif}). 
+El conjunto solución es $x\in ]\infty,4[$. 
 \end{myexample}
 
 \begin{myexample}
@@ -157,10 +190,10 @@ Está el caso en que la variable se encuentra entre dos desigualdades, pero el p
 -17&<&5x<44\\
 -17/5&<&x<44/5\\
 \end{eqnarray*}
-De la ecuación anterior se concluye que $x\in ]-17/5,44/5[$. Se debe notar que se extiende para los casos en que la desigualdad es con mayor o igual y menor o igual.\\
-
+De la ecuación anterior se concluye que $x\in ]-17/5,44/5[$. Se debe notar que se extiende para los casos en que la desigualdad es con mayor o igual y menor o igual. Se llega al mismo resultado si uno separa las desigualdades y conecta ambas expresiones con un $y$ lógico ($\wedge$).\\
+\newpage
 \begin{myexample}
-La siguiente tabla muestra los rangos de la frecuencia cardíaca en reposo\footnote{Esta frecuencia es definida cuando la persona está despierta, con temperatura ambiente y no ha estado sujeto a un esfuerzo reciente o estimulación recientemente. Ver aquí \url{https://en.wikipedia.org/wiki/Heart_rate}}
+Mas que resolver un expresión, las desigualdades simultaneas se pueden entender como un intervalo en el que debe existir la variable. Una muestra de esto puede ser el rango de latidos que debería tener una persona según su edad.
 \end{myexample}
 
 \begin{table}[h!]
@@ -184,7 +217,7 @@ Niños y niñas sobre 10 años, adultos y tercera edad & $60<x<100$\\
 Atletas adultos bien entrenados & $40<x<60$\\
 \hline
 \end{tabular}
-\caption[Tabla de ritmos cardíacos de personas en reposo según rango etario]{Tabla de ritmos cardíacos de personas en reposo según rango etario. Donde la variable $x$ representa la edad específica de cada persona estudiada y al tomar un valor especifico se ubica en el rango que le corresponde.}
+\caption[Tabla de ritmos cardíacos de personas en reposo según rango etario]{Tabla de ritmos cardíacos de personas en reposo según rango etario. Donde la variable $x$ representa la edad específica de cada persona estudiada y al tomar un valor se ubica en el rango que le corresponde.}
 \end{center}
 \end{table}
 
@@ -209,7 +242,7 @@ x=-1 &\vee & x=11/5\\
 \{-1\} &\cup & \{11/5\}
 \end{eqnarray*}
 \end{myexample}
-Como las ecuaciones de valores absolutos tienen más de una solución, sucede que la ecuación \textit{puede ser de una forma u otra}. Esto hace aparecer el conector lógico $\vee$, que en conjuntos es una unión de elementos o intervalos.\\
+Como las ecuaciones de valores absolutos tienen más de una solución, sucede que la ecuación \textit{puede ser de una forma u otra}. Esto hace aparecer el conector lógico $\vee$, que en teoría de conjuntos es una unión de elementos o intervalos.\\
 
 \subsection{Desigualdades}
 
@@ -227,30 +260,31 @@ Para esta definición son igualmente válidas si se cambian los símbolos de $<$
 \label{ejemplodosd}
 Resolver las siguientes desigualdades:\\
 
-\textit{i)}\\
+\noindent\textit{i)}\\
 \begin{eqnarray*}
 |x-1|&\leq &  3\\
 -3 \leq & x-1 &\leq 3 \\
 -2 \leq & x &\leq  4 \\
-&[-2,4]&
+&x\in [-2,4]&
 \end{eqnarray*}
-\textit{ii)}\\
+
+\noindent\textit{ii)}\\
 \begin{eqnarray*}
 |x+3|&\geq & 5 \\
 x+3\leq -5 &\vee &x+3\geq 5\\
 x\leq -8 &\vee &x\geq 2\\
-]-\infty,-8]&\cup & [2,+\infty [
+x\in ]-\infty,-8]&\cup & [2,+\infty [
 \end{eqnarray*}
 \end{myexample}
 
-\textit{iii)}\\
+\noindent\textit{iii)}\\
 \begin{eqnarray*}
 |6x-11| &<& 5 \\
 -5< 6x-11 &\wedge& 6x-11<5\\
 6< 6x &\wedge & 6x<16\\
 1< x &\wedge & x<16/6\\
 1< x &\wedge & x<8/3\\
-& ]1,8/3[ &
+&x\in ]1,8/3[ &
 \end{eqnarray*}
 
 \section{Desigualdades racionales y polinomiales}
@@ -267,11 +301,11 @@ Lo que se busca en esos intervalos, es que coincida la condición de la desigual
 \begin{mydef}
 \textbf{Tabla de signos:}\\
 
-\noindent i) Despejar la igualdad de forma que en un lado estén las variables y del otro el cero, es decir, debe quedar de la forma $P(x)/Q(x)>0$. Esto es válido para las cuatro posibilidades que tiene una desigualdad ($<$, $>$, $\leq$ y $\geq$). \\
+\noindent i) Despejar la igualdad de forma que en un lado estén las variables y del otro el cero, es decir, debe quedar de la forma $P(x)/Q(x)>0$. Esto es válido para las cuatro posibilidades que tiene una desigualdad ($<$, $>$, $\leq$ y $\geq$). Importante es no multiplicar por la misma variable que se quiere buscar con tal de despejar, por ejemplo en situaciones de $1/x$. \\
 
-\noindent ii) Factorizar lo máximo posible los polinomios. Visto en la sección (\ref{facto}). \\
+\noindent ii) Factorizar lo máximo posible los polinomios del numerador y denominador. Visto en la sección (\ref{facto}). \\
 
-\noindent iii) Encontrar los ceros de cada polinomio ($P(x)$ y $Q(x)$ por separado). Cada cero del polinomio es una línea divisoria entre los intervalos. \\
+\noindent iii) Encontrar los ceros de cada polinomio ($P(x)$ y $Q(x)$ por separado). Cada cero de los polinomios es una línea divisoria entre los intervalos. \\
 
 \noindent iv) Determinar el signo de la expresión total ($P(x)/Q(x)$) con un número específico que esté en cada intervalo. Luego, hacer el producto entre los signos de cada factor de la fracción. El resultado del producto es el signo que tiene la expresión en ese intervalo.\\
 \end{mydef}
@@ -279,13 +313,13 @@ Lo que se busca en esos intervalos, es que coincida la condición de la desigual
 \begin{myexample}
 \label{ejem441}
 Resolver la siguiente desigualdad:\\
+\end{myexample}
 \begin{eqnarray*}
 x^{2}&\geq & -2x+15 \\
 x^{2}+2x-15&\geq & 0\\
 x^{2}+2x-15&\geq & 0\\
 (x+5)(x-3)&\geq & 0\\
-Identificar\hspace{3px} ceros: \\
-(x+5)=0 &\vee & (x-3)=0\\
+Identificar\hspace{3px} ceros\longrightarrow (x+5)=0 &\vee & (x-3)=0\\
 x=-5 &\vee & x=3 \\
 \end{eqnarray*}
 Tabla de signos, donde los ceros son el $-5$ y el $3$.
@@ -307,43 +341,46 @@ $(-)(-)=+$ & $(+)(-)=-$ & $(+)(+)=+$ \\
 
 \begin{center}
 \begin{figure}[h!]
+\centering
 \includegraphics[scale=0.30]{cua441.png}
 \caption[Gráfica de función cuadrática del ejemplo (\ref{ejem441}).]{Gráfica de función cuadrática del ejemplo (\ref{ejem441}). La expresión cuadrática tiene dos puntos de intersección con el eje $x$, que son justamente en donde cambia de signo los intervalos. }
 \end{figure}
 \end{center}
 La desigualdad solicita que sea mayor que cero, por lo que los intervalos solución son $]-\infty,-5]\cup [3,+\infty[$. Los infinitos siempre son intervalos abiertos, en los otros casos lo determina el símbolo de la desigualdad (en este caso es un intervalo cerrado por el símbolo de la igualad).
-\end{myexample}
+
 
 Para las expresiones fraccionales con polinomios el procedimiento es análogo, pero hay que considerar que el denominador debe ser $\neq 0$.\\
 
 \begin{myexample}
 \label{ejemplo442}
 Resolver la siguiente desigualdad fraccional:\\
-\begin{eqnarray}
+\end{myexample}
+	\begin{eqnarray}
 \dfrac{x+1}{x+3}+1&\leq &0 \\
 \dfrac{x+1+x+3}{x+3} &\leq &0 \\
 \dfrac{2x+4}{x+3}& \leq & 0 
-\end{eqnarray} 
+	\end{eqnarray} 
 Los ceros son $x\neq-3$ y $x=-2$. Ahora se hace la tabla de signos con los ceros encontrados.\\
-\begin{center}
-\begin{table}[h!]
+	\begin{center}
+		\begin{table}[h!]
 \centering
-\begin{tabular}{|c|c|c|}
+			\begin{tabular}{|c|c|c|}
 \hline
 $-\infty$ a $-3$&$-3$ a $-2$& $-2$ a $+\infty$ \\
 \hline
 $x=-10$&$x=-2,5=-5/2$&$0$ \\
 $\dfrac{(-)}{(-)}=+$&$\dfrac{(-)}{(+)}=-$&$\dfrac{(+)}{(+)}=+$ \\
 \hline 
-\end{tabular}
+			\end{tabular}
 \caption[Tabla de signos de una inecuación fraccional.]{Tabla de signos de una inecuación fraccional.}
-\end{table}
-\end{center}
+		\end{table}
+	\end{center}
 El intervalo que cumple con la condición de la desigualdad es $]-3,-2]$. Notar que el intervalo debe ser abierto en $-3$ y cerrado $-2$, o si no la desigualdad queda indefinida.
-\end{myexample}
+
 
 \begin{center}
 \begin{figure}[h!]
+\centering
 \includegraphics[scale=0.30]{inefracc0.png}\caption[Gráfico del ejemplo (\ref{ejemplo442}).]{Gráfico del ejemplo (\ref{ejemplo442}). Se Muestra (nuevamente) el intervalo en que la función cumple con la condición de la desigualdad (menor que cero, $\leq 0$).}
 \end{figure}
 \end{center}
@@ -353,39 +390,40 @@ Para finalizar el análisis de las desigualdades racionales, veremos el caso cua
 
 
 \begin{myexample}
-Resolver las siguientes expresiones polinomiales de fracciones con valor absoluto.\\
+Resolver las siguientes expresiones polinomiales de fracciones con valor absoluto.
+\end{myexample}
 
 \noindent\textit{i)}
-\begin{eqnarray*}
+	\begin{eqnarray*}
 \left|\dfrac{1}{x}+3 \right| &\leq &3 \\
 -3\leq &\dfrac{1}{x}+3& \leq 3 \\
 -3\leq \dfrac{1}{x}+3 &\wedge &\dfrac{1}{x}+1 \leq 1 \\
 0\leq \dfrac{1}{x}+6 &\wedge &\dfrac{1}{x} \leq 0\\
 \underbrace{0\leq \dfrac{1+6x}{x}}_\text{$x\neq 0$,  $x=-1/6$} &\wedge &\underbrace{\dfrac{1}{x}\leq 0}_\text{$x\neq 0$}\\
-\end{eqnarray*}
+	\end{eqnarray*}
 
 \begin{minipage}{0.5\textwidth}
-\begin{tabular}{|c|c|c|}
+	\begin{tabular}{|c|c|c|}
 \hline
   $-\infty$ a $-1/6$ & $-1/6$ a $0$ & $0$ a $+\infty$ \\
 \hline
  $x=-10$ & $x-1/12$ & $x=10$  \\
   $\dfrac{(-)}{(-)}=+$&$\dfrac{(+)}{(-)}=-$&$\dfrac{(+)}{(+)}=+$  \\
 \hline
-\end{tabular}
+	\end{tabular}
 \end{minipage}
 \begin{minipage}{0.5\textwidth}
-\begin{tabular}{|c|c|}
+	\begin{tabular}{|c|c|}
 \hline
  $-\infty$ a $0$ & $0$ a $\infty$    \\
 \hline
  $x=-1$&$x=1$   \\
   $\dfrac{(1)}{(-)}=-$& $\dfrac{(1)}{(+)}=+$  \\
   \hline
-\end{tabular}
+	\end{tabular}
 \end{minipage}
 
-Ahora se debe hacer la intersección de ambas tablas, resultando como conjunto solución $\left( ]-\infty,-1/6]\cup ]0,+\infty[\right) \cap ]-\infty,0[=]-\infty,-1/6]$.\\
+Ahora se debe hacer la intersección de ambas tablas, resultando como conjunto solución: $x\in \left( ]-\infty,-1/6]\cup ]0,+\infty[\right) \cap ]-\infty,0[=]-\infty,-1/6]$.\\
 \begin{center}
 \begin{figure}[h!]
 \centering
@@ -393,7 +431,6 @@ Ahora se debe hacer la intersección de ambas tablas, resultando como conjunto s
 \caption[Gráfica de los intervalos en la recta de los números reales.]{Gráfica de los intervalos en la recta de los números reales. Siempre se dibujan todos los  intervalos que cumplen la condición de la desigualdad (mayor o menor que 0).}
 \end{figure}
 \end{center}
-
 \noindent\textit{ii)}\\
 \begin{eqnarray*}
 \left|\dfrac{3x-1}{x}\right| &\geq &4  \\
@@ -402,7 +439,6 @@ Ahora se debe hacer la intersección de ambas tablas, resultando como conjunto s
 \dfrac{3x-1-4x}{x}\geq 0 &\vee & \dfrac{3x-1+4x}{x}\leq 0\\
 \underbrace{\dfrac{-1-x}{x}\geq 0}_{x\neq 0, x=-1} &\vee & \underbrace{\dfrac{7x-1}{x}\leq 0}_{x\neq 0, x=1/7}
 \end{eqnarray*}
-\end{myexample}
 
 \begin{minipage}{0.5\textwidth}
 \begin{tabular}{|c|c|c|}
@@ -425,12 +461,11 @@ Ahora se debe hacer la intersección de ambas tablas, resultando como conjunto s
 \end{tabular}
 \end{minipage}
 
-En este caso debemos unir todos los resultados. De ambas tablas solo sirve un intervalo de cada una, entonces el conjunto solución es $[-1,0[\cup ]0,1/7]=[-1,1/7]-\{0\}$.
+En este caso debemos unir todos los resultados. De ambas tablas solo sirve un intervalo de cada una, entonces el conjunto solución es: $x\in [-1,0[\cup ]0,1/7]=[-1,1/7]-\{0\}$.
 
-\begin{center}
-\begin{figure}[h!]
+
+\begin{figure}[hbt!]
 \centering
 \includegraphics[scale=0.25]{Desabsfracc1.png}
 \caption[Gráfica de los intervalos en la recta de los números reales.]{Gráfica de los intervalos en la recta de los números reales. Procedimiento similar al ejemplo anterior, solo que en este caso se debe unir los intervalos en vez de intersectarlos.}
 \end{figure}
-\end{center}

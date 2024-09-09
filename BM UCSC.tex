@@ -1,6 +1,5 @@
 \documentclass[letterpaper,12pt,titlepage,oneside,final]{book}
 
-
 \usepackage{graphicx}
 \usepackage{titlepic}
 \graphicspath{{FiguresBM/}}
@@ -33,13 +32,19 @@
 %----
 \newtheorem{mydef}{Definición}[section] % Enumerar definiciones
 \newtheorem{myexample}{Ejemplo}[section]
-
+%%%%% Seperación de puntos y comas en los números
+\usepackage{numprint}
+\npthousandsep{\.}
+%%%%%%%Imagen arriba
+\makeatletter
+\setlength{\@fptop}{0pt}
+\makeatother
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % \setboolean{PrintVersion}{true} 
 % CHANGE THIS VALUE TO "true" as necessary, to improve printed results 
 % for hard copies by overriding some options of the hyperref package.
 % Load your needed packages and other commands of yours.
-\input{thesis-preamble}
+\input{docs-preamble}
 % This is where thesis margins and spaces are set.
 \input{private/thesis-margins-and-spaces}
 %======================================================================

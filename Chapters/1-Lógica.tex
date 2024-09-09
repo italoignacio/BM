@@ -6,7 +6,8 @@
 \markboth{Lógica matemática}{Lógica matemática}
 %======================================================================
 
-El estudio de la lógica entrega las herramientas para determinar si un argumento es válido o no. Este marco se puede utilizar en las matemáticas para dar un razonamiento correcto y buen uso del lenguaje matemático. Por esto mismo se simplifica el uso de simbolismos que nos permita razonar de forma válida con reglas fijas claras. En esta rama se trabaja con elementos básicos denominados proposiciones.\\
+
+El estudio de la lógica proporciona las herramientas necesarias para evaluar la validez de un argumento. Este marco es aplicable principalmente en las matemáticas pero se puede extrapolar a otras areas del conocimiento, permitiendo un razonamiento preciso y un uso adecuado del lenguaje matemático. Así, se facilita el empleo de simbolismos que nos permitan razonar de manera válida mediante reglas establecidas. En esta disciplina, se trabaja con elementos fundamentales llamados proposiciones..\\
 
 \begin{mydef}
 \textbf{Proposición}. Es una expresión con sentido en un lenguaje, que afirma o niega algo y proporciona una información. Usaremos el término proposición para designar una expresión de la cual tenga sentido inequívoco decir verdadera o falsa en un cierto contexto. Se simbolizan con las letras minúsculas p, q, r, s, etc.
@@ -17,44 +18,51 @@ Las proposiciones tienen \textit{valores de verdad} que pueden ser verdadero (V)
 \section{Conectivos lógicos}
 
 \begin{mydef}
-\textbf{Conectivo lógico}. Es un símbolo que permite obtener nuevas proposiciones a partir de proposiciones dadas. Los conectivos son: no, y, o, entonces, si y solo sí.
+\textbf{Conectivo lógico}. Es un elemento de la lógica matemática que permite obtener nuevas proposiciones a partir de proposiciones ya entregadas. Los conectivos son varios, como por ejemplo: no, y, o, entonces, si y solo sí, etc.
 \end{mydef}
 
-Al momento de utilizar conectivos lógicos se puede clasificar las proposiciones lógicas en simple o compuestas.
+Al momento de utilizar conectivos lógicos para unir proposiciones, estas se puede clasificar en proposiciones lógicas simples o compuestas.
 
 \begin{mydef}
 \textbf{Proposición simple}. Una proposición simple o atómica es la cual no incluye conectivos lógicos.
 \end{mydef}
 
 \begin{myexample}
-Las siguientes  proposiciones son simples
+Las siguientes  proposiciones lógicas son simples
 \end{myexample}
-\noindent\textit{p:} ``El primer trimestre del $2021$ se realizaron $171\hspace{2px}626$ intervenciones quirúrgicas\footnote{Resumen ejecutivo de subsecretaría de redes asistenciales, trimestre 2021-2022. Ministerio de Salud.}''\\
+\noindent\textit{p:} ``El primer trimestre del $2021$ se realizaron $171\hspace{2px}626$ intervenciones quirúrgicas''\\
 \textit{q:} ``El primer trimestre del $2022$ se realizaron $197\hspace{2px}494$ intervenciones quirúrgicas''\\
 
 \noindent\textit{p:} ``Los partos en el primer trimestre del $2021$ fueron $24\hspace{2px}383$''\\
-\textit{q:} ``Los partos en el primer trimestre del $2022$ fueron $27\hspace{2px}216$''''\\
+\textit{q:} ``Los partos en el primer trimestre del $2022$ fueron $27\hspace{2px}216$''\\
 
 \noindent\textit{p:} ``Las teleconsultas en el primer trimestre del $2021$ fueron $239\hspace{2px}079$''\\
 \textit{q:} ``Las teleconsultas en el primer trimestre del $2022$ fueron $118\hspace{2px}216$''\\
 
+Todas las proposiciones anteriores están obtenidas del resumen ejecutivo trimestral 2021-2022 de la subsecretaría de redes asistenciales del Ministerio de salud de Chile.\\
+
 \begin{mydef}
-\textbf{Proposición compouesta}. Una proposición compuesta o molecular es la que resulta al combinar proposiciones simples con conectivos lógicos.
+\textbf{Proposición compuesta}. Una proposición compuesta o molecular es la que resulta al combinar proposiciones simples con conectivos lógicos.
 \end{mydef}
 
 \begin{myexample}
-Las siguientes proposiciones son compuestas
+Las siguientes proposiciones lógicas  son compuestas
 \end{myexample}
-\noindent\textit{p:} ``El primer trimestre del $2022$ superó en $25\hspace{2px}868$ intervenciones quirúrgicas al $2021$, entonces las intervenciones aumentaron en un $15,07\%$ ''.\\
+\noindent\textit{p:} ``El primer trimestre del $2022$ superó en $25\hspace{2px}868$ intervenciones quirúrgicas al $2021$, entonces las intervenciones aumentaron en un $15,07\%$ de una año a otro ''.\\
 
 \noindent\textit{q:} ``El primer trimestre del $2022$ nacieron $2\hspace{2px}833$ bebés más que el mismo periodo del $2021$, entonces los partos aumentaron $11,62\%$''.\\
 
 \noindent\textit{r:} ``Las teleconsultas del $2021$ y las teleconsultas del $2022$ superaron las $100\hspace{2px}000$''.\\
 
-Es momento de traspasar el lenguaje a simbologías. Lo primero fue asignar letras ($p$, $q$, $r$, etc) a las preposiciones, ahora representaremos los conectivos lógicos: negación, conjunción, disyunción, condicional y bicondicional.
+Es momento de traspasar el lenguaje a simbologías. Lo primero es asignar letras ($p$, $q$, $r$, etc) a las preposiciones, ahora representaremos los conectivos lógicos: negación, conjunción, disyunción, condicional y bicondicional.
 
 \subsection{Negación}
-Se llama negación de una proposición p, a la proposición \textit{no p}. Su notación es $\sim p$, $-p$ o $p'$. Este conectivo lógico actúa sobre una sola proposición y cambia el valor de verdad de la proposición, es decir, si la proposición $p$ es verdadera cambia a falsa y si es falsa cambia a verdadera. Esto se puede representar  en la tabla de verdad\footnote{La tabla de verdad muestra el valor de verdad para todas las combinaciones posibles.}
+Se llama negación de una proposición p, a la proposición \textit{no p}. Su notación es $\sim p$, $-p$ o $p'$. Este conectivo lógico es el único que actúa sobre una sola proposición y cambia el valor de verdad, es decir, si la proposición $p$ es verdadera cambia a falsa y si es falsa cambia a verdadera. \\
+
+Estos valores se pueden representar en la tabla de verdad y por ser el primer caso de conectivo lógico, explicaremos el paso a paso como se construye.\\
+
+Lo primero es identificar cuantas proposiciones se tienen (no se consideran proposiciones adicionales a las que están negadas), por ejemplo, si tengo tres proposiciones y alguna está negadas, solo debo escribir $p$, $q$ y $s$. Luego debajo de las proposiciones se debe escribir todas las combinaciones posibles, como los valores de verdad son solo 2, la tabla crece de la forma $2^{n}$, donde n es el número de preposiciones.  Por lo que para el ejemplo recien dado, serian 3 columnas de 8 filas cada una. Finalmente, escribir en la primera columna todas las operaciones a realizar entre las proposiciones y aplicar las reglas de los conectores para ver el resultado final de la tabla.\\
+
 \begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{|c|c|}
@@ -67,16 +75,17 @@ F&V\\
 \hline
 		\end{tabular}
 	\end{center}
-\caption[Tabla de verdad del operador lógico negación.]{Tabla de verdad del operador lógico negación.}
+\caption[Tabla de verdad del operador lógico negación.]{Tabla de verdad del operador lógico negación. Se considera una sola proposición, que es $p$ y no se toma en cuenta $\sim p$. El largo de la tabla hacia abajo es $2^{1}=2$.}
 \end{table}
 
 \begin{myexample}
+Sea $p$ una proposición simple y $\sim p$ su negación.
 \end{myexample}
-\noindent $p:$ ``Todos los números impares son primos''.\\
-$\sim p:$ ``No todos los números impares son primos'' o ``Algunos números impares no son primos' o ``Al menos un número impar no es primo''. 
+\noindent $p:$ ``Todos los pacientes se mejoran con el tratamiento''.\\
+$\sim p:$ ``No todos los pacientes se mejoran con el tratamiento'' o ``Algunos pacientes no se mejoran con el tratamiento''. 
 
 \subsection{Conjunción}
-Se llama conjunción cuando dos proposiciones $p$ y $q$ son unidas por el conectivo lógico $y$, resultando una proposición compuesta. Se pronuncia ``$p$ $y$ $q$'' y su notación es $p\wedge q$. La tabla de verdad para la conjunción es la siguiente:
+Se llama conjunción cuando dos proposiciones $p$ y $q$ son unidas por el conectivo lógico $y$, resultando una proposición compuesta. Se pronuncia ``$p$ $y$ $q$'' y su notación es $p\wedge q$. La tabla de verdad para dos proposiciones de la conjunción es la siguiente:
 \begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{|c|c|c|}
@@ -93,20 +102,20 @@ F&F&F\\
 \hline
 		\end{tabular}
 	\end{center}
-\caption[Tabla de verdad del operador lógico conjunción.]{Tabla de verdad del operador conjunción. La proposición $p\wedge q$ es falsa si al menos una de las proposiciones simples, p ó q, es falsa y es verdadera si ambas proposiciones son verdaderas.}
+\caption[Tabla de verdad del operador lógico conjunción.]{Tabla de verdad del operador conjunción. La proposición $p\wedge q$ es falsa si al menos una de las proposiciones simples, p ó q, es falsa y es verdadera si ambas proposiciones son verdaderas. En este caso se consideran 2 proposiciones, por lo que el largo de la tabla es $2^{2}=4$.}
 \end{table}
 
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones arbitrarias. Escriba la conjunción entre ambas proposiciones.\\
+Sean $p$ y $q$ dos proposiciones simples. Escriba la conjunción entre ambas proposiciones.\\
 
-\noindent\textit{p:} ``El cuadrado tiene cuatro lados.''\\
-\textit{q:} ``El cuadrado tiene cuatro ángulos de $90^{o}$.''\\
-\textit{$p\wedge q:$} ``El cuadrado tiene cuatro lados y el cuadrado tiene cuatro ángulos de $90^{°}$. '' o ``El cuadrado tiene cuatro lados y cuatro ángulos de $90^{o}$. ''
+\noindent\textit{p:} ``El cuadrado tiene cuatro lados''.\\
+\textit{q:} ``El cuadrado tiene cuatro ángulos de $90^{o}$''.\\
+\textit{$p\wedge q:$} ``El cuadrado tiene cuatro lados y el cuadrado tiene cuatro ángulos de $90^{°}$'' o ``El cuadrado tiene cuatro lados y cuatro ángulos de $90^{o}$''.
 \end{myexample}
 
 
 \subsection{Disyunción inclusiva}
-Es la proposición resultante al conectar dos proposiciones simples, p y q, mediante el conector lógico $\vee$. Se lee ``$p$ $o$ $q$'' y se representa $p \vee q$. La tabla de verdad es la siguiente:
+Es la proposición resultante al conectar dos proposiciones simples, p y q, mediante el conector lógico $\vee$. Se lee ``$p$ $o$ $q$'' y es representado por $p \vee q$. La tabla de verdad es la siguiente:
 \begin{table}[h!]
 	\begin{center}
 		\begin{tabular}{|c|c|c|}
@@ -127,11 +136,11 @@ F&F&F\\
 \end{table}
 
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones. Escriba la disyunción inclusiva entre ambas proposiciones.\\
+Sean $p$ y $q$ dos proposiciones simples. Escriba la disyunción inclusiva entre ambas proposiciones.\\
 
-\noindent\textit{p:} ``Ir al Lollapalooza.''\\
-\textit{q:} ``Ir a ver a tus primos al campo.''\\
-\textit{$p\vee q:$} ``Ir al lollapalooza o ir a ver a tus primos al campo.''
+\noindent\textit{p:} ``Ir al Lollapalooza''.\\
+\textit{q:} ``Ir a ver a tus primos al campo''.\\
+\textit{$p\vee q:$} ``Ir al Lollapalooza o ir a ver a tus primos al campo''.
 \end{myexample}
 
 
@@ -155,19 +164,20 @@ F&F&F\\
 \caption[Tabla de verdad del operador lógico disyunción exclusiva.]{Tabla de verdad de disyunción exclusiva. Para el caso de este conector lógico es verdadero solo cuando las proposiciones simples tienen valor de verdad contrario.}
 	\end{center}
 \end{table}
+\newpage
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones. Escriba la disyunción exclusiva entre ambas proposiciones.\\
+Sean $p$ y $q$ dos proposiciones simples. Escriba la disyunción exclusiva entre ambas proposiciones.\\
 
-\noindent\textit{p:} ``El vaso está feo.''\\
-\textit{q:} ``La leche está adulterada.''\\
-\textit{$p\veebar q:$} ``O el vaso está feo o la leche está adulterada.''\\
+\noindent\textit{p:} ``El vaso está feo''.\\
+\textit{q:} ``La leche está adulterada''.\\
+\textit{$p\veebar q:$} ``O el vaso está feo o la leche está adulterada''.\\
 \end{myexample}
 
 
 
 \noindent $p\veebar q:$ Esta tarde iré al cine o me quedaré en casa estudiando. Disyunción exclusiva.\\
 
-La diferencia entre las disyunciones, es que la inclusiva necesita solamente una proposición verdadera, por eso el nombre. Mientras que la exclusiva solamente es verdadera en la caso en que una proposición es verdadera. Esta ultima se puede presentar en casos donde hay incompatibilidad de las proposiciones, por ejemplo: yo aprubo el ramo o lo repruebo. En el ejemplo no pueden ocurrir ambas cosas, pero para la primera disyunción si puede pasar que ambas proposiciones sean compatibles.
+La diferencia entre las disyunciones, es que la inclusiva necesita solamente una proposición verdadera, por eso el nombre. Mientras que la exclusiva solamente es verdadera en el caso de que una proposición lógica es verdadera. Esta ultima se puede presentar en casos donde hay incompatibilidad de las proposiciones, por ejemplo: yo apruebo el ramo o lo repruebo. En el ejemplo no pueden ocurrir ambas cosas, pero para la primera disyunción si puede pasar que ambas proposiciones sean compatibles.
 \subsection{Condicional}
 Se llama condicional de la proposicion $p$ y $q$ a la proposición ``Si $p$, entonces $q$''. La primera proposición se llama antecedente y la segunda se llama consecuente. Se denota $p\rightarrow q$ y la tabla de verdad es la siguiente:
 \begin{table}[h!]
@@ -190,11 +200,11 @@ F&F&V\\
 \end{table}
 
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones. Escriba el condicional entre ambas proposiciones.\\
+Sean $p$ y $q$ dos proposiciones simples. Escriba el condicional entre ambas proposiciones.\\
 
-\noindent\textit{p:} ``El sistema solar está formado sólo por astros.''\\
-\textit{q:} ``El sol es un astro.''\\
-\textit{$p\rightarrow q:$} ``El sistema solar está formado solo por astros, entonces el sol es un astro.''\\
+\noindent\textit{p:} ``El núcleo atómico está conformado solo por partículas''.\\
+\textit{q:} ``El protón\footnote{Partícula subatómica (que tiene dimensiones menores a las de un átomo) de carga positiva. Es más liviano que neutrón (Sin carga) y más pesado que un electrón (Carga negativa).} es una partícula''.\\
+\textit{$p\rightarrow q:$} ``El núcleo atómico está formado solo por partículas, entonces el protón es una partícula.''\\
 \end{myexample}
 
 
@@ -220,7 +230,7 @@ F&F&V\\
 \end{table}
  
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones. Escriba el bicondicional entre ambas proposiciones.\\
+Sean $p$ y $q$ dos proposiciones simples. Escriba el bicondicional entre ambas proposiciones.\\
 
  \noindent\textit{p:} ``El alumno aprueba el ramo.''\\
 \textit{q:} ``El alumno promedia nota sobre $3,95$.''\\
@@ -268,7 +278,7 @@ F&F&F&F&F&V&V\\
 %\end{center}
 
 \subsection{Resultados de la tabla de verdad}
-Se a visto en las secciones anteriores el resultado de la tabla de verdad con todas las combinaciones posibles, pero falta ver el caso más 'real' y es cuando se utilizan varios conectivos lógicos. Para estos casos donde el resultado de la tabla sean todos verdaderos, todos falsos o una mezcla de ellos.\\
+Se a visto en las secciones anteriores el resultado de la tabla de verdad con todas las combinaciones posibles, pero falta ver el caso más `real' y es cuando se utilizan varios conectivos lógicos. En estos casos, existe la posibilidad que el resultado de la tabla sean todos verdaderos, todos falsos o una mezcla de ellos.\\
 
 \begin{mydef}
 \textbf{Tautología:} Es siempre verdadera cualesquiera sean los valores de verdad de las proposiciones que la componen.
@@ -279,10 +289,10 @@ Se a visto en las secciones anteriores el resultado de la tabla de verdad con to
 \end{mydef}
 
 \begin{mydef}
-\textbf{Contingencia:} No es tautología ni contradicción, es decir, hay resultados verdaderos y falsos.
+\textbf{Contingencia:} No es tautología ni contradicción, es decir, hay resultados verdaderos y falsos en la tabla.
 \end{mydef}
 
-\newpage
+
 \begin{myexample}
 Hacer la tabla de verdad de las siguientes proposiciones compuestas:
 \end{myexample}
@@ -333,11 +343,12 @@ V&V&F&V\\
 La proposición anterior es una contingencia.\\
 
 \begin{mydef}
-\textbf{Lógicamente equivalentes}. Si dos proposiciones $p$ y $q$ se dicen que son lógicamente equivalentes si sus tablas de verdad son idénticas o bien, si su bicondicional es una tautología. Su notación es $p\Leftrightarrow q$ 
+\textbf{Lógicamente equivalentes}.
+Dos proposiciones, $p$ y $q$, se consideran lógicamente equivalentes si sus tablas de verdad son idénticas o si su bicondicional es una tautología. Su notación es $p\Leftrightarrow q$ 
 \end{mydef}
 
 \begin{myexample}
-Sea $p$ y $q$ dos proposiciones. Muestre que la tabla de verdad de $(p\rightarrow q)\Leftrightarrow (\sim q\rightarrow\sim p)$ es una tautología
+Sean $p$ y $q$ dos proposiciones. Muestre que la tabla de verdad de $(p\rightarrow q)\Leftrightarrow (\sim q\rightarrow\sim p)$ es una tautología
 \end{myexample}
 
 \begin{center}
@@ -357,7 +368,7 @@ F&F&V&V&V&V&V\\
 \end{center}
 
 \subsection{Propiedades de las proposiciones}
-
+Nuevamente mencionar que aquí, tanto a la izquierda como a la derecha de la fecha las tablas de verdad son idénticas. Esto permite que en una expresión lógica se pueda reemplazar una por otra.
 \begin{itemize}
 	\item Doble negación
 		\subitem $\sim(\sim p)\Leftrightarrow p$

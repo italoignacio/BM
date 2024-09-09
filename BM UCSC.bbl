@@ -3,7 +3,7 @@
 \bibitem{Zill}
 Jacqueline M.~Dewar Dennis G.~Zill.
 \newblock {\em Álgebra, trogonometría y geometría analítica}.
-\newblock McGraw-Hill, 2012.
+\newblock McGraw-Hill, 2012..
 
 \bibitem{Larson}
 Bruce H.~Edwards Ron~Larson.
@@ -21,4 +21,8 @@ Leonid~Hanin Wai-Yuan.
 \newblock {\em Handbook of cancer with applications}.
 \newblock World Scientific Publishing, 2008.
 
+\bibitem{AyTudec}
+Myriam Ortega Saavedra and Miryam Vicente Parada.
+\newblock {\em Algebra y trigonometría}.
+\newblock Facultad de Ciencias Físicas y Matemáticas, Universidad de Concepción, 2003.
 \end{thebibliography}

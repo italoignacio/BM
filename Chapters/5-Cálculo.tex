@@ -13,7 +13,7 @@ En este capítulo recurriremos constantemente al dicho de Napoleón ``\textit{Di
 \section{Límites}
 \label{C1V0}
 
-En la sección (\ref{funrac0}) se habló de que era lo que ocurría con la función $f(x)$ cuando me acercaba por el lado positivo o por el lado negativo. Pero ¿Qué tan cerca me puedo acercar a un punto en una función?. Esta respuesta la entrega los límites, que permite ver como se comporta la función en ese punto acercándose tanto como uno quiera.\\
+En la sección (\ref{funrac0}) se habló de que era lo que ocurría con la función $f(x)$ cuando me acercaba por el lado positivo o por el lado negativo. Pero ¿Qué tan cerca me puedo acercar a un punto en una función? Esta respuesta la entrega los límites, que permite ver como se comporta la función en ese punto acercándose tanto como uno quiera.\\
 
 Cuando una función está bien definida puedo saber su valor exacto de su imagen con cualquier valor del dominio, pero ocurre en ciertos casos que se busca el valor de la función justo en puntos que no está definida, por ejemplo las expresiones de fracciones. Veamos el siguiente caso:
 \begin{eqnarray}
@@ -34,7 +34,7 @@ Puedo saber el valor de la función en cualquier punto menos cuando $x=1$, pero 
  \label{tablalim}
  \end{center}
 \end{table}
-Se ve en la tabla (\ref{tablalim}) que por ambos lados los números se acercan a un mismo valor. Entonces, se concluye que como tanto por la izquierda como por la derecha tiende al número $3$ el límite de la función cuando $x$ se acerca a $1$ es $3$. Su notación es
+Se ve en la tabla (\ref{tablalim}), que por ambos lados los números se acercan a un mismo valor. Entonces, se concluye que como tanto por la izquierda como por la derecha tiende al número $3$, el límite de la función cuando $x$ se acerca a $1$ es $3$. Su notación es
 \begin{eqnarray*}
  \lim_{x\to 1 } f(x) &=&3\\
   \lim_{x\to 1 } \dfrac{x^{3}-1}{x-1} &=&3
@@ -42,19 +42,27 @@ Se ve en la tabla (\ref{tablalim}) que por ambos lados los números se acercan a
 Nuevamente se debe repetir, yo me puede acercar cuanto yo quiera, es decir, puedo elegir un $x=0,99999...$ y estar muy cerca del valor en el punto que quiero, pero no es el valor de la función en ese punto ($x=1$).
 
 \begin{mydef}
-\textbf{Límite. }Sea $f(x)$ una función en cada número de algún intervalo abierto que contiene a 'a', excepto posiblemente en el número 'a' mismo. El límite de la función $f(x)$ conforme $x$ se aproxima a 'a' es L, lo que se escribe como: 
+\textbf{Límite. }Sea $f(x)$ una función en un intervalo abierto que contiene al número $x_{0}$. El límite de la función $f(x)$ conforme $x$ se aproxima a $x_{0}$ es L, lo que se escribe como: 
 \begin{eqnarray}
-\lim_{x\rightarrow a}f(x)=L
+\lim_{x\rightarrow x_{0}}f(x)=L
 \label{lim0}
 \end{eqnarray}
 Si la siguiente proposición es verdadera:\\
 Dado cualquier $\epsilon>0$, no importa cuan pequeño sea, existe una $\delta>0$ tal que 
 \begin{eqnarray*}
-Si \hspace{4px} 0<|x-a|<\delta \hspace{4px} entonces \hspace{4px} |f(x)-L|<\epsilon  
+Si \hspace{4px} 0<|x-x_{0}|<\delta , \hspace{4px} entonces \hspace{4px} |f(x)-L|<\epsilon  
 \end{eqnarray*}
 \end{mydef}
 
-En la ecuación (\ref{lim0}) de la definición se dice \textit{el límite de $f(x)$ cuando $x$ tiende a 'a' es L}. Ahora ya entendida la idea de lo que es el límite, veremos las diferentes reglas para calcularlos
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.25]{limdef.png}
+\caption[Gráfica de la definición de límite.]{Gráfica de la definición de límite. En el eje $x$ existe el parámetro $\delta$ y en el $y$ el parámetro $\epsilon$.} \label{limdef0}
+\end{figure}
+\end{center}
+\newpage
+En la ecuación (\ref{lim0}) de la definición se dice \textit{el límite de $f(x)$ cuando $x$ tiende a `a' es L}. Ahora, ya entendida la idea de lo que es el límite, veremos las diferentes reglas para calcularlos.
 
 \noindent a) Límite de una función lineal. Si $m$ y $b$ son dos constantes cualesquiera, entonces \\
 \begin{eqnarray}
@@ -97,8 +105,14 @@ Esta propiedad es extensible para $n$ sumas o restas, pero aquí solo se conside
 \lim_{x\rightarrow a}\dfrac{1}{x}=\dfrac{1}{a}
 \end{eqnarray}
 
+\noindent i) Límite de una función fraccional cuando el límite tiende a infinito. 
+\begin{eqnarray}
+\lim_{x\rightarrow \pm\infty}\dfrac{1}{x}=0
+\end{eqnarray}
 \begin{myexample}
-Calcular el límite de  la siguiente función $f(x)=x^{2}+7x-5$.
+Calcular el límite de  las siguientes funciones:
+\end{myexample}
+\noindent\textit{i)}
 \begin{eqnarray*}
 \lim_{x\rightarrow 3}f(x)&=&\lim_{x\rightarrow 3}(x^{2}+7x-5)\\
 &=&lim_{x\rightarrow 3}x^{2}+lim_{x\rightarrow 3}7x-lim_{x\rightarrow 3}5\\
@@ -106,7 +120,18 @@ Calcular el límite de  la siguiente función $f(x)=x^{2}+7x-5$.
 &=&9+21-5\\
 &=&25
 \end{eqnarray*}
-\end{myexample}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+\lim_{x\rightarrow 3}(3x+5)^{2}=14^{2}=196
+\end{eqnarray*}
+
+\noindent\textit{iii)}
+\begin{eqnarray*}
+\lim_{x\rightarrow\infty}\dfrac{\sqrt{4x^{2}+1}-2x}{x}&=&\dfrac{\sqrt{4x^{2}+1}-2x}{x} \cdot \dfrac{\sqrt{4x^{2}+1}+2x}{\sqrt{4x^{2}+1}+2x}\\
+&=& \dfrac{(4x^{2}+1)-(2x)^{2}}{x(\sqrt{4x^{2}+1}+2x)}\\
+&=&\dfrac{1}{2x}\\
+\lim_{x\rightarrow\infty}\dfrac{\sqrt{4x^{2}+1}-2x}{x}&=&\lim_{x\rightarrow\infty}\dfrac{1}{2x}=0
+\end{eqnarray*}
 
 \subsection{Límites laterales}
 
@@ -150,6 +175,30 @@ Análogamente se calcula el límite por la derecha
 Se dice que la función no tiene límite. Además, una vez más sirve para recalcar que el valor de la función no tiene por qué ser el del límite en el punto, aunque este muy cerca. El valor de la función en $x=0$ es $0$ y los límites resultaron $1$ y $-1$ respectivamente. Si los límites laterales resultan el ser el mismo valor, entonces el límite existe. 
 \end{myexample}
 
+\begin{myexample}
+Calcule el límite de la siguiente función por parte:\\
+
+\[ f(x)= \left\{ \begin{array}{lcc} 
+             4-x^{2} &   , si  & x\leq 1 \\
+             \\ 2+x^{2} &  , si & x>1 \\
+             \end{array}
+   \right.\]\\
+Calcule el $ \lim_{x\to 1^{+}}f(x)$ y $ \lim_{x\to 1^{-}}f(x)$.\\ %3\\
+
+Según el caso del límite lateral reemplazamos en $f(x)$.
+
+\begin{eqnarray*}
+\lim_{x\to 1^{+}}(2+x^{2})&=& 2+(1)^{2}\\
+&=& 3
+\end{eqnarray*}
+Análogamente para el otro caso
+\begin{eqnarray*}
+\lim_{x\to 1^{-}}(4-x^{2})&=& 4-(1)^{2}\\
+&=& 3
+\end{eqnarray*}
+Como ambos límites laterales coinciden, entonces la función si tiene límite.
+\end{myexample}
+
 \section{Derivadas}
 
 En la sección (\ref{cuociente0}) se dio las primeras pinceladas del problema que se resuelve en este capítulo. Ahí se planteó que se puede calcular  la pendiente de una curva tomando dos puntos cercanos, tan cercanos como uno desee. Esto tiene como consecuencia, que se termina calculando la pendiente de la función en dicho punto, es decir, el cambio que tiene en el eje $x$ y en el $y$. La diferencia de entre los puntos parte siendo la variable $h$ y en ese momento se escribió que $h$ se hace cero. Lo que haremos ahora es cambiar la notación para decir explícitamente que la pendiente es la razón de cambio en los ejes con la letra griega llamada \textit{Delta}.
@@ -166,7 +215,7 @@ El resultado es una recta tangente a la gráfica de $f(x)$ en el punto (c,f(c)).
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.30]{der0.png}
+\includegraphics[scale=0.45]{der0.png}
 \caption[Muestra gráfica de la definición de derivada para una variable.]{Muestra gráfica de la definición de derivada para una variable. a) $\Delta x$ representa cuanto cambia la función en el eje $x$ y $\Delta y$ muestra cuanto cambia la función en el eje $y$. b) Cuando se acercan demasiado los puntos resulta una recta tangente a la función, mostrando la pendiente de la función en ese punto.} \label{der0}
 \end{figure}
 \end{center}
@@ -211,9 +260,56 @@ Resumiremos las principales reglas que tienen las funciones para derivarse. Es i
 \dfrac{d}{dx}\left[h(x)\right]&=& f'(g(x))\cdot g'(x)
 \end{eqnarray}
 
+\noindent i) Derivada de una función exponencial. Caso particular en que la base es el número $e$.\\
+
+\begin{eqnarray}
+\dfrac{d}{dx}\left[ e^{f(x)}\right]&=& e^{f(x)}\cdot f'(x)
+\end{eqnarray}
+
+\begin{myexample}
+Utilizando las reglas de derivación que se mencionaron anteriormente, se resolverán los siguientes ejercicios
+\end{myexample}
+\noindent\textit{i)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[5\right]&=&0
+\end{eqnarray*}
+\noindent\textit{ii)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[x^{5}\right]&=&5\cdot x^{4}
+\end{eqnarray*}
+\noindent\textit{iii)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[6\cdot (x^{2}+x^{7})\right]&=&6(2x+7x^{6})\\
+&=& 6x(2+7x^{5})
+\end{eqnarray*}
+\noindent\textit{iv)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[3x\cdot (x+2) \right]&=& 3(x+2)+3x\\
+&=& 6x+6\\
+&=& 6(x+1)\\
+\end{eqnarray*}
+\noindent\textit{v)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[ \dfrac{x^{2}+2}{x^{3}-2}\right]&=& \dfrac{(2x)(x^{3}-2)-(x^{2}+2)(3x)}{(x^{3}-2)^{2}}\\
+&=& \dfrac{(2x^{4}-4x)-(3x^{4}+6x^{2})}{(x^{3}-2)^{2}}\\
+&=& \dfrac{(2x^{4}-4x)-3x^{4}-6x^{2}}{(x^{3}-2)^{2}}\\
+&=& \dfrac{x(-x^{3}-4-6x)}{(x^{3}-2)^{2}}\\
+&=& -\dfrac{x(x^{3}+4+6x)}{(x^{3}-2)^{2}}\\
+\end{eqnarray*}
+\noindent\textit{vi)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[(x^{3}+5)^{2} \right]&=&2(x^{3}+5)3x^{2} \\
+&=&6x^{2}(x^{3}+5) \\
+&=&6x^{5}+30x^{2} \\
+\end{eqnarray*}
+\noindent\textit{vii)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[e^{x^{2}}\right]&=&2xe^{x^{2}}
+\end{eqnarray*}
+
 \subsection{Derivada de orden superior}
 
-La derivada es una operación, como la suma, la resta o la multiplicación. Esto permite que se puede aplicar cuantas veces sea necesario (siempre y cuando la función cumple ciertas condiciones que aquí no entraremos en detalles). Uno de los ejemplos más conocidos es en física, si yo (el observador) sé la posición (coordenadas) de un objeto que se mueve, se puede derivar esa función una vez y saber su velocidad y si la derivo nuevamente sabré su aceleración.
+La derivada es un operador, como la suma, que permite que se pueda aplicar cuantas veces sea necesario (siempre y cuando la función cumple ciertas condiciones que aquí no entraremos en detalles). Uno de los ejemplos más conocidos es en física. Si yo (el observador) sé la posición (coordenadas) de un objeto que se mueve, se puede derivar esa función una vez y saber su velocidad y si la derivo nuevamente sabré su aceleración.
 \begin{eqnarray*}
 f(t)&=& 2t^{2}=|\vec{r}|\\
 \dfrac{df(t)}{dt}&=&2\cdot 2t=4t=|\vec{v}|\\
@@ -237,7 +333,8 @@ Lo visto hasta el momento de derivadas nos permite ver aplicaciones para llegar 
 \begin{mydef}
 \textbf{Definición de extremos. } Sea un intervalo cualquiera $I$ que contiene al número $c$.
 \begin{itemize}
-	\item $f(c)$ es el mínimo de $f(x)$ en $I$ si $f(c)\leq f(x)$ para toda $x$ en $I$. 
+	\item $f(c)$ es el mínimo de $f(x)$ en $I$ si $f(c)\leq f(x)$ para toda $x$ en $I$.\\
+	 
 	\item $f(c)$ es el máximo de $f(x)$ en $I$ si $f(c)\geq f(x)$ para toda $x$ en $I$. 
 \end{itemize}
 A los puntos extremos (o simplemente extremos) de una función se le llaman máximos y mínimos absolutos. 
@@ -250,10 +347,11 @@ Puede pasar que uno analiza funciones y presentan máximos y mínimos, pero pued
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.30]{der1.png}
+\includegraphics[scale=0.45]{der1.png}
 \caption[Máximos y mínimos de una función.]{Máximos y mínimos de una función. a) Muestra una función definida en un intervalo cerrado (considera los extremos) por lo que la función tiene un máximo y un mínimo. b) La función está definida en un intervalo abierto y muestra una discontinuidad en el punto más bajo de la curva, por lo que no tiene mínimo ni máximo (No se puede derivar en ese punto).} \label{der1}
 \end{figure}
 \end{center}
+
 
 \begin{mydef}
 \textbf{Maxímos y mínimos relativos. } Sea f(x) definida en los números reales.
@@ -295,8 +393,8 @@ Los puntos críticos son $x=0$, $x=1$. Se deben evaluar estos puntos en la funci
 \end{myexample}
 
 \subsection{Función creciente y decreciente}
-En la sección (\ref{funcrede}) se habló por primera vez de funciones crecientes y decrecientes. Ahora seguiremos hablando de ellas, pero saber tal comportamiento en intervalos. Estos intervalos están definidos por los puntos críticos de la función.\\
-Con la operación de la derivada permite ahorrar camino y definir el comportamiento de la función con el resultado de la derivada en un intervalo dado. Como es una recta, si la derivada es positiva es una función creciente, es decir, su pendiente es positiva. Si es negativa, entonces es una función decreciente y si tiene derivada igual a cero es una función constante. Entonces el procedimiento para encontrar el comportamiento de la función es el siguiente:
+En la sección (\ref{funcrede}) se habló por primera vez de funciones crecientes y decrecientes, mostrando una leve introducción con su definición para poder clasificarlas. Ahora seguiremos hablando de ellas, pero mostraremos en que intervalo especifico muestra tal comportamiento. Estos intervalos están definidos por los puntos críticos de la función.\\
+Con la operación de la derivada permite ahorrar camino y definir el comportamiento de la función con el resultado de la derivada en un intervalo dado. En el caso de una recta, si la derivada es positiva es una función creciente, es decir, su pendiente es positiva. Si es negativa, entonces es una función decreciente y si tiene derivada igual a cero es una función constante, este último caso es candidato a que tenga uno o más puntos críticos. Entonces, el procedimiento para encontrar el comportamiento de la función es el siguiente:
 
 \begin{itemize}
 	\item Calcular la derivada de primer orden de la función $f(x)$.
@@ -312,7 +410,7 @@ Sea $f(x)=x^{3}-\dfrac{3x^{2}}{2}$. Determinar el comportamiento de $f(x)$.
 f(x)&=& x^{3}-\dfrac{3x^{2}}{2}\\
 f'(x)&=&3x(x-1)
 \end{eqnarray*}
-Las raíces de las derivadas son $x=0$ y $x=1$. Entonces los intervalos son 3 y se resumen en la siguiente tabla:
+Las raíces de las derivadas son $x=0$ y $x=1$. Entonces, los intervalos son 3 y se resumen en la siguiente tabla:
 \begin{table}[h!]
 \begin{center}
 		\begin{tabular}{|c|c|c|c|}
@@ -346,7 +444,7 @@ Con el criterio de la primera derivada se puede saber si la función crece o dec
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.30]{con0.png}
+\includegraphics[scale=0.4]{con0.png}
 \caption[Concavidad de las funciones.]{Concavidad de las funciones. a) Gráfica de una función con concavidad hacia arriba. b) Gráfica de una función con concavidad hacia abajo.} \label{con0}
 \end{figure}
 \end{center}
@@ -411,7 +509,7 @@ Para finalizar esta sección seguiremos exprimiendo la segunda derivada de una f
 \begin{itemize}
  \item Si $f''(x)>0$, entonces $f(x)$ tiene un mínimo relativo en (c,f(c)).
  \item Si $f''(x)<0$, entonces $f(x)$ tiene un máximo relativo en (c,f(c)).
- \item Si $f(x)=0$ el criterio falla y ahí hay que recurrir a la primera derivada y concavidad.
+ \item Si $f''(x)=0$, el criterio falla y ahí hay que recurrir a la primera derivada y concavidad.
 \end{itemize}
 \end{mydef}
 
@@ -421,7 +519,7 @@ Calcular los puntos críticos de $f(x)=-3x^{5}+5x^{3}$ y decir si son máximos o
 f(x)&=& -3x^{5}+5x^{3}\\
 f'(x)&=&-15x^{4}+15x^{2}=15x^{2}(1-x^{2})\\
 \end{eqnarray*}
-Los puntos críticos son los valores $x=-1$, $x=0$ y $x=1$. Entonces ahora se deben evaluar en la segunda derivada de la función. 
+Los puntos críticos son los valores $x=-1$, $x=0$ y $x=1$. Entonces, ahora se deben evaluar en la segunda derivada de la función. 
 \begin{eqnarray*}
 f''(x)&=& -60x^{3}+30x=30x(1-2x^{2})
 \end{eqnarray*}
@@ -433,9 +531,9 @@ f''(x)&=& -60x^{3}+30x=30x(1-2x^{2})
 		Puntos & $x=-1$   & $x=0$&$x=1$ \\ 
 		\hline
 		 Signo de $f''(x)$&$x=-1$ &$x=0$ &$x=1$   \\
-		 & $f''(x=-1)>0$  & $f''(x=0)<0$&$f''(1)>0$  \\
+		 & $f''(x=-1)>0$  & $f''(x=0)<0$&$f''(1)<0$  \\
 		\hline
-		Criterio &Mínimo relativo &Máximo relativo& No entrega dato \\
+		Criterio &Mínimo relativo &No entrega dato& Máximo relativo \\
 		\hline
 		\end{tabular}
 		\caption{Criterio de la segunda derivada.}
@@ -453,35 +551,126 @@ f''(x)&=& -60x^{3}+30x=30x(1-2x^{2})
 Se ve que la función tiene un punto máximo y un punto mínimo, pero que además hay un punto que el criterio no entrega información. 
 \end{myexample}
 
+\begin{myexample}
+Se debe elegir un fármaco en base a que su tiempo de máxima concentración sea en el menor tiempo posible (tiempo en horas) ¿Cuál de los siguientes fármacos debo elegir?\\
+\end{myexample}
+\begin{center}
+$C(t)_{1}=t-3t^{3}$ \\ $C(t)_{2}=48t-t^{3}$
+\end{center}
+\textit{Resp:}\\
+\emph{Derivadas del primer fármaco}
+\begin{eqnarray*}
+C(t)_{1}&=&t-3t^{3}\\
+C'(t)_{1}&=&1-9t^{2}\\
+C''(t)_{1}&=&-18t\\
+\end{eqnarray*}
+De la derivada de primer orden obtenemos como punto crítico $t=\sqrt{1/9}$ de hora, se considera solo la raíz positiva ya que la unidad de medida es el tiempo. Ahora, lo evaluamos en la segunda derivada:\\
+\begin{eqnarray*}
+C''(t)_{1}&=&-18t\\
+C''(1/3)_{1}&=&-18\left(\dfrac{1}{3}\right)=-6\\
+\end{eqnarray*}
+
+\emph{Derivadas del segundo fármaco}
+\begin{eqnarray*}
+C(t)_{2}&=&48t-t^{3}\\
+C'(t)_{2}&=&48-3t^{2}\\
+C''(t)_{2}&=&-6t\\
+\end{eqnarray*}
+De la primera derivada obtenemos el punto crítico $t=4$, nuevamente solo consideramos el de signo positivo. Ahora se evalúa en la segunda derivada.
+\begin{eqnarray*}
+C''(t)_{2}&=&-6t\\
+C''(4)_{2}&=&-6(4)\\
+C''(4)_{2}&=&-24\\
+\end{eqnarray*}
+Por el criterio de la segunda derivada ambos son máximos, pero el fármaco número 1 lo logra en menor tiempo y es el que se debe elegir.\\
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{farmacos.png}
+\caption[Gráfico de las funciones de concentración de los fármacos.]{Gráfico de las funciones de concentración de los fármacos. El fármaco 1 (azul) llega mas rápido que el fármaco 2 (naranjo), aunque la concentración en el fármaco dos es mayor (no mostrada en la gráfica).} \label{farmacos}
+\end{figure}
+\end{center}
+
+\begin{myexample}
+ La presión arterial tiene un comportamiento periódico y se puede modelar (de forma muy sencilla) con un polinomio de la forma $ax^{3}-bx^{2}+cx$, donde $a$ es la presión diastólica media (PD)\footnote{Es la presión sobre las arterias cuando el corazón se relaja entre latidos, por lo tanto es el menor valor al momento de medir la presión arterial}, $b$ es la presión sistólica media (PS)\footnote{Es la presión ejercida cuando el corazón bombea la sangre, por lo tanto es el valor mas grande al momento de medir la presión} y $c$ es la edad de la persona (E). Encuentre el máximo (El peak sistólico), el mínimo (El peak diastólico) y el punto de inflexión ($f''(x)=0$) para el caso de una niña de 10 años con PD=120 y PS=80.\\
+\end{myexample}
+\textit{Resp:}\\
+Derivadas de la función:
+\begin{eqnarray*}
+f(x)&=&ax^{3}-bx^{2}+cx\\
+f(x)&=&120x^{3}-80x^{2}+10x\\
+f'(x)&=&360x^{2}-160x+10\\
+f''(x)&=&720x-160\\
+\end{eqnarray*}
+De la derivada de primer orden se obtienen de puntos críticos $x=\dfrac{2}{9}\pm\dfrac{\sqrt{7}}{18}$
+\begin{eqnarray*}
+f''\left(\dfrac{2}{9}+\dfrac{\sqrt{7}}{18}\right)&=& 720\left(\dfrac{2}{9}+\dfrac{\sqrt{7}}{18}\right)-160 \\
+&=& 40\sqrt{7}>0\\
+\end{eqnarray*}
+Análogamente con el otro punto
+\begin{eqnarray*}
+f''\left(\dfrac{2}{9}-\dfrac{\sqrt{7}}{18}\right)&=& 720\left(\dfrac{2}{9}-\dfrac{\sqrt{7}}{18}\right)-160 \\
+&=&-40\sqrt{7}<0\\
+\end{eqnarray*}
+$x=\dfrac{2}{9}+\dfrac{\sqrt{7}}{18}$ es un mínimo y $x=\dfrac{2}{9}-\dfrac{\sqrt{7}}{18}$ es máximo. Finalmente, se calcula en punto que cambia la concavidad, es decir, cuando la segunda derivada es cero.
+\begin{eqnarray*}
+f''(x)&=&720x-160=0\\
+x&=&\dfrac{160}{720}\\
+x&=&\dfrac{2}{9}\\
+\end{eqnarray*}
+
+ \begin{center}
+\begin{figure}[h!]
+\centering
+\includegraphics[scale=0.30]{latidos.png}
+\caption[Gráfico del modelo polinómico del periodo arterial.]{Gráfico del modelo polinómico (Bien simple) del periodo arterial. Los puntos verdes representan el máximo (Peak sistólico), el mínimo (Peak diastólico) y el cambio de concavidad.} \label{farmacos}
+\end{figure}
+\end{center}
 \section{Integrales}
 
-Con esta sección damos por finalizado el capítulo de cálculo (y el curso!), donde por tercera vez recurriremos a lo infinitesimal.\\
+Con esta sección damos por finalizado el capítulo de cálculo, donde por tercera vez recurriremos a lo infinitesimal.\\
 
-Hay instancias en que se busca calcular el área alguna figura, y esto no ha sido problema hasta el momento porque las fórmulas de esas figuras las sabemos (cuadrados, triángulos, trapecios, etc.), pero si se complica un poco más la situación y la figura es más rara de lo que conocemos quedamos de brazos cruzados. Entonces se pensó en dividir en partes pequeñas, muy pequeñas para resolver este problema. Si le agregamos que la figura que elegimos para dividir es de área conocida, un rectángulo por ejemplo, el problema se vuelve más abordable. La integral el área debajo de la curva en rectángulos muy pequeños para luego sumar el área de todo esos rectángulos. Resulta que esa área se puede aproximar al área debajo de la curva sin problema.
+Hay instancias en que se busca calcular el área de alguna figura y esto no ha sido problema hasta el momento, porque las fórmulas de esas figuras las sabemos (el área de cuadrados, triángulos, trapecios, etc.), pero si se complica un poco la situación y la figura es más rara de lo que conocemos quedamos de brazos cruzados. Entonces, varios matemáticos como Isaac Newton\footnote{Isaac Newton, Físico y matemático inglés. 1642-1727.} y Gottfried Leibniz\footnote{Gottfried Wilhelm Leibniz, Matemático y teólogo alemán. 1649-1716. Introdujo el símbolo de la integral, que representa una S alargada, por la suma de las áreas.} sementaron las bases del cálculo, entre ellos se pensó en dividir en partes pequeñas, muy pequeñas, para resolver este problema. No fue hasta Bernhard Riemann\footnote{
+Bernhard Riemann, Matemático alemán. 1826-1866.} que se formalizó la integración utilizando límites. La integral es el área bajo  la curva que se dividió en rectángulos muy pequeños para luego sumar el área de todos ellos. Resulta que esa área se puede aproximar y queda la integral de la función. La representación de la figura (\ref{int0}) muestra como es una buena aproximación sumar los rectángulos de ancho $dx$ y de alto $f(x)$. 
 
 \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.31]{int0.png}
+\includegraphics[scale=0.45]{int0.png}
 \caption[Representación de la integral.]{Representación gráfica de la integral. Desde la figura a) a la c) se va viendo como el rectángulo se hace más pequeño para que el área bajo la curva sea igual al área de la función.} \label{int0}
 \end{figure}
 \end{center}
 
-Así como el logaritmo y la función exponencial son funciones inversas, la derivada y la integral lo son. Esto ayuda a entender en el nombre de antiderivada que es lo primero que mostraremos.
+Así como el función logarítmica y la función exponencial son funciones inversas, las derivadas y las integrales lo son. Cuando uno tiene una expresión $f(x)$ y se aplica una integración obtiene una expresión llamada la antiderivada y que si uno la deriva vuelve a la misma expresión inicial $f(x)$.
+
+
+\newpage
 \begin{mydef}
 \textbf{Antiderivada. } Sea F(x) y F'(x) su derivada que podemos llamar f(x), es decir, $F'(x)=f(x)$. Se dice que $F(x)$ es la antiderivada de $f(x)$.
 \end{mydef}
 
-En el gráfico (c) de la figura (\ref{int0}) se ven varios rectángulos muy pequeños, entonces al momento de calcular el área se debe multiplicar la base que llamaremos $dx$ por el alto que es el valor de la función $f(x)$. El área de cada rectángulo es $f(x)\cdot dx$ y si los sumamos la integral queda definida por 
+En el gráfico (c) de la figura (\ref{int0}) se ven varios rectángulos muy pequeños, entonces al momento de calcular el área se debe multiplicar la base que llamaremos $dx$ por el alto, que es el valor de la función $f(x)$. El área de cada rectángulo es $f(x)\cdot dx$ y si los sumamos, aparece la expresión de la integral 
 \begin{eqnarray}
 y=\int f(x)dx= F(x)+C
 \label{integral}
 \end{eqnarray}
-La ecuación (\ref{integral}) está confirmado que se suma el área de los rectángulos (símbolo de la integral). Además, como resultado da la antiderivada más una constante arbitraria.
-
+La ecuación (\ref{integral}) está confirmando que se suma el área de los rectángulos (símbolo de la integral). Además, como resultado entrega la antiderivada más una constante arbitraria.\\
+La constante muestra que hay varias soluciones para una misma integral, además se ve la relación que hay entre las derivadas e integrales como operaciones inversas.
+\begin{myexample}
+Derivar e integrar las siguientes expresiones:
+\end{myexample}
+\begin{eqnarray*}
+f(x)=50x^{2}+x+20 \hspace{15px} &y& \hspace{15px} g(x)=50x^{2}+x+40\\
+f'(x)=\dfrac{df(x)}{dx}=100x+1 &y& g'(x)=\dfrac{dg(x)}{dx}=100x+1\\
+\int f'(x)dx =\int (100x+1)dx &y& \int g'(x)dx = \int (100x+1)dx \\
+50x^{2}+x+C &y& 50x^{2}+x+C
+\label{constC}
+\end{eqnarray*}
+Para $f(x)$ la constante vale 20, mientras que para $g(x)$ vale 40. Entonces, de momento se obtiene una \textit{familia de soluciones} cuando se integra, y se llama solución general. 
 \subsection{Reglas de integración}
 
-\noindent a) Dericada de una integral: \\
+\noindent a) Derivada de una integral: \\
 \begin{eqnarray}
 \dfrac{d}{dx}\left[ \int  f(x)dx \right]&=& f(x)
 \end{eqnarray}
@@ -510,21 +699,110 @@ La ecuación (\ref{integral}) está confirmado que se suma el área de los rect�
 \begin{eqnarray}
  \int x^{n}dx &=&\dfrac{x^{n+1}}{n+1} +C
 \end{eqnarray}
+Donde $n$ es número real.
+
+\noindent f) Integral de una función exponencial. Caso particular donde la base es el número $e$ y el exponente es un exponente de grado $1$.\\
+\begin{eqnarray}
+ \int e^{x}dx &=&e^{x} +C
+\end{eqnarray}
+
+\noindent g) Integral de una función exponencial. Caso particular en que el coeficiente $n$, que acompaña a la variable del exponente es $\neq 1$.\\
+
+\begin{eqnarray}
+ \int e^{nx}dx &=&\dfrac{e^{nx}}{n} +C
+\end{eqnarray}
+
+\noindent h) Integrales de las principales funciones trigonometricas
+\begin{eqnarray}
+\int cos(x)dx= sen(x)+ C ; \hspace{6px} \int sen(x)dx= -cos(x)+C ; \\
+ \int sec(x)^{2}dx= tan(x)+C; \hspace{6px} \int sec(x)tan(x)dx= sec(x)+ C \\
+ \int csc(x)^{2}dx= -ctan(x)+C ; \hspace{6px}  \int csc(x)ctan(x)dx= -csc(x)+C
+\end{eqnarray}
  
+\begin{myexample}
+En base a las reglas mostradas anteriormente se resolverán las siguientes integrales:
+\end{myexample}
+\noindent\textit{i)}
+\begin{eqnarray*}
+\dfrac{d}{dx}\left[ \int  (2x^{2})dx \right]&=& 2x^{2}
+\end{eqnarray*} 
+ \noindent\textit{ii)}
+\begin{eqnarray*}
+ \int 5dx &=& 5x + C
+\end{eqnarray*} 
+\noindent\textit{iii)}
+\begin{eqnarray*}
+ \int \dfrac{1}{\sqrt{2}}x^{2} dx &=&   \dfrac{1}{\sqrt{2}}\int x^{2}dx = \dfrac{1}{\sqrt{2}} \left[\dfrac{x^{3}}{3}+C \right]= \dfrac{x^{3}}{3\sqrt{2}} +C
+\end{eqnarray*}
+Se debe notar que $C$ es una constante y que si se multiplica por un factor, seguirá siendo una constante. Entonces, se puede seguir escribiendo como $C$ o cambiar de letra la constante y no se pierde generalidad.\\ 
+\noindent\textit{iv)}
+\begin{eqnarray*}
+ \int (6x^{3}+7x^{2})dx = \int 6x^{3}dx+\int 7x^{2}dx &=& 6\left[\dfrac{x^{4}}{4}+C \right]+7\left[\dfrac{x^{3}}{3}+D\right]\\
+&=& \dfrac{6x^{4}}{4}+C+\dfrac{7x^{3}}{3}+D \\
+&=& \dfrac{6x^{4}}{4}+\dfrac{7x^{3}}{3}+E, \hspace{25px} C+D=E
+\end{eqnarray*} 
+\noindent\textit{v)}
+\begin{eqnarray*}
+ \int 5x^{3}dx &=& \dfrac{5x^{4}}{4} + C
+\end{eqnarray*} 
+\noindent\textit{vi)}
+\begin{eqnarray*}
+ \int (4x^{2}+3x)dx &=&  \int 4x^{2}dx+\int 3xdx\\
+ &=&  \dfrac{4x^{3}}{3}+\dfrac{3x^{2}}{2}+C \\
+\end{eqnarray*} 
+\noindent\textit{vii)}
+\begin{eqnarray*}
+ \int e^{x}dx &=&  e^{x} + C
+\end{eqnarray*} 
+\noindent\textit{viii)}
+\begin{eqnarray*}
+ \int e^{3x}dx &=&  \dfrac{e^{3x}}{3} + C
+\end{eqnarray*} 
+
+En el ejemplo (\ref{constC}) se ve y se menciona que para funciones distintas, $f(x)$ y $g(x)$, se encuentran la misma antiderivada. La diferencia la marca la constante $C$, que tiene valores distintos. Entonces, se encuentran funciones que están desplazas por una cantidad $C$. Para encontrar el valor de esta constante se necesita información adicional, a la cual se llaman condiones iniciales. Consta de saber el valor de la función para un determinado valor de $x$, y luego despejar la constante C. 
+ \begin{myexample}
+ Sea $f(x)=x^{2}+5x$, encuentre la solución general de la integral de $f(x)$
+ \label{ejemploConst}
+ \end{myexample}
+ \begin{eqnarray*}
+ \int (x^{2}+5x)dx= \dfrac{x^{3}}{3}+ \dfrac{5x^{2}}{2}+C
+ \end{eqnarray*}
+
+\begin{figure}
+\centering
+\includegraphics[scale=0.3]{ConstaC.png}
+\caption{Casos de la función $f(x)$ del ejemplo (\ref{ejemploConst}) para tres valores distintos de la constante C.}
+\end{figure} 
+ 
+ \begin{myexample}
+El decaimiento de un medicamento a través del tiempo (la razón de cambio) está dado por la expresión $df(x)/dx=e^{-\kappa t}$, donde la cosntante de decrecimiento está dado $\kappa =2$. Además se sabe que el tiempo inicial ($t=0$) hay 100ml del medicamento. Integrar la derivada y econtrar la constante $C$. 
+\end{myexample}
+\begin{eqnarray*}
+\int \dfrac{df(x)}{x}&=& e^{-\kappa t} +C \\
+&=& e^{-2 t}+C \\
+\end{eqnarray*}
+Se agrega la condición inicial para el tiempo inicial ($t=0$)
+\begin{eqnarray*}
+e^{-2 \cdot 0}+C &=& 100\\
+1+C &=& 100 \\
+C= 99
+\end{eqnarray*} 
 \subsection{Integrales definidas y teorema fundamental del cálculo}
 
-En la sección anterior se vieron las reglas de integración, pero para hacerlo un poco más real uno siempre quiere saber el área de la función en cierto rango. Cuando la integral no tiene límites se llama integral definida y cuando si los tiene se llama integral definida. Los límites entre los cuales quiero integrar se llaman límites de integración.
+En la sección anterior se vieron las integrales indefinidas y sus reglas de integración, pero usualmente uno necesita agregar limites para obtener un resultado con sentido en los problemas (tiempo, metros, litros, etc), lo que permite definir un rango de integración y en ese caso, la integral pasa llamarse \textit{integral definida}. Los límites entre los cuales quiero integrar se llaman límites de integración.
 
 \begin{mydef}
 \textbf{Teorema fundamental del cálculo. } Si una función $f(x)$ es continua en el intervalo cerrado $[a,b]$ y F es la antiderivada de la función f(x) en el intervalo $[a,b]$, entonces se cumple lo siguiente:
 \begin{eqnarray}
-\int_{a}^{b}f(x)dx=F(b)-F(a)
+\int_{a}^{b}f(x)dx=F(b)-F(a) \hspace{20px} o \hspace{20px} -\int_{b}^{a}f(x)dx=F(a)-F(b)
 \end{eqnarray}
 Se puede resumir en que se debe integrar la función con las reglas ya vistas para luego evaluar la función con los límites de integración. El procedimiento es evaluar el valor más grande menos el valor más pequeño.
 \end{mydef}
 
 \begin{myexample}
-Calcular la integral de $f(x)=x^{3}$ en el intervalo $[1,3]$.
+Calcular las integrales definidas en el intervalo $[1,3]$.
+\end{myexample}
+\noindent\textit{i)}
 \begin{eqnarray*}
 \int_{1}^{3}x^{3}dx&=&\dfrac{x^{4}}{4}\Bigg|_{1}^{3}\\
 &=&\left[\dfrac{3^{4}}{4}-\dfrac{1^{4}}{4} \right]\\
@@ -532,8 +810,14 @@ Calcular la integral de $f(x)=x^{3}$ en el intervalo $[1,3]$.
 &=&\left[\dfrac{80}{4} \right]\\
 &=& 20
 \end{eqnarray*}
-\end{myexample}
-
+\noindent\textit{ii)}
+\begin{eqnarray*}
+\int_{1}^{3}(2x^{3}-e^{x})dx&=& 2\int_{1}^{3}x^{3}dx-\int_{1}^{3}e^{x}dx\\
+&=&2\dfrac{x^{4}}{4}\Bigg|_{1}^{3} -e^{x}\Bigg|_{1}^{3}\\
+&=&\dfrac{1}{2}\left[3^{4}-1^{4}\right]-\left[e^{3}-e^{1}\right]\\
+&=& 40-e^{3}+e^{1}\\
+&=& 40-e^{1}(e^{2}-1)\\
+\end{eqnarray*}
 \subsection{Teorema de valor medio para integrales}
 
 Cuando se establecen los rectángulos de ancho $dx$ ocurre que algunos quedan dentro de la función y otros fuera (ver figura \ref{int0}). El teorema fundamental del valor medio para integrales establece que existe un valor del dominio $c$ que al evaluarlo en la función $f(c)$ es igual al área bajo la curva. 
@@ -563,3 +847,15 @@ Determinar el valor medio de $f(x)=3x^{2}-2x$ en el intervalo $[1,4]$.
 \end{figure}
 \end{center}
 \end{myexample}
+
+\begin{myexample}
+ A un paciente se le inyecta 2 miligramos de un medicamento a la vena. La cantidad de medicamento que se queda en la sangre después de t horas está dado por $f(t)=f_{0}e^{-0,32\cdot t}$, donde $f_{0}$ es la cantidad inicial del medicamento. Encuentre la cantidad promedio de medicamento en la sangre solamente de la segunda hora.\\
+
+\begin{eqnarray*}
+f(c)&=&\dfrac{1}{2-1}\int_{1}^{2}2e^{-0,32\cdot t}dt\\
+&=& 2\left[\dfrac{e^{-0,32\cdot t}}{-0,32} \right]\\
+&=& \dfrac{2}{-0,32}\left[e^{-0,32\cdot t}\right]\Bigg|_{1}^{2}\\
+&=& \dfrac{2}{-0,32}\left[e^{-0,32\cdot 2}-e^{-0,32\cdot 1}\right]\\
+&=& \dfrac{2\cdot e^{-0,32}}{-0,32}\left[e^{-0,32}-1\right]\\
+\end{eqnarray*}
+ \end{myexample}

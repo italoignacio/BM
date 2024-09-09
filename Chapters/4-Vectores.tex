@@ -19,7 +19,7 @@ Cuando se forma el ángulo se puede medir en grados que van desde $0$ a $360$ gr
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.28]{ang0.png}
+\includegraphics[scale=0.4]{ang0.png}
 \caption[Figura de ángulos positivo y negativo]{Figura de ángulos positivo y negativo. a) Muestran un plano cartesiano de $x$ e $y$ donde hay un vector en $45^{o}$ en sentido positivo. b) Es un vector en el mismo plano cartesiano y también es de $45^{o}$, pero es negativo.} \label{grados0}
 \end{figure}
 \end{center}
@@ -32,7 +32,7 @@ La convención en radianes son las mismas que en los ángulos, es decir, el sent
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.28]{ang1.png}
+\includegraphics[scale=0.4]{ang1.png}
 \caption[Figura de radianes positivo y negativo]{Figura de ángulos positivo y negativo. a) Muestran un plano cartesiano de $x$ e $y$ donde hay un vector en $\pi/4$ radianes en sentido positivo. b) Es un vector en el mismo plano cartesiano y también es de $\pi/4$ radianes, pero es negativo.} \label{grados0}
 \end{figure}
 \end{center}
@@ -59,7 +59,7 @@ El resumen de los ángulos más importantes se ven en la siguiente tabla;
  \caption{Tabla resumen de los ángulos más comunes en grados y su equivalente en radianes.}
  \end{center}
 \end{table}
-
+\newpage
 \section{Trigonometría}
 
 Utilizaremos los ángulos mostrados en la sección anterior en funciones trigonométricas, que se pueden calcular en base a los lados de un triángulo rectángulo.\\
@@ -76,11 +76,21 @@ El triángulo rectángulo consta de 3 lados etiquetados con las letras $a$, $b$ 
 \begin{mydef}
 \textbf{Funciones trigonométricas. }En base al triangulo de la figura (\ref{trig0}) se definen las siguientes funciones trigonométricas:
 \begin{eqnarray}
-sen(\theta)&=&\dfrac{C. op.}{hip}\\
-cos(\theta)&=&\dfrac{C. ad.}{hip}\\
-tan(\theta)&=&\dfrac{C. op}{C. ad}=\dfrac{sen(\theta)}{cos(\theta)}\\
-cot(\theta)&=&\dfrac{C. ad}{C. op}=\dfrac{1}{tan(\theta)}\\
-sec(\theta)&=&\dfrac{hip}{C. ad.}=\dfrac{1}{cos(\theta)}\\
+sen(\theta)&=&\dfrac{C. op.}{hip}
+\end{eqnarray}
+\begin{eqnarray}
+cos(\theta)&=&\dfrac{C. ad.}{hip}
+\end{eqnarray}
+\begin{eqnarray}
+tan(\theta)&=&\dfrac{C. op}{C. ad}=\dfrac{sen(\theta)}{cos(\theta)}
+\end{eqnarray}
+\begin{eqnarray}
+cot(\theta)&=&\dfrac{C. ad}{C. op}=\dfrac{1}{tan(\theta)}
+\end{eqnarray}
+\begin{eqnarray}
+sec(\theta)&=&\dfrac{hip}{C. ad.}=\dfrac{1}{cos(\theta)}
+\end{eqnarray}
+\begin{eqnarray}
 csc(\theta)&=&\dfrac{hip}{C. op}=\dfrac{1}{sen(\theta)}
 \end{eqnarray}
 Las abreviaciones son las siguientes: sen=seno, cos=coseno, tan=tangente, cot=cotangente, sec=secante y csc=cosecante.
@@ -120,7 +130,12 @@ sen^{2}(\theta)+cos^{2}(\theta)=1\\
 cot^{2}(\theta)+1=csc^{2}(\theta)
 \end{eqnarray}
 \end{mydef}
-
+\begin{myexample}
+Encuentre el valor de la siguiente expresión trigonométrica:
+\begin{eqnarray*}
+cos(30^{o})\cdot tan(60^{o})=\dfrac{\sqrt{3}}{2}\cdot\sqrt{3}=\dfrac{3}{2}
+\end{eqnarray*}
+\end{myexample}
 Si se junta las funciones trigonométricas con lo visto de los ángulos en grados y radianes se puede resumir en una tabla con los valores más comunes.
 
 \begin{table}[h!]
@@ -140,18 +155,11 @@ Grados &$0^{o}$&$30^{o}=\pi/6$&$45^{o}=\pi/4$&$60^{o}=\pi/3$&$90^{o}=\pi/2$&$270
  \end{center}
 \end{table}
 
-\begin{myexample}
-Encuentre el valor de la siguiente expresión:
-\begin{eqnarray*}
-cos(30^{o})\cdot tan(60^{o})=\dfrac{\sqrt{3}}{2}\cdot\sqrt{3}=\dfrac{3}{2}
-\end{eqnarray*}
-\end{myexample}
-
 \section{Vectores}
 
-Cuando uno se enfrenta a los problemas de mover cosas o desplazarse, uno hace un mapa o plano mental de como moverse y de forma inconsciente hacemos las direcciones. Si se plasma ese plano mental, naturalmente lo llevaremos a \textit{flechas} que nos direccionan a nuestro destino. Estas flechas con un largo y dirección lo llamaremos \textit{vector}.\\
+Cuando uno se enfrenta a los problemas de mover cosas o desplazarse, se hacen mapas o planes mentales de como moverse y de forma inconsciente hacemos las direcciones para lograr el objetivo. Si se plasma ese plano mental, naturalmente lo llevaremos a \textit{flechas} que nos direccionan a nuestro destino. Estas flechas con un largo y dirección lo llamaremos \textit{vector}.\\
 
-Gráficamente, el vector es representado por una flecha entre dos puntos, donde tiene un punto inicial y final que define su dirección. Si los puntos que son $O$ y $P$ el trazo $OP$ forma el vector denotado por $\vec{A}$ y el largo del vector se llama magnitud y es denotado $|\vec{A}|$.\\
+Gráficamente, el vector es representado por una flecha entre dos puntos, donde tiene un punto inicial y final que define su dirección. Si los puntos que son $O$ y $P$, el trazo $OP$ forma el vector denotado por $\vec{A}$ o $\vec{OP}$ y el largo del vector se llama magnitud y es denotado $|\vec{A}|$.\\
 
  \begin{center}
 \begin{figure}[h!]
@@ -161,13 +169,25 @@ Gráficamente, el vector es representado por una flecha entre dos puntos, donde 
 \end{figure}
 \end{center}
 
+Para formar el vector desde los puntos $O$ y $P$ se debe restar el punto final menos el punto inicial. Entonces, si se tiene un punto inicial $O$ que tiene coordenadas en el plano de dos dimensiones $(O_{0},O_{1})$ y un punto final $P$ de coordenadas $(P_{0}, P_{1})$, donde el primer elemento del paréntesis es el valor en el eje $x$ y el segundo valor es del eje $y$. Se debe restar las coordenadas del punto $P$ menos las del punto $O$. Finalmente, el vector $\vec{A}$ esta dado por la siguiente expresión:
+\begin{eqnarray}
+\vec{A}=P-O=(P_{0}, P_{1})-(O_{0},O_{1})=(P_{0}-O_{0}, P_{1}-O_{1})
+\end{eqnarray}
+
+\begin{myexample}
+Encuentre las coordenadas del vector $\vec{a}$, si tiene como punto inicial $O=(1,-2)$ y punto final $P=(5,3)$.
+\end{myexample}
+\begin{eqnarray*}
+\vec{a}&=& P-O = (5,3)-(1,-2)= (4,5)
+\end{eqnarray*}
+
 La magnitud es un número y no tiene dirección, a estas cantidades se les llama \textit{escalares}. Ejemplos de magnitudes escalares son: La masa, largo, tiempo, temperatura y cualquier cantidad que sea un número real.
 
 \begin{eqnarray}
 \vec{A}=|\vec{A}|\cdot\vec{e}
 \label{vector0}
 \end{eqnarray}
-El vector $\vec{A}$ cuenta con un número escalar que es la magnitud y un vector que le da la dirección. Un ejemplo que sirve por el momento es decir que uno se puede mover $10m$, pero es distinto decir que uno se moverá $10m$ al sur o al norte. El decir norte o sur da la dirección a la cual uno se desplazará.
+El vector $\vec{A}$ cuenta con un número escalar que es la magnitud y un vector que le da la dirección. Un ejemplo que sirve por el momento, es decir que uno se puede mover $10$ metros, pero es distinto decir que uno se moverá $10$ metros al sur o al norte. El decir norte o sur da la dirección a la cual uno se desplazará.
 \begin{itemize}
 	\item Sea $\vec{A}$ y $\vec{B}$ dos vectores y se dicen que son iguales si tienen la misma magnitud y dirección sin importar sus puntos de inicio. Ver representación a) de la figura (\ref{vect1}).\\
 	\item Un vector $\vec{A}$, pero con dirección opuesta y misma magnitud se denota como $-\vec{A}$. Ver representación b) de la figura (\ref{vect1}).
@@ -176,7 +196,7 @@ El vector $\vec{A}$ cuenta con un número escalar que es la magnitud y un vector
  \begin{center}
 \begin{figure}[h!]
 \centering
-\includegraphics[scale=0.25]{vect1.png}
+\includegraphics[scale=0.4]{vect1.png}
 \caption[Representación 
 Representación de vectores iguales y opuestos.]{Representación de vectores iguales y opuestos. a) Se muestran dos vectores iguales que son iguales en magnitud y sentido. b) Se muestran dos vectores opuestos que son iguales en magnitud pero distintos en sentido.} \label{vect1}
 \end{figure}
@@ -192,7 +212,7 @@ Las operaciones posibles con los vectores son la suma, la resta y la multiplicac
 \end{figure}
 \end{center}
 
-En términos matemáticos, cuando se aplica la operación de suma o resta se debe aplicar en cada un de los elementos. La primera forma de ver un vector en más de una dimensión es un paréntesis donde cada número representa la magnitud que tiene en cada dirección. Entonces, considere dos vectores $\vec{v}_{1}=(x_{1},y_{1},z_{1})$ y $\vec{v}_{2}=(x_{2},y_{2},z_{2})$ donde la suma y la resta queda definida como:\\
+En términos matemáticos, cuando se aplica la operación de suma o resta se debe aplicar en cada un de los elementos. La primera forma de ver un vector en más de una dimensión es un paréntesis donde cada número representa la magnitud que tiene en cada dirección (Similar el procedimiento cuando se forma un vector con dos puntos en el plano). Entonces, considere dos vectores $\vec{v}_{1}=(x_{1},y_{1},z_{1})$ y $\vec{v}_{2}=(x_{2},y_{2},z_{2})$ donde la suma y la resta queda definida como:\\
 
 \noindent a) Suma:\\
 \begin{eqnarray}
@@ -217,11 +237,55 @@ m(n\vec{A})&=&(mn)\vec{A}\\
 m(\vec{A}+\vec{B})&=&m\vec{A}+m\vec{B}
 \end{eqnarray}
 
+\begin{myexample}
+Considere los vectores en tres dimensiones $\vec{A}=(2,3,4)$, $\vec{B}=(0,0,2)$, $\vec{C}=(7,1,0)$ y las constantes $m=2$, $n=3$. Resuelva las ecuaciones anteriores.
+\end{myexample}
+\noindent\textit{i)} \\
+\begin{eqnarray*}
+\vec{A}+\vec{B}&=&\vec{B}+\vec{A}\\
+(2,3,4)+(0,0,2)&=& (0,0,2)+(2,3,4)\\
+(2,3,6)&=& (2,3,6)
+\end{eqnarray*}
+\noindent\textit{ii)} \\
+\begin{eqnarray*}
+\vec{A}+(\vec{B}+\vec{C})&=&(\vec{A}+\vec{B})+\vec{C}\\
+(2,3,4)+\left[(0,0,2)+ (7,1,0)\right]&=&\left[(2,3,4)+(0,0,2)\right]+(7,1,0)\\
+(2,3,4)+\left[(7,1,2) \right]&=&\left[(2,3,6) \right]+(7,1,0)\\
+(9,4,6)&=&(9,4,6)\\
+\end{eqnarray*}
+\noindent\textit{iii)} \\
+\begin{eqnarray*}
+m\vec{A}&=&\vec{A}m\\
+2\cdot (2,3,4) &=& (2,3,4)\cdot 2\\
+(4,6,8)&=& (4,6,8)\\
+\end{eqnarray*}
+\noindent\textit{iv)} \\
+\begin{eqnarray*}
+m(n\vec{A})&=&(mn)\vec{A}\\
+2\cdot(3\cdot(2,3,4))&=&(2\cdot 3)(2,3,4)\\
+2\cdot (6,9,12)&=&(6)\cdot (2,3,4)\\
+(12,18,24)&=&(12,18,24)
+\end{eqnarray*}
+\noindent\textit{v)} \\
+\begin{eqnarray*}
+(m+n)\vec{A}&=&m\vec{A}+n\vec{A}\\
+(2+3)\cdot(2,3,4)&=&2(2,3,4)+3(2,3,4)\\
+(5)(2,3,4)&=&(4,6,8)+(6,9,12)\\
+(10,15,20)&=&(10,15,20)\\
+\end{eqnarray*}
+\noindent\textit{vi)} \\
+\begin{eqnarray*}
+m(\vec{A}+\vec{B})&=&m\vec{A}+m\vec{B}\\
+2((2,3,4)+(0,0,2))&=&2(2,3,4)+2(0,0,2)\\
+2(2,3,6)&=&(4,6,8)+(0,0,4)\\
+(4,6,12)&=&(4,6,12)\\
+\end{eqnarray*}
+
 
 
 \subsection{Vectores unitarios}
 
-En la ecuación (\ref{vector0}) presentamos a $\vec{e}$ que nos dice la dirección del vector. Este elemento se le llama vector unitarios, es decir, tiene largo uno.\\
+En la ecuación (\ref{vector0}) presentamos a $\vec{e}$ que nos dice la dirección del vector. Este elemento se le llama vectores unitarios, es decir, tiene largo uno.\\
 Cuando creamos un plano en 2D o un espacio en 3D para colocar los vectores, cada eje tiene un vector unitario. A diferencia de cualquier vector, la notación de un vector unitario es $\hat{i}, \hat{j}$ y $\hat{k}$.
 
  \begin{center}
@@ -243,17 +307,38 @@ Sea $\vec{A}=5\hat{i}$, calcule el doble del vector $\vec{A}$.
 
 Ahora cualquier vector se puede  volver un vector unitario. Si un vector $\vec{A}$ tiene una norma distinta de uno, se debe dividir por un escalar y es su propia magnitud.
 \begin{eqnarray}
-\vec{A}=\dfrac{\vec{A}}{|\vec{A}|}
+\hat{A}=\dfrac{\vec{A}}{|\vec{A}|}
 \end{eqnarray}
 
 \subsection{Componentes de un vector}
 
-Así como en un principio se dijo que era importante decir la dirección del vector, si era sur o norte, pero que ocurre si la dirección es Noroeste. El vector tiene una parte hacia el norte y una parte hacia el oeste. En estos vectores se dice que tiene componentes en esas direcciones. Si generalizamos con los ejes que hemos planteado un vector puede tener componentes en los ejes $\hat{i}, \hat{j}$ y $\hat{k}$. Esto se puede extender a cuantas componentes nosotros queramos, pero para este curso veremos el caso de dos y tres dimensiones.
+Así como en un principio se dijo que era importante decir la dirección del vector, si era sur o norte, pero que ocurre si la dirección es Noroeste. El vector tienen una parte hacia el norte y una parte hacia el oeste. En estos vectores se dice que tiene componentes en esas direcciones. Si generalizamos con los ejes que hemos planteado, un vector puede tener componentes en los ejes $\hat{i}, \hat{j}$ y $\hat{k}$. Esto se puede extender a cuantas componentes nosotros queramos, pero para este curso veremos el caso de dos y tres dimensiones.
 \begin{eqnarray}
 \vec{A}=A_{1}\hat{i}+A_{2}\hat{j}+A_{3}\hat{k}
 \label{vector1}
 \end{eqnarray}
-Lo importante de (\ref{vector1}) es que nos permite calcular la magnitud de un vector cualquiera en base a sus componentes.\\
+
+En (\ref{vector1}) se muestra cada componente de un vector arbitrario, pero además se puede escribir cada componente en términos de las funciones trigonométricas. Se crea un triángulo rectángulo (como la figura \ref{trig0}), donde la magnitud del vector es la hipotenusa del triangulo y los catetos son las componentes del vector.\\
+Si considero un vector $\vec{a}$ en dos dimensiones, que solo conozco su magnitud, con componentes $a_{x}$ y $a_{y}$ respectivamente. Se puede calcular la expresión de $a_{x}$ y $a_{y}$ utilizando la función $sen(\theta)$ y $cos(\theta)$.\\
+
+\textit{Componente en el eje $y$:}
+\begin{eqnarray}
+sen(\theta)&=&\dfrac{a_{y}}{|\vec{a}|}\nonumber\\
+a_{y}&=&|\vec{a}|\cdot sen(\theta)
+\end{eqnarray}\\
+
+\textit{Componente en el eje $x$:}
+\begin{eqnarray}
+cos(\theta)&=&\dfrac{a_{x}}{|\vec{a}|}\nonumber\\
+a_{x}&=&|\vec{a}|\cdot cos(\theta)
+\end{eqnarray}\\
+
+Finalmente, el vector queda expresado de la siguiente manera:
+\begin{eqnarray}
+\vec{a}&=&(a_{x},a_{y})\\
+&=&(|\vec{a}|\cdot cos(\theta),|\vec{a}|\cdot sen(\theta))\\
+&=&|\vec{a}|(cos(\theta),sen(\theta))
+\end{eqnarray}
 
  \begin{center}
 \begin{figure}[h!]
@@ -270,6 +355,8 @@ Lo importante de (\ref{vector1}) es que nos permite calcular la magnitud de un v
 |\vec{r}|&=&\sqrt{x^{2}+y^{2}+z^{2}}
 \end{eqnarray*} 
 
+
+
 \begin{myexample}
 Sea $\vec{v}=3\hat{i}+4\hat{j}+5\hat{k}$. Calcule la magnitud del vector $\vec{v}$
 \begin{eqnarray*}
@@ -284,7 +371,7 @@ Sea $\vec{v}=3\hat{i}+4\hat{j}+5\hat{k}$. Calcule la magnitud del vector $\vec{v
 \end{myexample}
 
 \begin{myexample}
-Sea $\vec{v}=3\hat{i}+4\hat{j}+5\hat{k}$. ormalice del vector $\vec{v}$:
+Sea $\vec{v}=3\hat{i}+4\hat{j}+5\hat{k}$. Formalice del vector $\vec{v}$:
 \begin{eqnarray*}
 \vec{v}&=&3\hat{i}+4\hat{j}+5\hat{k}\\
 \hat{v}&=&\dfrac{\vec{v}}{|\vec{v}|}\\

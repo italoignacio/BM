@@ -5,120 +5,120 @@
 \contentsline {section}{\numberline {1.1}Conectivos lógicos}{2}{section.1.1}%
 \contentsline {subsection}{\numberline {1.1.1}Negación}{3}{subsection.1.1.1}%
 \contentsline {subsection}{\numberline {1.1.2}Conjunción}{4}{subsection.1.1.2}%
-\contentsline {subsection}{\numberline {1.1.3}Disyunción inclusiva}{4}{subsection.1.1.3}%
+\contentsline {subsection}{\numberline {1.1.3}Disyunción inclusiva}{5}{subsection.1.1.3}%
 \contentsline {subsection}{\numberline {1.1.4}Disyunción exclusiva}{5}{subsection.1.1.4}%
 \contentsline {subsection}{\numberline {1.1.5}Condicional}{6}{subsection.1.1.5}%
-\contentsline {subsection}{\numberline {1.1.6}Bicondicional}{6}{subsection.1.1.6}%
-\contentsline {subsection}{\numberline {1.1.7}Resultados de la tabla de verdad}{7}{subsection.1.1.7}%
+\contentsline {subsection}{\numberline {1.1.6}Bicondicional}{7}{subsection.1.1.6}%
+\contentsline {subsection}{\numberline {1.1.7}Resultados de la tabla de verdad}{8}{subsection.1.1.7}%
 \contentsline {subsection}{\numberline {1.1.8}Propiedades de las proposiciones}{9}{subsection.1.1.8}%
-\contentsline {chapter}{\numberline {2}Teoría de conjuntos}{10}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Cuantificadores lógicos}{10}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Conjuntos y elementos}{13}{section.2.2}%
-\contentsline {section}{\numberline {2.3}Operaciones con conjuntos}{16}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1}Diferencia de conjuntos}{17}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}Complemento de un conjunto}{18}{subsection.2.3.2}%
-\contentsline {subsection}{\numberline {2.3.3}Intersección de conjuntos }{18}{subsection.2.3.3}%
-\contentsline {subsection}{\numberline {2.3.4}Unión de conjuntos}{19}{subsection.2.3.4}%
-\contentsline {subsection}{\numberline {2.3.5}Diferencia simétrica de conjuntos}{20}{subsection.2.3.5}%
-\contentsline {section}{\numberline {2.4}Propiedades de los conjuntos}{21}{section.2.4}%
-\contentsline {subsection}{\numberline {2.4.1}Idempotencia}{21}{subsection.2.4.1}%
-\contentsline {subsection}{\numberline {2.4.2}Conmutatividad}{21}{subsection.2.4.2}%
-\contentsline {subsection}{\numberline {2.4.3}Asociatividad}{22}{subsection.2.4.3}%
-\contentsline {subsection}{\numberline {2.4.4}Distributividad}{22}{subsection.2.4.4}%
-\contentsline {subsection}{\numberline {2.4.5}Leyes de Morgan}{22}{subsection.2.4.5}%
-\contentsline {section}{\numberline {2.5}Técnicas de conteo}{23}{section.2.5}%
-\contentsline {subsection}{\numberline {2.5.1}Conteo en conjuntos disjuntos}{23}{subsection.2.5.1}%
-\contentsline {subsection}{\numberline {2.5.2}Conteo en conjuntos no disjuntos}{24}{subsection.2.5.2}%
-\contentsline {subsection}{\numberline {2.5.3}Conteo para la unión de tres conjuntos}{24}{subsection.2.5.3}%
-\contentsline {chapter}{\numberline {3}Números reales}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Propiedades de los números reales}{29}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Adición en los números reales}{29}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Multiplicación en los números reales}{29}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}Consecuencias de la adición y sustracción}{29}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}Porcentajes}{31}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Desigualdades}{32}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Propiedades de las desigualdades}{33}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Intervalos con desigualdades}{34}{subsection.3.3.2}%
-\contentsline {section}{\numberline {3.4}Valor absoluto}{35}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Propiedades del valor absoluto}{35}{subsection.3.4.1}%
-\contentsline {section}{\numberline {3.5}Exponentes}{37}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Radicales}{37}{subsection.3.5.1}%
-\contentsline {subsection}{\numberline {3.5.2}Racionalización}{39}{subsection.3.5.2}%
-\contentsline {section}{\numberline {3.6}Factorización de polinomios}{39}{section.3.6}%
-\contentsline {subsection}{\numberline {3.6.1}Factorización de polinomios cuadráticos}{40}{subsection.3.6.1}%
-\contentsline {subsubsection}{Polinomio cuadrática en caso general}{41}{section*.7}%
-\contentsline {subsection}{\numberline {3.6.2}Formulas de factorización}{42}{subsection.3.6.2}%
-\contentsline {section}{\numberline {3.7}Expresiones racionales}{43}{section.3.7}%
-\contentsline {subsection}{\numberline {3.7.1}Mínimo común denominador (MCD)}{43}{subsection.3.7.1}%
-\contentsline {chapter}{\numberline {4}Ecuaciones y desigualdades}{44}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Ecuaciones}{44}{section.4.1}%
-\contentsline {subsection}{\numberline {4.1.1}Ecuaciones con mas variables}{45}{subsection.4.1.1}%
-\contentsline {subsection}{\numberline {4.1.2}Problemas con enunciado}{45}{subsection.4.1.2}%
-\contentsline {section}{\numberline {4.2}Desigualdades}{47}{section.4.2}%
-\contentsline {subsection}{\numberline {4.2.1}Desigualdades simultaneas}{48}{subsection.4.2.1}%
-\contentsline {section}{\numberline {4.3}Ecuaciones y desigualdades con valor absoluto}{49}{section.4.3}%
-\contentsline {subsection}{\numberline {4.3.1}Ecuaciones}{49}{subsection.4.3.1}%
-\contentsline {subsection}{\numberline {4.3.2}Desigualdades}{50}{subsection.4.3.2}%
-\contentsline {section}{\numberline {4.4}Desigualdades racionales y polinomiales}{51}{section.4.4}%
-\contentsline {subsection}{\numberline {4.4.1}Desigualdades polinomiales}{51}{subsection.4.4.1}%
-\contentsline {subsection}{\numberline {4.4.2}Desigualdades polinomiales con valor absoluto}{54}{subsection.4.4.2}%
-\contentsline {chapter}{\numberline {5}Funciones matemáticas}{57}{chapter.5}%
-\contentsline {section}{\numberline {5.1}Dominio e imagen de una función}{59}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Gráficas de una función}{60}{section.5.2}%
-\contentsline {subsection}{\numberline {5.2.1}Intersecciones con los ejes}{60}{subsection.5.2.1}%
-\contentsline {subsection}{\numberline {5.2.2}Simetrías y transformaciones }{61}{subsection.5.2.2}%
-\contentsline {subsection}{\numberline {5.2.3}Transformaciones rígidas}{62}{subsection.5.2.3}%
-\contentsline {subsection}{\numberline {5.2.4}Transformaciones no rígidas}{63}{subsection.5.2.4}%
-\contentsline {section}{\numberline {5.3}Función cuadrática y lineal}{64}{section.5.3}%
-\contentsline {subsection}{\numberline {5.3.1}Función lineal}{65}{subsection.5.3.1}%
-\contentsline {subsection}{\numberline {5.3.2}Función cuadrática}{66}{subsection.5.3.2}%
-\contentsline {subsubsection}{Vértice y eje}{66}{section*.8}%
-\contentsline {subsubsection}{Intersección con los ejes}{67}{section*.9}%
-\contentsline {section}{\numberline {5.4}Funciones crecientes y decrecientes}{68}{section.5.4}%
-\contentsline {section}{\numberline {5.5}Funciones por partes}{69}{section.5.5}%
-\contentsline {section}{\numberline {5.6}Combinación de funciones}{71}{section.5.6}%
-\contentsline {subsection}{\numberline {5.6.1}Dominio de una función combinada}{72}{subsection.5.6.1}%
-\contentsline {section}{\numberline {5.7}Composición de funciones}{72}{section.5.7}%
-\contentsline {subsection}{\numberline {5.7.1}Dominio de una función compuesta}{73}{subsection.5.7.1}%
-\contentsline {section}{\numberline {5.8}Cociente de diferencias}{74}{section.5.8}%
-\contentsline {section}{\numberline {5.9}Funciones inversas}{75}{section.5.9}%
-\contentsline {subsection}{\numberline {5.9.1}Gráficas de la función inversa}{78}{subsection.5.9.1}%
-\contentsline {section}{\numberline {5.10}Problemas con enunciado}{79}{section.5.10}%
-\contentsline {section}{\numberline {5.11}Funciones polinomiales}{80}{section.5.11}%
-\contentsline {section}{\numberline {5.12}Funciones racionales}{83}{section.5.12}%
-\contentsline {subsection}{\numberline {5.12.1}Asíntotas verticales}{83}{subsection.5.12.1}%
-\contentsline {subsubsection}{Determinación de asíntotas verticales}{85}{section*.10}%
-\contentsline {subsection}{\numberline {5.12.2}Asíntotas horizontales}{86}{subsection.5.12.2}%
-\contentsline {subsubsection}{Determinación de asíntotas horizontales}{86}{section*.11}%
-\contentsline {section}{\numberline {5.13}Funciones exponenciales}{88}{section.5.13}%
-\contentsline {subsection}{\numberline {5.13.1}Gráfica de una función exponencial}{88}{subsection.5.13.1}%
-\contentsline {subsection}{\numberline {5.13.2}Número e}{90}{subsection.5.13.2}%
-\contentsline {section}{\numberline {5.14}Funciones logarítmicas}{91}{section.5.14}%
-\contentsline {section}{\numberline {5.15}Ecuaciones exponenciales y logarítmicas}{93}{section.5.15}%
-\contentsline {section}{\numberline {5.16}Modelos matemáticos exponenciales y logarítmicos}{94}{section.5.16}%
-\contentsline {subsection}{\numberline {5.16.1}Modelos matemáticos exponenciales}{94}{subsection.5.16.1}%
-\contentsline {subsection}{\numberline {5.16.2}Modelos matemáticos logarítmicos}{95}{subsection.5.16.2}%
-\contentsline {subsection}{\numberline {5.16.3}Escalas logarítmicas y lineales}{96}{subsection.5.16.3}%
-\contentsline {chapter}{\numberline {6}Cálculo vectorial}{99}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Ángulos y su orientación}{99}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Trigonometría}{101}{section.6.2}%
-\contentsline {section}{\numberline {6.3}Vectores}{103}{section.6.3}%
-\contentsline {subsection}{\numberline {6.3.1}Vectores unitarios}{105}{subsection.6.3.1}%
-\contentsline {subsection}{\numberline {6.3.2}Componentes de un vector}{106}{subsection.6.3.2}%
-\contentsline {chapter}{\numberline {7}Cálculo infinitesimal}{109}{chapter.7}%
-\contentsline {section}{\numberline {7.1}Límites}{109}{section.7.1}%
-\contentsline {subsection}{\numberline {7.1.1}Límites laterales}{112}{subsection.7.1.1}%
-\contentsline {section}{\numberline {7.2}Derivadas}{113}{section.7.2}%
-\contentsline {subsection}{\numberline {7.2.1}Reglas de la derivación}{114}{subsection.7.2.1}%
-\contentsline {subsection}{\numberline {7.2.2}Derivada de orden superior}{115}{subsection.7.2.2}%
-\contentsline {subsection}{\numberline {7.2.3}Extremos de una función}{115}{subsection.7.2.3}%
-\contentsline {subsection}{\numberline {7.2.4}Función creciente y decreciente}{117}{subsection.7.2.4}%
-\contentsline {subsection}{\numberline {7.2.5}Concavidad y criterio de segunda derivada}{119}{subsection.7.2.5}%
-\contentsline {subsection}{\numberline {7.2.6}Criterio de la segunda derivada}{121}{subsection.7.2.6}%
-\contentsline {section}{\numberline {7.3}Integrales}{122}{section.7.3}%
-\contentsline {subsection}{\numberline {7.3.1}Reglas de integración}{123}{subsection.7.3.1}%
-\contentsline {subsection}{\numberline {7.3.2}Integrales definidas y teorema fundamental del cálculo}{124}{subsection.7.3.2}%
-\contentsline {subsection}{\numberline {7.3.3}Teorema de valor medio para integrales}{125}{subsection.7.3.3}%
-\contentsline {chapter}{\numberline {A}Completación del cuadrado}{126}{appendix.Alph1}%
-\contentsline {chapter}{\textbf {Referencias}}{128}{section*.12}%
-\contentsline {chapter}{Apéndices}{128}{section*.12}%
+\contentsline {chapter}{\numberline {2}Teoría de conjuntos}{11}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Cuantificadores lógicos}{11}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Conjuntos y elementos}{14}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Operaciones con conjuntos}{17}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Diferencia de conjuntos}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Complemento de un conjunto}{19}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Intersección de conjuntos }{19}{subsection.2.3.3}%
+\contentsline {subsection}{\numberline {2.3.4}Unión de conjuntos}{20}{subsection.2.3.4}%
+\contentsline {subsection}{\numberline {2.3.5}Diferencia simétrica de conjuntos}{21}{subsection.2.3.5}%
+\contentsline {section}{\numberline {2.4}Propiedades de los conjuntos}{22}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}Idempotencia}{22}{subsection.2.4.1}%
+\contentsline {subsection}{\numberline {2.4.2}Conmutatividad}{22}{subsection.2.4.2}%
+\contentsline {subsection}{\numberline {2.4.3}Asociatividad}{23}{subsection.2.4.3}%
+\contentsline {subsection}{\numberline {2.4.4}Distributividad}{23}{subsection.2.4.4}%
+\contentsline {subsection}{\numberline {2.4.5}Leyes de Morgan}{24}{subsection.2.4.5}%
+\contentsline {section}{\numberline {2.5}Técnicas de conteo}{24}{section.2.5}%
+\contentsline {subsection}{\numberline {2.5.1}Conteo en conjuntos disjuntos}{25}{subsection.2.5.1}%
+\contentsline {subsection}{\numberline {2.5.2}Conteo en conjuntos no disjuntos}{25}{subsection.2.5.2}%
+\contentsline {subsection}{\numberline {2.5.3}Conteo para la unión de tres conjuntos}{26}{subsection.2.5.3}%
+\contentsline {chapter}{\numberline {3}Números reales}{29}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Propiedades de los números reales}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Adición en los números reales}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Multiplicación en los números reales}{32}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}Consecuencias de la adición y sustracción}{33}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}Porcentajes}{35}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Desigualdades}{37}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Propiedades de las desigualdades}{39}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Intervalos con desigualdades}{40}{subsection.3.3.2}%
+\contentsline {section}{\numberline {3.4}Valor absoluto}{41}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Propiedades del valor absoluto}{42}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Exponentes}{45}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Radicales}{46}{subsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5.2}Racionalización}{47}{subsection.3.5.2}%
+\contentsline {section}{\numberline {3.6}Factorización de polinomios}{48}{section.3.6}%
+\contentsline {subsection}{\numberline {3.6.1}Factorización de polinomios cuadráticos}{49}{subsection.3.6.1}%
+\contentsline {subsubsection}{Polinomio cuadrática en caso general}{50}{section*.7}%
+\contentsline {subsection}{\numberline {3.6.2}fórmulas de factorización}{51}{subsection.3.6.2}%
+\contentsline {section}{\numberline {3.7}Expresiones racionales}{52}{section.3.7}%
+\contentsline {subsection}{\numberline {3.7.1}Mínimo común denominador (MCD)}{52}{subsection.3.7.1}%
+\contentsline {chapter}{\numberline {4}Ecuaciones y desigualdades}{54}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Ecuaciones}{54}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Ecuaciones con mas variables}{55}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Problemas con enunciado}{56}{subsection.4.1.2}%
+\contentsline {section}{\numberline {4.2}Desigualdades}{58}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Desigualdades simultaneas}{59}{subsection.4.2.1}%
+\contentsline {section}{\numberline {4.3}Ecuaciones y desigualdades con valor absoluto}{60}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Ecuaciones}{60}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Desigualdades}{61}{subsection.4.3.2}%
+\contentsline {section}{\numberline {4.4}Desigualdades racionales y polinomiales}{62}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}Desigualdades polinomiales}{62}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Desigualdades polinomiales con valor absoluto}{65}{subsection.4.4.2}%
+\contentsline {chapter}{\numberline {5}Funciones matemáticas}{68}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Dominio e imagen de una función}{70}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Gráficas de una función}{72}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Intersecciones con los ejes}{72}{subsection.5.2.1}%
+\contentsline {subsection}{\numberline {5.2.2}Simetrías y transformaciones }{73}{subsection.5.2.2}%
+\contentsline {subsection}{\numberline {5.2.3}Transformaciones rígidas}{75}{subsection.5.2.3}%
+\contentsline {subsection}{\numberline {5.2.4}Transformaciones no rígidas}{76}{subsection.5.2.4}%
+\contentsline {section}{\numberline {5.3}Función cuadrática y lineal}{76}{section.5.3}%
+\contentsline {subsection}{\numberline {5.3.1}Función lineal}{77}{subsection.5.3.1}%
+\contentsline {subsection}{\numberline {5.3.2}Función cuadrática}{77}{subsection.5.3.2}%
+\contentsline {subsubsection}{Vértice y eje}{79}{section*.8}%
+\contentsline {subsubsection}{Intersección con los ejes}{79}{section*.9}%
+\contentsline {section}{\numberline {5.4}Funciones crecientes y decrecientes}{80}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Funciones por partes}{82}{section.5.5}%
+\contentsline {subsection}{\numberline {5.5.1}Dominio de una función por partes}{84}{subsection.5.5.1}%
+\contentsline {section}{\numberline {5.6}Combinación de funciones}{85}{section.5.6}%
+\contentsline {subsection}{\numberline {5.6.1}Dominio de una función combinada}{85}{subsection.5.6.1}%
+\contentsline {section}{\numberline {5.7}Composición de funciones}{86}{section.5.7}%
+\contentsline {subsection}{\numberline {5.7.1}Dominio de una función compuesta}{87}{subsection.5.7.1}%
+\contentsline {section}{\numberline {5.8}Cociente de diferencias}{88}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Funciones inversas}{89}{section.5.9}%
+\contentsline {subsection}{\numberline {5.9.1}Gráficas de la función inversa}{92}{subsection.5.9.1}%
+\contentsline {section}{\numberline {5.10}Funciones polinomiales}{93}{section.5.10}%
+\contentsline {section}{\numberline {5.11}Funciones racionales}{95}{section.5.11}%
+\contentsline {subsection}{\numberline {5.11.1}Asíntotas verticales}{96}{subsection.5.11.1}%
+\contentsline {subsubsection}{Determinación de asíntotas verticales}{97}{section*.10}%
+\contentsline {subsection}{\numberline {5.11.2}Asíntotas horizontales}{98}{subsection.5.11.2}%
+\contentsline {subsubsection}{Determinación de asíntotas horizontales}{98}{section*.11}%
+\contentsline {section}{\numberline {5.12}Funciones exponenciales}{100}{section.5.12}%
+\contentsline {subsection}{\numberline {5.12.1}Gráfica de una función exponencial}{100}{subsection.5.12.1}%
+\contentsline {subsection}{\numberline {5.12.2}Número e}{102}{subsection.5.12.2}%
+\contentsline {section}{\numberline {5.13}Funciones logarítmicas}{103}{section.5.13}%
+\contentsline {section}{\numberline {5.14}Ecuaciones exponenciales y logarítmicas}{106}{section.5.14}%
+\contentsline {section}{\numberline {5.15}Modelos matemáticos exponenciales y logarítmicos}{107}{section.5.15}%
+\contentsline {subsection}{\numberline {5.15.1}Modelos matemáticos exponenciales}{107}{subsection.5.15.1}%
+\contentsline {subsection}{\numberline {5.15.2}Modelos matemáticos logarítmicos}{109}{subsection.5.15.2}%
+\contentsline {subsection}{\numberline {5.15.3}Escalas logarítmicas y lineales}{110}{subsection.5.15.3}%
+\contentsline {chapter}{\numberline {6}Cálculo vectorial}{112}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Ángulos y su orientación}{112}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Trigonometría}{114}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Vectores}{116}{section.6.3}%
+\contentsline {subsection}{\numberline {6.3.1}Vectores unitarios}{120}{subsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.3.2}Componentes de un vector}{121}{subsection.6.3.2}%
+\contentsline {chapter}{\numberline {7}Cálculo infinitesimal}{124}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Límites}{124}{section.7.1}%
+\contentsline {subsection}{\numberline {7.1.1}Límites laterales}{127}{subsection.7.1.1}%
+\contentsline {section}{\numberline {7.2}Derivadas}{129}{section.7.2}%
+\contentsline {subsection}{\numberline {7.2.1}Reglas de la derivación}{130}{subsection.7.2.1}%
+\contentsline {subsection}{\numberline {7.2.2}Derivada de orden superior}{132}{subsection.7.2.2}%
+\contentsline {subsection}{\numberline {7.2.3}Extremos de una función}{133}{subsection.7.2.3}%
+\contentsline {subsection}{\numberline {7.2.4}Función creciente y decreciente}{135}{subsection.7.2.4}%
+\contentsline {subsection}{\numberline {7.2.5}Concavidad y criterio de segunda derivada}{136}{subsection.7.2.5}%
+\contentsline {subsection}{\numberline {7.2.6}Criterio de la segunda derivada}{138}{subsection.7.2.6}%
+\contentsline {section}{\numberline {7.3}Integrales}{143}{section.7.3}%
+\contentsline {subsection}{\numberline {7.3.1}Reglas de integración}{144}{subsection.7.3.1}%
+\contentsline {subsection}{\numberline {7.3.2}Integrales definidas y teorema fundamental del cálculo}{148}{subsection.7.3.2}%
+\contentsline {subsection}{\numberline {7.3.3}Teorema de valor medio para integrales}{149}{subsection.7.3.3}%
+\contentsline {chapter}{\numberline {A}Completación del cuadrado}{151}{appendix.Alph1}%
+\contentsline {chapter}{\textbf {Referencias}}{153}{section*.12}%
+\contentsline {chapter}{Apéndices}{153}{section*.12}%

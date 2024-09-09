@@ -20,22 +20,24 @@ x > \pi
 De la ecuación anterior (\ref{xpi}) se puede ver que cuando la variable $x$ toma valores mayores que $\pi$\footnote{$\pi$ es un número con infinitos decimales e irracional, es decir, no se puede representar como una fracción. $\pi=3,141592653...$} esta proposición es verdadera, pero para cualquier otro caso ($x$ menores que $\pi$) es una proposición falsa. Ahora estas proposiciones pueden tener $n$ variables, entonces la proposición pasa a ser una \textit{función proposicional}.
 
 \begin{mydef}
-\textbf{Función proposicional}. Es una expresión que contiene una o más variables, y pasa a ser una proposición si se asigna valores específicos a las variables.
+\textbf{Función proposicional}. Es una expresión que se representa con una latra $p$ y tiene como argumentos $n$ proposciones $x_{1}$, $x_{2}$, $...$, $x_{n}$.
+
 \end{mydef}
 \begin{eqnarray}
 p(x_{1},x_{2},x_{3},...,x_{n})\label{fp0}\\
-p(x): \underbrace{x}_\text{sujeto} \underbrace{tiene\hspace{3px} la\hspace{3px} propiedad\hspace{3px} p}_\text{predicado}
+p(x): \underbrace{x}_\text{preposición} \underbrace{tiene\hspace{3px} la\hspace{3px} propiedad\hspace{3px} p}_\text{caracteristica de p}
 \label{fp1}
 \end{eqnarray}
-Para el conjunto de valores que hace verdadera las funciones proposicionales (\ref{fp0}) y (\ref{fp1}) se llama \textit{conjunto de validez}
+Para el conjunto de valores que hace verdadera las funciones proposicionales (\ref{fp0}) y (\ref{fp1}) se llama \textit{conjunto de validez} y lo denotamos como $V_{p}$.
 
 \begin{mydef}\label{def:def444}
-\textbf{Conjunto de validez}. Se llama conjunto de validez de una función proposicional al conjunto de todos los valores de las variables $x_{1}, x_{2},...,x_{n}$ que la convierten en una proposición verdadera 
+\textbf{Conjunto de validez}. Se llama conjunto de validez ($V_{p}$) de una función proposicional al conjunto de todos los valores de las variables $x_{1}, x_{2},...,x_{n}$ que la convierten en una proposición verdadera 
 \end{mydef}
 
 \begin{myexample}
 Encontrar el conjunto de validez ($V_{p}$) de las siguientes proposiciones:
 \end{myexample}
+\noindent\textit{i)}
 \begin{eqnarray}
 p(x)&:& \hspace{6px} x-3=5\nonumber\\
 p(x)&:& \hspace{6px} x=5+3\nonumber\\
@@ -43,6 +45,7 @@ p(x)&:& \hspace{6px} x=8
 \end{eqnarray}
 Conjunto de validez es 8, o dicho de otra manera $x\in \{8\}$.\\
 
+\noindent\textit{ii)}
 \begin{eqnarray}
 p(x)&:& \hspace{6px} x^{2}=4\nonumber\\
 p(x)&:& \hspace{6px} \sqrt{x^{2}}=\sqrt{4}\nonumber\\
@@ -50,45 +53,60 @@ p(x)&:& \hspace{6px} x=\pm 2
 \end{eqnarray}
 El conjunto de validez son los números $2$ y $-2$, o dicho de otra manera $x\in\{-2,2\}$.\\
 
-Notar que $p(x)$ no es una proposición como tal, pero cuando $x=a$ y pasa a ser $p(a)$ si lo es. Ahora otra forma de aludir a un conjunto de validez es usando los cuantificadores. 
+Notar que $p(x)$ no es una proposición como tal, pero cuando $x=a$ y pasa a ser $p(a)$, ahí si lo es. Ahora, otra forma de aludir a un conjunto de validez es usando los cuantificadores. 
 
 \begin{mydef}
-\textbf{Cuantificador universal}. Dado un enunciado abierto $p(x)$ con una variable x, el enunciado $\forall x, p(x)$ se lee ``para todo $x$, $p(x)$'' y es verdadero cuando el conjunto de verdad es el universo completo. Se simboliza con $\forall$ y se llama \textbf{cuantificador universal}.
+\textbf{Cuantificador universal}. Dado un enunciado abierto $p(x)$ con una variable x, el enunciado $\forall x, p(x)$ se lee ``para todo $x$ tal que $p(x)$'' y es verdadero cuando el conjunto de verdad es el universo completo, es decir, todos los elementos. Se simboliza con $\forall$ y se llama \textbf{cuantificador universal}.
 \end{mydef}
 
 \begin{mydef}
-\textbf{Cuantificado existencial}. Se llama \textbf{cuantificador existencial} al símbolo $\exists$ y se lee ``existe x tal que $p(x)$'' y es verdadero cuando el conjunto de verdad para la proposición $p(x)$ no es vacío.
+\textbf{Cuantificador existencial}. Se llama \textbf{cuantificador existencial} al símbolo $\exists$ y se lee ``existe x tal que $p(x)$'' y es verdadero cuando el conjunto de verdad para la proposición $p(x)$ no es vacío.
 \end{mydef}
 
 \begin{myexample}
-Si el conjunto universo es $\mathbb{N}$\footnote{Conjunto de números enteros que comienzan en el cero. $\mathbb{N}=\{0,1,2,3,...\}$.}, $p(x):x+4>3$ y $q(x):x+2<8$, entonces:
+Considere la expresión $x^{2}\geq 0$, y escriba la inecuación con cuantificadores
 \end{myexample}
 
-$V_{p}=\mathbb{N}$, es decir, ``para todo $x$, $x$ en $\mathbb{N}$, $p(x)$ es verdadera''. En términos de cuantificadores se escribe $\forall x,x\in\mathbb{N},p(x)$.\\
+\textit{Sol: Para todo $x$ perteneciente a los números reales, x siempre es mayor o igual que cero. }
+\begin{equation*}
+\forall x \in \mathbb{R}, x\geq 0
+\end{equation*}
 
-$V_{q}=\{1,2,3,4,5\}$, es decir, ``Existe (o existe algún) $x$, $x$ en $\mathbb{N}$, tal que $q(x)$ es verdadera''. En términos de cuantificadores se escribe $\exists x,x\in\mathbb{N},q(x)$.
+\begin{myexample}
+Considere la expresión $x +3 > 0$, y escriba la inecuación con cuantificadores
+\end{myexample}
 
+\textit{Sol: Existe un número real tal que $x+3>0$}.
+\begin{equation*}
+\exists x \in \mathbb{R}\hspace{4px} tal \hspace{3px} que \hspace{3px} x+3>0
+\end{equation*}
+
+%\begin{myexample}
+%Si el conjunto universo es $\mathbb{N}$\footnote{Conjunto de números enteros que comienzan en el cero. $\mathbb{N}=\{0,1,2,3,...\}$.}, $p(x):x+4>3$ y $q(x):x+2<8$, entonces:
+%\end{myexample}
+%
+%$V_{p}=\mathbb{N}$, es decir, ``para todo $x$, $x$ en $\mathbb{N}$, $p(x)$ es verdadera''. En términos de cuantificadores se escribe $\forall x,x\in\mathbb{N},p(x)$.\\
+%
+%$V_{q}=\{1,2,3,4,5\}$, es decir, ``Existe (o existe algún) $x$, $x$ en $\mathbb{N}$, tal que $q(x)$ es verdadera''. En términos de cuantificadores se escribe $\exists x,x\in\mathbb{N},q(x)$.\\
+
+\newpage
+Algunas observaciones sobre los cuantificadores:
 \begin{itemize}
-\item Algunas observaciones.
-	\subitem - Sea el conjunto universo denotado por $\mathcal{U}$.
+\item Sea el conjunto universo denotado por $\mathcal{U}$ y considera la colección de todos los elementos que se desea estudiar.
 	
-	\subitem - Si el conjunto de validez tiene un solo elemento, el cuantificador $\exists$ pasa a $\exists!$. Se escribe ``$\exists! x, x\in\mathcal{U},p(x)$'' y se lee ``existe un único $x\in\mathcal{U}$ tal que $p(x)$ es verdadero''.
+\item Si el conjunto de validez tiene un solo elemento, el cuantificador $\exists$ pasa a $\exists!$. Se escribe ``$\exists! x, x\in\mathcal{U},p(x)$'' y se lee ``existe un único $x\in\mathcal{U}$ tal que $p(x)$ es verdadero''.
 	
-	\subitem - La negación de la proposición  ``Para todo $x$ en $\mathcal{U}$, $p(x)$ es verdadera'' es ``No es verdad que para todo $x$ en $\mathcal{U}$, $p(x)$ es verdadera'' o también ``Existe un $x$ en $\mathcal{U}$ tal que la proposición $\sim p(x)$ es verdadera''. En términos de cuantificadores se escribe:
+\item La negación de la proposición  ``Para todo $x$ en $\mathcal{U}$, $p(x)$ es verdadera'' es ``No es verdad que para todo $x$ en $\mathcal{U}$, $p(x)$ es verdadera'' o también ``Existe un $x$ en $\mathcal{U}$ tal que la proposición $\sim p(x)$ es verdadera''. En términos de cuantificadores se escribe:
 	\begin{equation}
 	\sim(\forall x,x\in\mathcal{U},p(x))\Leftrightarrow(\exists x,x\in\mathcal{U},\sim p(x))
 	\end{equation}
 	
-	\subitem - La negación de la proposición ``Existe un $x$ en $\mathcal{U}$ tal que $p(x)$ es verdadera'' es ``No es verdad que existe un $x$  en $\mathcal{U}$ tal que la proposición $p(x)$ es verdadera'' o ``Para todo $x$ en $\mathcal{U}$, la proposición $p(x)$ es falsa''. En términos de cuantificadores se escribe:
+\item La negación de la proposición ``Existe un $x$ en $\mathcal{U}$ tal que $p(x)$ es verdadera'' es ``No es verdad que existe un $x$  en $\mathcal{U}$ tal que la proposición $p(x)$ es verdadera'' o ``Para todo $x$ en $\mathcal{U}$, la proposición $p(x)$ es falsa''. En términos de cuantificadores se escribe:
 	\begin{equation}
 	\sim(\exists x,x\in\mathcal{U},p(x))\Leftrightarrow(\forall x,x\in\mathcal{U},\sim p(x))
 	\end{equation}
-\end{itemize}
 
-	\subitem - La negación de la proposición ``Existe un único $x$ en $\mathcal{U}$ tal que $p(x)$ es verdadera'' es ``no existe ningún $x$ en $\mathcal{U}$ tal que $p(x)$ es verdadera o existen al menos dos elementos en $\mathcal{U}$, $x$ e $y$, tales que $p(x)$ y $p(y)$ son verdaderas''. En términos de cuantificadores se escribe:
-	\begin{equation}
-	\sim(\exists!x,x\in\mathcal{U},p(x))\Leftrightarrow(\forall x,x\in\mathcal{U},\sim p(x))\vee(\exists x,x\in\mathcal{U},\exists y,y\in\mathcal{U},p(x),p(y))
-	\end{equation}
+\end{itemize}
 	
 \begin{myexample}
 Encontrar el conjunto de validez y escribir la proposición con cuantificadores
@@ -107,7 +125,7 @@ La negación de $(\forall x,x\in \mathbb{Z},x+5\leq 10)$ es $(\exists x,x\in \ma
 \begin{myexample}
 Negar la proposición  $(\exists x,$ $x\in\mathbb{R}, x=20)$: \\
 
-La negación de $(\exists x,$ $x\in\mathbb{R}, x=20)$ es  $(\forall x,$ $x\in\mathbb{R}, x\neq 20)$
+La negación de $(\exists x,$ $x\in\mathbb{R}, x=20)$ es  $(\forall x,$ $x\in\mathbb{R}, x\neq 20)$.\footnote{$\mathbb{R}$ es la notación para los números reales.}
 \end{myexample}
 \newpage
 \section{Conjuntos y elementos}
@@ -119,7 +137,7 @@ Es natural querer agrupar ciertos números u objetos bajo una misma característ
 \textbf{Conjunto}. Un conjunto es una colección bien definida de objetos, llamados sus elementos. Los conjuntos se simbolizan con letras mayúsculas $A$, $B$, $C,...$. Los objetos que componen el conjunto se denominan elementos o miembros y se denotan con letras minúsculas $a$, $b$, $c$,$...$
 \end{mydef}
 
-Un conjunto es una entidad con naturaleza diferente a los elementos que lo componen. Entonces se debe aclarar que siendo $A$ un conjunto, se cumple que $A=\{a\}\neq a$ y $\{a\}$ no es un elemento de $A$.\\
+Un conjunto es una entidad con naturaleza diferente a los elementos que lo componen. Entonces, se debe aclarar que siendo $A$ un conjunto, se cumple que $A=\{a\}\neq a$ y $\{a\}$ no es un elemento de $A$.\\
 
  Algunas observaciones y definiciones de los conjuntos:
 \begin{itemize}
@@ -198,7 +216,7 @@ Escriba la cardinalidad de los siguientes conjuntos:\\
 \noindent Sea $A=\{-5,0,5\}$ y $B=\{1,3,7\}$ dos conjuntos ¿Cuál es la suma de las cardinalidades?. La respuesta es $|A|+|B|=6$.
 \end{myexample}
 
-
+Cuando dos conjuntos tienen la misma cardinalidad ($|A|=|B|$) se dice que son equipotentes
 \begin{mydef}
 \textbf{Conjuntos equipotentes}. Dos conjuntos X e Y se dicen ser equipotentes si tienen exactamente el mismo número de elementos.
 \end{mydef}
@@ -247,26 +265,24 @@ Sea $A=\{0,1\}$ un conjunto finito. Calcule el conjunto potencia de $A$.\\
 \begin{eqnarray*}
 \mathcal{P}(A)=\{\emptyset,A,\{0\},\{1\}\}
 \end{eqnarray*}
-Debe notar que $\{1\}\in \mathcal{P}(A)$ y $\{\{1\}\}\subset \mathcal{P}(A)$.
+Debe notar que $\{1\}\in \mathcal{P}(A)$, es decir es un elemento del conjunto y $\{\{1\}\}\subset \mathcal{P}(A)$ es un un subconjunto.
 \end{myexample}
  
-
+Algunas propiedades de los conjuntos arbitrarios $A$, $B$ y $C$.\\
 \begin{itemize}
-\item Algunas propiedades de los conjuntos $A$, $B$ y $C$.\\
-	\subitem - $\emptyset \subset A$
-	\subitem - $A\subset A$
-	\subitem - $\emptyset\subset A$
-	\subitem - $[(A\subset B)\wedge(B\subset C)]\Rightarrow A\subset C$
-	\subitem - $[(A\subset B)\wedge(B\subset A)]\Leftrightarrow A=B$
+\item  $\emptyset \subset A$
+\item  $A\subset A$
+\item  $[(A\subset B)\wedge(B\subset C)]\Rightarrow A\subset C$
+\item  $[(A\subset B)\wedge(B\subset A)]\Leftrightarrow A=B$
 \end{itemize} 
 
 \section{Operaciones con conjuntos}
 \label{opc}
-Aquí es donde se relaciona los conceptos antes vistos de cuantificadores lógicos (sección \ref{TC0}) y la teoría de conjuntos (sección \ref{CyE}). Además, se debe recordar la definición (\ref{conjuntoU}) que en palabras mas simples es el que contiene todos los elementos de interés para el estudio.\\
+Aquí es donde se relaciona los conceptos antes vistos de cuantificadores lógicos (sección \ref{TC0}) y la teoría de conjuntos (sección \ref{CyE}). Además, se debe recordar la definición (\ref{conjuntoU}) de conjunto universal, que en palabras simples es el conjunto que contiene todos los elementos de interés para el estudio.\\
 
 Al momento de plasmar explícitamente los conjuntos vimos que están los cuantificadores que ayudan, pero otra herramienta que se ocupa es el diagrama de Venn\footnote{Diagrama que recibe el nombre por el matemático y lógico británico John Venn (1834-1923).} que sirve para mostrar gráficamente los conjuntos, sus intersecciones y uniones.\\
 
-El diagrama de Venn muestra de forma gráfica la relación entre conjuntos, donde el caso de dos o tres conjuntos se puede representar con círculos. El diagrama muestra todas las relaciones lógicas posibles con la superposición entre los círculos que representa cada conjunto.\\
+El diagrama de Venn muestra, de forma gráfica, la relación que hay entre los conjuntos. Donde el caso de dos o tres conjuntos se puede representar con círculos. El diagrama muestra todas las relaciones lógicas posibles con la superposición entre los círculos que representa cada conjunto.\\
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
@@ -275,8 +291,10 @@ El diagrama de Venn muestra de forma gráfica la relación entre conjuntos, dond
 	\end{figure}
 \end{center}
 
+A continuación se verán las operaciones que se pueden realizar entre los conjuntos, las expresiones simbólicas y la representación gráfica que tienen cada una de ellas.\\
+
 \subsection{Diferencia de conjuntos}
-La diferencia entre dos conjuntos $A$ y $B$ es el conjunto de los elementos que pertenecen a $A$ y no pertenecen a $B$. La diferencia entre $A$ y $B$ se denota como $A-B$ o $A|B$. Escrito con cuantificadores queda de la siguiente manera: \\
+La diferencia entre dos conjuntos $A$ y $B$ son los elementos que pertenecen a $A$ y no pertenecen a $B$. La diferencia entre $A$ y $B$ se denota como $A-B$ o $A|B$. Escrito con cuantificadores queda de la siguiente manera: \\
 
 \begin{equation}
 A-B =\{x\in\mathcal{U}:x\in A\wedge x\notin B\}=\{x|x\in A\wedge x\notin B\}
@@ -285,7 +303,7 @@ A-B =\{x\in\mathcal{U}:x\in A\wedge x\notin B\}=\{x|x\in A\wedge x\notin B\}
 \begin{myexample}
 Dado dos conjuntos finitos $A=\{a,b,c,d,e,f\}$ y $B=\{c,d,e,f,g,h\}$ determinar la diferencia $A-B$
 \end{myexample}
-Como se vio en la definición el conjunto resultante son los elementos que están en el conjunto $A$ pero no están en el conjunto $B$
+Como se vio en la definición el conjunto resultante son los elementos que están en el conjunto $A$ pero no están en el conjunto $B$ y es:
 \begin{equation*}
 A-B=\{a,b\}
 \end{equation*}
@@ -293,8 +311,8 @@ A-B=\{a,b\}
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
-    		\includegraphics[scale=0.35]{FiguresBM/diferenciac.png}
-    		\caption[Representación de diferencia de dos conjuntos]{Representación de diferencia de dos conjuntos usando el diagrama de Venn. Zona marcada con rojo marca $A-B$.}
+    		\includegraphics[scale=0.5]{FiguresBM/diferenciac.png}
+    		\caption[Representación de diferencia de dos conjuntos]{Representación de diferencia de dos conjuntos usando el diagrama de Venn. Zona oscurecida con rojo marca la operación $A-B$.}
 	\end{figure}
 \end{center}
 
@@ -313,14 +331,13 @@ i)\hspace{2px} x\in A \hspace{20px} ii)\hspace{2px} x\in A^{c}
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
-    		\includegraphics[scale=0.38]{FiguresBM/complemento.png}
+    		\includegraphics[scale=0.5]{FiguresBM/complemento}
     		\caption[Representación del complemento del conjunto $A$]{Representación del complemento del conjunto $A$. La zona oscurecida muestra el conjunto complemento, donde $\mathcal{U}$ es el conjunto universal.}
 	\end{figure}
 \end{center}
 
 \subsection{Intersección de conjuntos }
-La intersección de dos conjuntos $A$ y $B$ es el conjunto formado por todos los elementos comunes de los dos conjuntos. Se denota con el símbolo $A\cap B$ y se lee ``$A$ intersección $B$.\\
-La intersección en términos de cuantificadores se escribe de la siguiente manera:\\
+La intersección de $A$ y $B$ es el conjunto formado por todos los elementos comunes de los dos conjuntos. Se denota con el símbolo $A\cap B$ y se lee ``$A$ intersección $B$''. La intersección en términos de cuantificadores se escribe de la siguiente manera:\\
 \begin{equation}
 A\cap B=\{x\in\mathcal{U}:x\in A\wedge x\in B\}=\{x|x\in A\wedge x\in B\}
 \end{equation} 
@@ -341,14 +358,13 @@ A\cap B=\{1,2\}
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
-    		\includegraphics[scale=0.35]{FiguresBM/interseccion.png}
+    		\includegraphics[scale=0.5]{FiguresBM/interseccion.png}
     		\caption[Representación de la intersección de dos conjuntos]{Representación de la intersección de dos conjuntos usando el diagrama de Venn. La zona oscurecida representa la intersección entre los conjuntos $A$ y $B$.}
 	\end{figure}
 \end{center}
 Si dos conjuntos tienen intersección vacía se llaman \textit{conjuntos disjuntos}. Se escriben de la forma $A\cap B=\{\}$ o $A\cap B=\varnothing$.
 \subsection{Unión de conjuntos}
-La unión de dos conjuntos $A$ y $B$ contiene todos los elementos que pertenecen a $A$ y $B$. Esta operación es denotada por $A\cup B$ y se lee ``$A$ unido $B$'' o ``$A$ unión $B$''.\\
-En términos de cuantificadores lógicos, la unión de conjuntos se representa de la siguiente manera:
+La unión de dos conjuntos $A$ y $B$ contiene todos los elementos que pertenecen a $A$ y $B$. Esta operación es denotada por $A\cup B$ y se lee ``$A$ unido a $B$'' o ``$A$ unión $B$''. En términos de cuantificadores lógicos, la unión de conjuntos se representa de la siguiente manera:
 \begin{equation}
 A\cup B=\{x\in\mathcal{U}:x\in A\vee x\in B\}=\{x|x\in A\vee x\in B\}
 \end{equation}
@@ -368,8 +384,8 @@ A\cup B=\{1,2,3\}
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
-    		\includegraphics[scale=0.4]{FiguresBM/union.png}
-    		\caption[Representación de la unión de dos conjuntos]{Representación de la unión de dos conjuntos usando el diagrama de Venn. La zona oscurecida muestra la unión entre el conjunto $A$ y $B$.}
+    		\includegraphics[scale=0.5]{FiguresBM/union.png}
+    		\caption[Representación de la unión de dos conjuntos]{Representación de la unión de dos conjuntos usando el diagrama de Venn. La zona oscurecida muestra la unión entre los conjuntos $A$ y $B$.}
 	\end{figure}
 \end{center}
 
@@ -382,8 +398,8 @@ A\bigtriangleup B=\{x|x\in A\veebar B\}
 \begin{center}
 	\begin{figure}[ht!]
 	\centering
-    		\includegraphics[scale=0.42]{FiguresBM/diferencias.png}
-    		\caption[Representación de la diferencia simétrica entre el conjunto $A$ y $B$ ]{Representación de la diferencia simétrica entre el conjunto $A$ y $B$ usando el diagrama de Venn.}
+    		\includegraphics[scale=0.5]{FiguresBM/diferencias.png}
+    		\caption[Representación de la diferencia simétrica entre los conjuntos $A$ y $B$ ]{Representación de la diferencia simétrica entre el conjunto $A$ y $B$ usando el diagrama de Venn.}
 	\end{figure}
 \end{center}
 
@@ -474,7 +490,9 @@ Como se puede ver, por las ecuaciones (\ref{distr1}) y (\ref{distr2}) se comprue
 (A\cup B)^{c}&=& A^{c}\cap B^{c}\\
 (A\cap B)^{c}&=& A^{c}\cup B^{c}
 \end{eqnarray}
-\begin{myexample}
+También se puede demostrar las propiedades considerando un elemento arbitrario ($x$) y decir que pertenece a la operación de conjunto. Se concluye que es igual al otro lado de la equivalencia.
+
+\begin{myexample} 
 Demostrar mediante cuantificadores lógicos la expresión $(A\cap B)^{c}=A^{c}\cup B^{c}$
 \end{myexample}
 
@@ -490,8 +508,18 @@ Entonces se comprueba que $(A\cap B)^{c}=A^{c}\cup B^{c}$.
 
 \section{Técnicas de conteo}
 Para completar el conocimiento que se puede tener sobre un conjunto (o varios conjuntos) falta agregar las herramientas que nos permitan saber cuantos elementos tienen cada conjunto. Las técnicas de conteo solucionan esta problemática usando el concepto de cardinalidad (definido en \ref{cardinalidad}) y para dos casos, cuando los conjuntos no tienen intersección o si la tienen.
+
+\begin{center}
+	\begin{figure}[h!]
+	\centering
+		\includegraphics[scale=0.5]{Disjuntos.png}
+		\caption[Representación de conjuntos disjuntos y no disjuntos]{Representación de conjuntos disjuntos y no disjuntos. a) y b) muestran dos conjuntos disjuntos. c) Muestra conjuntos no disjuntos. }
+		\label{disjuntos}
+	\end{figure}
+\end{center}
+
 \subsection{Conteo en conjuntos disjuntos}
-Como en este caso la intersección entre los conjuntos es vacía, la cardinalidad de la unión entre los conjuntos $A$ y $B$ está dada por:
+En este caso la intersección entre los conjuntos es vacía, la cardinalidad de la unión entre los conjuntos $A$ y $B$ está dada por:
 \begin{equation}
 |A\cup B|=|A|+|B| \label{conteo0}
 \end{equation}
@@ -539,7 +567,7 @@ La ecuación para el caso de tres conjuntos se puede derivar de la ecuación par
 \end{eqnarray}
 La ecuación (\ref{uni3c}) muestra la ecuación para contar la unión de tres conjuntos no disjuntos.
 
-Adicionalmente, desde el diagrama de Venn se puede definir las formulas para el número de elementos que solo se encuentran en un solo conjunto como solo en las intersecciones.\\
+Adicionalmente, desde el diagrama de Venn se puede definir las fórmulas para el número de elementos que solo se encuentran en un solo conjunto como solo en las intersecciones.\\
 
 \begin{center}
 \textbf{Número de elementos en un solo conjunto}\\
